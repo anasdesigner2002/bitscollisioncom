@@ -19,7 +19,7 @@
         "elType": "widget",
         "settings": {
           "sub_title": "{ Best Award Winner 2025 }",
-          "title": "<span>BITS</span>",
+          "title": "<span>BITS </span>",
           "big_title": "Digital Agency",
           "description": "We design digital solutions that elevate your brand and boost conversions. Don’t settle for a site. Build a powerful platform.",
           "button_text": "About Our Agency",
@@ -394,9 +394,10 @@
                 "alt": "",
                 "source": "library"
               },
-              "tab_title": "1. Brand Identity & Graphics",
+
+              "tab_title": "1.  Custom Softwear Development ",
               "tab_heading_1": "Tab Heading",
-              "description_1": "<b>We craft bold, memorable identities</b> that capture who you are and connect with the people you want to reach — from logo systems to full brand guidelines that keep every touchpoint consistent.",
+              "description_1": "<b>We build secure, scalable software solutions</b> — delivering custom applications, enterprise systems, and powerful integrations designed to streamline operations and support long-term business growth.",
               "feature_lists_image": {
                 "url": "/images/star-1.webp",
                 "id": 101,
@@ -404,7 +405,7 @@
                 "alt": "",
                 "source": "library"
               },
-              "feature_lists_1": "Logo & logotype design\nColor palette & typography systems\nBrand guideline documents\nSocial media brand kits\nPackaging & merchandise design",
+              "feature_lists_1": "Custom Web Applications\nEnterprise Software Solutions\nCRM & ERP Development\nAPI Development & Integration\nMaintenance & Technical Support",
               "button_text": "Read more",
               "button_link": {
                 "url": "/contact/",
@@ -432,7 +433,7 @@
               },
               "tab_title": "2. Web & App Development",
               "tab_heading_1": "Tab Heading",
-              "description_1": "<b>We build fast, scalable products</b> engineered for real-world performance — from marketing sites to full web and mobile applications that grow with your business.",
+              "description_1": "<b>We create modern websites and mobile applications</b> — combining responsive design, seamless functionality, and high-performance development that grows with your business.",
               "feature_lists_image": {
                 "url": "/images/star-1.webp",
                 "id": 101,
@@ -440,7 +441,7 @@
                 "alt": "",
                 "source": "library"
               },
-              "feature_lists_1": "Custom website development\nWeb & mobile app development\nCMS & headless architecture\nThird-party API integration\nSpeed & performance optimization",
+              "feature_lists_1": "Responsive Website Development\nAndroid & iOS App Development\nE-commerce Solutions\nProgressive Web Apps (PWA)\nCMS Development & Integration",
               "button_text": "Read more",
               "button_link": {
                 "url": "/contact/",
@@ -461,15 +462,15 @@
                 "library": "element-helper-flaticon"
               },
               "tab_image": {
-                "url": "/images/s1-img-3.webp",
-                "id": 107,
+                "url": "/images/s1-img-2.webp",
+                "id": 108,
                 "size": "",
                 "alt": "",
                 "source": "library"
               },
-              "tab_title": "3. UI/UX Design",
+              "tab_title": "3. Cloud Solution",
               "tab_heading_1": "Tab Heading",
-              "description_1": "<b>We design intuitive, user-first interfaces</b> backed by real research — turning complex flows into experiences people actually enjoy using.",
+              "description_1": "<b>We deliver secure and scalable cloud solutions</b> — helping businesses migrate, manage, and optimize their infrastructure with reliability, flexibility, and maximum performance.",
               "feature_lists_image": {
                 "url": "/images/star-1.webp",
                 "id": 101,
@@ -477,7 +478,44 @@
                 "alt": "",
                 "source": "library"
               },
-              "feature_lists_1": "User research & journey mapping\nWireframing & prototyping\nInteraction design\nUsability testing\nDesign systems & component libraries",
+              "feature_lists_1": "Cloud Infrastructure Setup\nManaged Cloud Services\nData Migration & Integration\nSecurity & Compliance\nDisaster Recovery Planning",
+              "button_text": "Read more",
+              "button_link": {
+                "url": "/contact/",
+                "is_external": "",
+                "nofollow": "",
+                "custom_attributes": ""
+              },
+              "button_icon": {
+                "value": " fas fa-long-arrow-right",
+                "library": "element-helper-icons"
+              },
+              "_id": "73e79d3"
+            },
+            {
+              "is_active": "",
+              "tab_icon": {
+                "value": "flaticon flaticon-path",
+                "library": "element-helper-flaticon"
+              },
+              "tab_image": {
+                "url": "/images/s1-img-3.webp",
+                "id": 107,
+                "size": "",
+                "alt": "",
+                "source": "library"
+              },
+              "tab_title": "4. UI/UX Design",
+              "tab_heading_1": "Tab Heading",
+              "description_1": "<b>We design intuitive digital experiences</b> — creating user-focused interfaces, interactive prototypes, and engaging designs that improve usability and customer satisfaction.",
+              "feature_lists_image": {
+                "url": "/images/star-1.webp",
+                "id": 101,
+                "size": "",
+                "alt": "",
+                "source": "library"
+              },
+              "feature_lists_1": "User Research & Analysis\nWireframing & Prototyping\nMobile & Web UI Design\nInteractive User Experience\nDesign Systems & Style Guides",
               "button_text": "Read more",
               "button_link": {
                 "url": "/contact/",
@@ -504,9 +542,9 @@
                 "alt": "",
                 "source": "library"
               },
-              "tab_title": "4. Digital Strategy & Marketing",
+              "tab_title": "5. Digital Strategy & Marketing",
               "tab_heading_1": "Tab Heading",
-              "description_1": "<b>We turn insight into action</b> with data-driven strategies that grow your audience, sharpen your positioning, and drive measurable results.",
+              "description_1": "<b>We create data-driven marketing strategies</b> — increasing brand visibility, generating quality leads, and delivering measurable results across every digital channel.",
               "feature_lists_image": {
                 "url": "/images/star-1.webp",
                 "id": 101,
@@ -514,7 +552,7 @@
                 "alt": "",
                 "source": "library"
               },
-              "feature_lists_1": "Market & competitor analysis\nSEO & content strategy\nSocial media marketing\nPaid ad campaigns\nAnalytics & performance reporting",
+              "feature_lists_1": "Search Engine Optimization (SEO)\nSocial Media Marketing\nContent Marketing\nPPC Advertising\nPerformance Analytics & Reporting",
               "button_text": "Read more",
               "button_link": {
                 "url": "/contact/",
@@ -541,9 +579,9 @@
                 "alt": "",
                 "source": "library"
               },
-              "tab_title": "5. E-Commerce Solutions",
+              "tab_title": "6. AI- Powered Advertising",
               "tab_heading_1": "Tab Heading",
-              "description_1": "<b>We build online stores that convert</b> — combining seamless shopping experiences with reliable checkout, inventory, and payment infrastructure.",
+              "description_1": "<b>We power smarter advertising with AI</b> — using intelligent automation, audience targeting, and predictive insights to maximize campaign performance and return on investment.",
               "feature_lists_image": {
                 "url": "/images/star-1.webp",
                 "id": 101,
@@ -551,7 +589,82 @@
                 "alt": "",
                 "source": "library"
               },
-              "feature_lists_1": "Storefront design & development\nPayment gateway integration\nInventory & order management\nConversion rate optimization\nMulti-channel selling",
+              "feature_lists_1": "AI Audience Targeting\nAutomated Campaign Optimization\nPredictive Analytics\nPersonalized Ad Creatives\nMulti-Platform Advertising",
+              "button_text": "Read more",
+              "button_link": {
+                "url": "/contact/",
+                "is_external": "",
+                "nofollow": "",
+                "custom_attributes": ""
+              },
+              "button_icon": {
+                "value": " fas fa-long-arrow-right",
+                "library": "element-helper-icons"
+              },
+              "_id": "884e453"
+            },
+            {
+              "is_active": "",
+              "tab_icon": {
+                "value": "flaticon flaticon-path",
+                "library": "element-helper-flaticon"
+              },
+              "tab_image": {
+                "url": "/images/s1-img-5.webp",
+                "id": 105,
+                "size": "",
+                "alt": "",
+                "source": "library"
+              },
+
+              "tab_title": "7. WordPress Development",
+              "tab_heading_1": "Tab Heading",
+              "description_1": "<b>We build fast and fully customized WordPress websites</b> — delivering secure, SEO-friendly, and easy-to-manage solutions tailored to your business goals.",
+              "feature_lists_image": {
+                "url": "/images/star-1.webp",
+                "id": 101,
+                "size": "",
+                "alt": "",
+                "source": "library"
+              },
+              "feature_lists_1": "WordPress Theme Development\nCustom Plugin Development\nContent Management\nE-commerce Integration\nMaintenance & Support",
+              "button_text": "Read more",
+              "button_link": {
+                "url": "/contact/",
+                "is_external": "",
+                "nofollow": "",
+                "custom_attributes": ""
+              },
+              "button_icon": {
+                "value": " fas fa-long-arrow-right",
+                "library": "element-helper-icons"
+              },
+              "_id": "884e453"
+            },
+            {
+              "is_active": "",
+              "tab_icon": {
+                "value": "flaticon flaticon-path",
+                "library": "element-helper-flaticon"
+              },
+              "tab_image": {
+                "url": "/images/s1-img-5.webp",
+                "id": 105,
+                "size": "",
+                "alt": "",
+                "source": "library"
+              },
+              "tab_title": "8. Graphic Designing",
+              "tab_heading_1": "Tab Heading",
+              "description_1": "<b>We create impactful visual identities</b> — designing logos, marketing materials, and brand assets that communicate your message and leave a lasting impression.",
+              "feature_lists_image": {
+                "url": "/images/star-1.webp",
+                "id": 101,
+                "size": "",
+                "alt": "",
+                "source": "library"
+              },
+              "feature_lists_1": "Logo Design & Branding\nSocial Media Graphics\nMarketing Materials\nBusiness Cards & Brochures\nPrint & Digital Design",
               "button_text": "Read more",
               "button_link": {
                 "url": "/contact/",
@@ -575,6 +688,7 @@
     ],
     "isInner": false
   },
+
   {
     "id": "ab81ba5",
     "elType": "container",
