@@ -1096,7 +1096,7 @@ textarea:focus::placeholder {
 .nm-subtitle-1 .dot {
   width: 11px;
   height: 11px;
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
   border-radius: 50%;
   flex: 0 0 auto;
   box-shadow: 0px 3px 5.52px 0.48px rgba(214, 243, 69, 0.46);
@@ -1279,7 +1279,7 @@ textarea:focus::placeholder {
     color 0.4s;
 }
 .wa-cursor::before {
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
 }
 .wa-cursor:before {
   content: "";
@@ -1297,7 +1297,11 @@ textarea:focus::placeholder {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
+<<<<<<< HEAD
   border: 1px solid var(--nm-clr-pr-1);
+=======
+  border: 1px solid #042c99;
+>>>>>>> 2d508402e951ddb8198ba8213f80daf78e1c8506
   -webkit-transition:
     opacity 0.1s,
     -webkit-transform 0.3s ease-in-out;
@@ -1502,12 +1506,12 @@ textarea:focus::placeholder {
   border-radius: 50%;
   font-size: 28px;
   color: var(--nm-clr-black-1);
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
 }
 
 .nm-pr-btn-1 {
   font-family: var(--nm-font-2);
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
   font-weight: 600;
   border-radius: 100px;
   padding: 6px;
@@ -1591,7 +1595,7 @@ textarea:focus::placeholder {
 .nm-pr-btn-1:is(.has-v2) .icon {
   width: 42px;
   height: 42px;
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
   color: var(--nm-clr-black-1);
   font-size: 16px;
 }
@@ -1599,14 +1603,14 @@ textarea:focus::placeholder {
   color: #fff;
 }
 .nm-pr-btn-1:is(.has-v2):hover {
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
 }
 .nm-pr-btn-1:is(.has-v2):hover .text {
   color: #000;
 }
 .nm-pr-btn-1:is(.has-v2):hover .icon {
   background: #000;
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
 }
 
 .nm-pr-btn-2 {
@@ -1777,7 +1781,7 @@ textarea:focus::placeholder {
   color: var(--nm-clr-black-1);
 }
 .nm-hero-1-plybtn:hover::after {
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
   transform: scale(0.5);
 }
 
@@ -2032,10 +2036,10 @@ textarea:focus::placeholder {
   transform: rotate(90deg);
 }
 .mobile-main-navigation ul li:hover > a {
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
 }
 .mobile-main-navigation ul li:hover > .dropdown-btn {
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
 }
 .mobile-main-navigation ul li .dropdown-menu {
   border-radius: 0;
@@ -2587,7 +2591,7 @@ textarea:focus::placeholder {
 .nm-bg-shadow {
   width: 100px;
   height: 100px;
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
   filter: blur(60px);
   animation: nm-Firefly-ani-after 2s linear infinite;
 }
@@ -3968,10 +3972,10 @@ textarea:focus::placeholder {
   transition: all 0.6s var(--nm-cube-1);
 }
 .nm-main-navigation .navbar-nav li a i {
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
 }
 .nm-main-navigation .navbar-nav li:hover > a {
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
 }
 .nm-main-navigation .navbar-nav li:hover > .dropdown-menu {
   opacity: 1;
@@ -4403,7 +4407,7 @@ textarea:focus::placeholder {
   }
 }
 .nm-hero-1-bg-icon {
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
   font-size: 70px;
   position: absolute;
   right: 15%;
@@ -4516,7 +4520,7 @@ textarea:focus::placeholder {
 .nm-hero-1-subtitle {
   font-size: 20px;
   font-weight: 600;
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
   margin-left: 195px;
   margin-top: -10px;
 }
@@ -4600,7 +4604,7 @@ textarea:focus::placeholder {
   width: 360px;
   height: 360px;
   border-radius: 50%;
-  border: 60px solid var(--nm-clr-pr-1);
+  border: 60px solid #042c99;
   position: absolute;
   top: 50%;
   right: -180px;
@@ -4623,7 +4627,7 @@ textarea:focus::placeholder {
   content: "";
   width: 22px;
   height: 22px;
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
   border-radius: 50%;
   box-shadow: 0px 3px 5.52px 0.48px rgba(214, 243, 69, 0.46);
   position: absolute;
@@ -4634,7 +4638,7 @@ textarea:focus::placeholder {
   content: "";
   width: 22px;
   height: 22px;
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
   border-radius: 50%;
   box-shadow: 0px 3px 5.52px 0.48px rgba(214, 243, 69, 0.46);
   position: absolute;
@@ -5767,7 +5771,7 @@ textarea:focus::placeholder {
   content: "";
   width: 100px;
   height: 100px;
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
   position: absolute;
   top: -30px;
   left: -30px;
@@ -5825,7 +5829,7 @@ textarea:focus::placeholder {
 }
 .nm-about-1-line-plus {
   display: block;
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
   font-family: var(--nm-font-2);
   line-height: 1;
   font-size: 20px;
@@ -5937,7 +5941,7 @@ textarea:focus::placeholder {
   transition: all 0.5s var(--nm-cube-1);
 }
 .nm-about-1-author-content .author-social .link-elm:hover {
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
 }
 .nm-about-1-left {
   padding-bottom: 80px;
@@ -5968,7 +5972,7 @@ textarea:focus::placeholder {
   opacity: 0.5;
 }
 .nm-about-1-left .inner-div .nm-pr-btn-1 {
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
   outline: 4px solid rgba(255, 255, 255, 0.2);
 }
 .nm-about-1-left .inner-div .nm-pr-btn-1 .text {
@@ -6014,7 +6018,7 @@ textarea:focus::placeholder {
   width: 100%;
   height: 100%;
   border-radius: 20px;
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
   position: absolute;
   top: 0;
   left: 0;
@@ -6025,7 +6029,7 @@ textarea:focus::placeholder {
 }
 .nm-about-1-card .icon {
   font-size: 44px;
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
   transition: all 0.5s var(--nm-cube-1);
 }
 .nm-about-1-card .title {
@@ -7165,7 +7169,7 @@ textarea:focus::placeholder {
   display: inline-flex;
   gap: 5px;
   font-size: 25px;
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
 }
 .nm-choose-1-rating .rating-text {
   font-size: 30px;
@@ -7218,7 +7222,7 @@ textarea:focus::placeholder {
   }
 }
 .nm-choose-1-turnaround .title i {
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
   font-size: 50px;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px),
@@ -7526,7 +7530,7 @@ textarea:focus::placeholder {
   width: 100%;
   height: 100%;
   border-radius: 20px;
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
   position: absolute;
   top: 0;
   left: 0;
@@ -7639,7 +7643,7 @@ textarea:focus::placeholder {
   transition: all 0.5s var(--nm-cube-1);
 }
 .nm-portfolio-1-card .card-categories .link-elm:hover {
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
 }
 .nm-portfolio-1-card .card-btn {
   position: absolute;
@@ -7665,7 +7669,7 @@ textarea:focus::placeholder {
   transition: unset;
 }
 .nm-portfolio-1-card .card-btn:hover {
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
   color: #000;
 }
 .nm-portfolio-1-card:hover::after {
@@ -7693,7 +7697,7 @@ textarea:focus::placeholder {
   }
 }
 .nm-portfolio-1-all-plus {
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
   font-weight: 600;
   font-family: var(--nm-font-2);
   width: 100%;
@@ -8034,7 +8038,7 @@ textarea:focus::placeholder {
   cursor: pointer;
 }
 .nm-testimonial-1-preview-slider-item:hover {
-  border-color: var(--nm-clr-pr-1);
+  border-color: #042c99;
 }
 .nm-testimonial-1-preview-slider .swiper-wrapper {
   max-width: 1050px;
@@ -8052,8 +8056,13 @@ textarea:focus::placeholder {
   .swiper-wrapper
   .swiper-slide:is(.swiper-slide-thumb-active)
   .nm-testimonial-1-preview-slider-item {
+<<<<<<< HEAD
   border-color: var(--nm-clr-pr-1);
   box-shadow: -1.526px 7.853px 59px 0px rgba(5, 2, 184, 0.6);
+=======
+  border-color: #042c99;
+  box-shadow: -1.526px 7.853px 59px 0px rgba(214, 243, 69, 0.6);
+>>>>>>> 2d508402e951ddb8198ba8213f80daf78e1c8506
 }
 .nm-testimonial-1-main-slider {
   position: absolute;
@@ -8073,7 +8082,7 @@ textarea:focus::placeholder {
 }
 .nm-testimonial-1-main-slider-single .icon {
   font-size: 70px;
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
 }
 .nm-testimonial-1-main-slider-single .comment {
   color: #fff;
@@ -8639,7 +8648,7 @@ textarea:focus::placeholder {
 .nm-steps-1-card .number-line-fill {
   width: 100%;
   height: 100%;
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
   border-radius: 0 0 20px 20px;
   transform: scaleY(0);
   transform-origin: top;
@@ -9170,7 +9179,7 @@ textarea:focus::placeholder {
   transition: all 0.5s var(--nm-cube-1);
 }
 .nm-team-1-member .toggle-btn:hover {
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
 }
 .nm-team-1-member .content-1 {
   position: absolute;
@@ -9225,7 +9234,7 @@ textarea:focus::placeholder {
   }
 }
 .nm-team-1-member .member-name:hover {
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
 }
 .nm-team-1-member .member-dg {
   font-size: 16px;
@@ -9241,7 +9250,7 @@ textarea:focus::placeholder {
   transition: all 0.5s var(--nm-cube-1);
 }
 .nm-team-1-member .social-link .link-elm:hover {
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
 }
 .nm-team-1-member .hr-line {
   background: linear-gradient(
@@ -9277,7 +9286,7 @@ textarea:focus::placeholder {
   transform: translateY(0%);
 }
 .nm-team-1-member:is(.active) .toggle-btn {
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
 }
 .nm-team-1-member:is(.active) .toggle-btn i {
   transform: rotate(225deg);
@@ -9421,7 +9430,7 @@ textarea:focus::placeholder {
   font-size: 17px;
 }
 .nm-team-1-all-btn .link-elm {
-  background-image: linear-gradient(var(--nm-clr-pr-1));
+  background-image: linear-gradient(#042c99);
   display: inline-flex;
   align-items: center;
   background-clip: text;
@@ -9529,14 +9538,14 @@ textarea:focus::placeholder {
   border-color: rgba(255, 255, 255, 0.1);
 }
 .nm-accordion-item .item-title:is(:not(.collapsed)) .icon {
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
   color: #000;
 }
 .nm-accordion-item .item-title:is(:not(.collapsed)) .icon i {
   transform: rotate(135deg);
 }
 .nm-accordion-item .item-title:is(.collapsed):hover {
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
 }
 .nm-accordion-item .item-disc {
   padding-bottom: 30px;
@@ -9603,7 +9612,7 @@ textarea:focus::placeholder {
   width: 11px;
   height: 11px;
   border-radius: 50%;
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
 }
 .nm-faqs-1-contact .title {
   font-size: 36px;
@@ -9677,7 +9686,11 @@ textarea:focus::placeholder {
   opacity: 0;
 }
 .nm-faqs-1-contact-form .form-checkbox input[type="checkbox"]:checked {
+<<<<<<< HEAD
   background-color: var(--nm-clr-pr-1);
+=======
+  background-color: #042c99;
+>>>>>>> 2d508402e951ddb8198ba8213f80daf78e1c8506
   opacity: 1;
 }
 .nm-faqs-1-contact-form .form-checkbox input[type="checkbox"]:checked::before {
@@ -9760,16 +9773,16 @@ textarea:focus::placeholder {
   position: absolute;
   bottom: -2px;
   left: 0;
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
   border-radius: 20px;
   transition: all 0.5s var(--nm-cube-1);
   transform: scaleX(0);
 }
 .nm-faqs-1-tabs-btn .nav-link:hover {
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
 }
 .nm-faqs-1-tabs-btn .nav-link:is(.active) {
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
 }
 .nm-faqs-1-tabs-btn .nav-link:is(.active)::after {
   transform: scaleX(1);
@@ -9898,7 +9911,7 @@ textarea:focus::placeholder {
 }
 .nm-blog-1-item .item-img .card-categories .link-elm:hover {
   color: #000;
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
 }
 .nm-blog-1-item .item-img .card-btn {
   position: absolute;
@@ -9924,7 +9937,7 @@ textarea:focus::placeholder {
   transform-origin: 50% 50%;
 }
 .nm-blog-1-item .item-img .card-btn:hover {
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
   color: #000;
 }
 .nm-blog-1-item .item-date {
@@ -9938,7 +9951,7 @@ textarea:focus::placeholder {
   transition: all 0.2s;
 }
 .nm-blog-1-item .item-title:hover {
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
 }
 @media only screen and (min-width: 1600px) and (max-width: 1799px),
   only screen and (min-width: 1400px) and (max-width: 1599px),
@@ -10795,7 +10808,7 @@ textarea:focus::placeholder {
   content: "";
   width: 100%;
   height: 100%;
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -10808,7 +10821,7 @@ textarea:focus::placeholder {
 .nm-contact-1-social .link-elm .icon {
   width: 36px;
   height: 36px;
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
   flex: 0 0 auto;
   display: flex;
   align-items: center;
@@ -10897,10 +10910,10 @@ textarea:focus::placeholder {
   transition: all 0.5s var(--nm-cube-1);
 }
 .nm-contact-1-info-single .disc a:hover {
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
 }
 .nm-contact-1-info-single:hover .icon {
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
 }
 .nm-contact-1-img {
   margin-top: -110px;
@@ -10943,7 +10956,7 @@ textarea:focus::placeholder {
 .nm-contact-1-img-location .icon {
   width: 70px;
   height: 70px;
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10965,7 +10978,7 @@ textarea:focus::placeholder {
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -11219,7 +11232,7 @@ textarea:focus::placeholder {
   transition: 0.2s;
 }
 .nm-footer-1-hire .hire-mail:hover {
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
 }
 .nm-footer-1-hire .hire-title {
   font-size: 30px;
@@ -11237,7 +11250,7 @@ textarea:focus::placeholder {
 .nm-footer-1-hire .hire-title span {
   width: 12px;
   height: 12px;
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
   border-radius: 50%;
   outline: 6px solid rgba(214, 243, 69, 0.2);
   animation: hireSpan 2s linear infinite;
@@ -11246,7 +11259,7 @@ textarea:focus::placeholder {
   transition: all 0.5s var(--nm-cube-1);
 }
 .nm-footer-1-hire .hire-title:hover a {
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
 }
 .nm-footer-1-menu li:not(:last-child) {
   margin-bottom: 7px;
@@ -11257,7 +11270,7 @@ textarea:focus::placeholder {
   transition: all 0.5s var(--nm-cube-1);
 }
 .nm-footer-1-menu a:hover {
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
 }
 .nm-footer-1-social {
   display: flex;
@@ -11277,7 +11290,7 @@ textarea:focus::placeholder {
   transition: all 0.5s var(--nm-cube-1);
 }
 .nm-footer-1-social .link-elm:hover {
-  background: var(--nm-clr-pr-1);
+  background: #042c99;
   color: #000;
 }
 .nm-footer-1-bottom {
@@ -11309,21 +11322,21 @@ textarea:focus::placeholder {
   padding: 3px 16px;
 }
 .nm-footer-1-bottom-make i {
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
 }
 .nm-footer-1-bottom-make a {
   color: #fff;
   transition: all 0.5s var(--nm-cube-1);
 }
 .nm-footer-1-bottom-make a:hover {
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
 }
 .nm-footer-1-bottom-link a {
   font-size: 16px;
   transition: all 0.5s var(--nm-cube-1);
 }
 .nm-footer-1-bottom-link a:hover {
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
 }
 
 @keyframes hireSpan {
@@ -11555,7 +11568,7 @@ textarea:focus::placeholder {
   margin-right: 5px;
 }
 .nm-breadcrumb-list a:hover {
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
 }
 .nm-breadcrumb-list a::after {
   content: "";

@@ -30,7 +30,7 @@ export default function StepsScrollAnimation() {
       const content = card.querySelector(".content");
 
       if (number) {
-        tl.to(number, { backgroundColor: "var(--nm-clr-pr-1)", color: "#000", duration: 0.3 });
+        tl.to(number, { backgroundColor: "#042c99", color: "#000", duration: 0.3 });
       }
       if (fill) {
         tl.to(fill, { scaleY: 1, duration: 1 });

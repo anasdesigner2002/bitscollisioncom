@@ -55,7 +55,11 @@
 .overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(17, 17, 17, 0) 40%, rgba(17, 17, 17, 0.92) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(17, 17, 17, 0) 40%,
+    rgba(17, 17, 17, 0.92) 100%
+  );
   pointer-events: none;
 }
 
@@ -82,7 +86,7 @@
 }
 
 .designation {
-  color: var(--nm-clr-pr-1);
+  color: #042c99;
   font-size: 15px;
   margin: 0;
 }
@@ -93,7 +97,9 @@
   margin-top: 16px;
   opacity: 0;
   transform: translateY(10px);
-  transition: opacity 0.35s ease, transform 0.35s ease;
+  transition:
+    opacity 0.35s ease,
+    transform 0.35s ease;
 }
 
 .card:hover .socials {
@@ -111,12 +117,15 @@
   border: 1px solid rgba(255, 255, 255, 0.25);
   color: #fff;
   font-size: 13px;
-  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    border-color 0.3s ease,
+    color 0.3s ease;
 }
 
 .socials a:hover {
-  background-color: var(--nm-clr-pr-1);
-  border-color: var(--nm-clr-pr-1);
+  background-color: #042c99;
+  border-color: #042c99;
   color: var(--nm-clr-black-2);
 }
 
