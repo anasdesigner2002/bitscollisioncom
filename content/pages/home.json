@@ -21,7 +21,7 @@
           "sub_title": "{ Best Award Winner 2025 }",
           "title": "<span>Rao</span>",
           "big_title": "Digital Agency",
-          "description": "We design digital solutions that elevate your brand and boost conversions. Don’t settle for a site. Build a powerful platform.",
+          "description": "We build innovative digital solutions that simplify operations, improve customer experiences, and accelerate business growth.",
           "button_text": "About Our Agency",
           "button_link": {
             "url": "/about-us/",
@@ -215,8 +215,8 @@
         "elType": "widget",
         "settings": {
           "sub_title": "{01} About Us",
-          "title": "Elevating brands through digital design.",
-          "description": "At <b>Nimo Digital</b> Agency, we don’t just build websites — we create digital experiences that inspire, engage, and convert.",
+          "title": "Digital solutions that drive growth",
+          "description": "At <b>Bits Collision</b> we build innovative software, mobile apps for clients worldwide, trusted since 2014.",
           "short_description": "We believe great design starts with great ideas. That’s why we work closely with our clients to understand their vision, goals, and audience.",
           "video_text": "Watch Video",
           "feature_lists": [
@@ -229,7 +229,7 @@
             {
               "_id": "8f84270",
               "f_box_title": "Our Mission",
-              "f_box_text": "To help brands stand out online, tell their story, and drive\n                                        measurable success through digital creativity and smart strategy.",
+              "f_box_text": "To empower businesses with innovative digital solutions\n                                        that improve performance and support sustainable growth.",
               "list_icon": {
                 "value": "flaticon flaticon-mission-statement",
                 "library": "element-helper-flaticon"
@@ -238,7 +238,7 @@
             },
             {
               "f_box_title": "Our Vision",
-              "f_box_text": "To inspire innovation through design, technology, and storytelling — making every\n                                        digital interaction meaningful.",
+              "f_box_text": "To become a trusted global technology partner delivering\n                                        scalable solutions and driving digital innovation",
               "list_icon": {
                 "value": "flaticon flaticon-eye",
                 "library": "element-helper-flaticon"
@@ -248,7 +248,7 @@
             },
             {
               "f_box_title": "Collaborate with Us",
-              "f_box_text": "Let’s build something extraordinary — from stunning\n                                        visuals to interactive modern creative innovative experiences.",
+              "f_box_text": "Have an idea or business challenge? Let’s turn your vision\n                                        into a practical and impactful digital solution",
               "list_icon": {
                 "value": "flaticon flaticon-people",
                 "library": "element-helper-flaticon"
@@ -276,7 +276,7 @@
           ],
           "rating_title": "Average Rating",
           "gallery_heading": "Gallery Heading",
-          "author_name": "Rapid Quad",
+          "author_name": "M.Omer Khan",
           "author_designation": "Founder & CEO",
           "social_links": [
             {
@@ -378,8 +378,8 @@
           "contact_info_title": "Contact Info Title",
           "contact_shortcode": "[contact-form-7 id=\"123\" title=\"Contact form 1\"]",
           "sub_title": "{02} Our Services",
-          "title": "We area offing the best solutions",
-          "description": "We offer a full range of digital services to help your brand stand out, connect, and grow.",
+          "title": "Technology Solutions for Your Business",
+          "description": "We provide digital services to help your business launch, scale, and grow.",
           "txTab_lists": [
             {
               "_id": "18968ad",
@@ -599,8 +599,8 @@
           "top_title_2": "Heading Title",
           "top_description": "We offer a full range of digital services to help your brand stand out, connect, and grow.",
           "sub_title": "{03} Why Choose Us?",
-          "title": "We area offing the best solutions",
-          "description": "We offer a full range of digital services to help your brand stand out, connect, and grow.",
+          "title": "Built for Better Results",
+          "description": "Senior engineers, modern stacks, and a delivery process built to ship reliable software fast.",
           "image_1": {
             "url": "/images/a1-bg-shape-bg-2.webp",
             "id": 115,
@@ -693,8 +693,8 @@
                 "value": "flaticon flaticon-electricity",
                 "library": "element-helper-flaticon"
               },
-              "title": "15+ Years Experiences",
-              "description": "Over 15 years of experience delivering innovative digital solutions.",
+              "title": "11+ Years Experiences",
+              "description": "Over a decade delivering innovative digital solutions since 2014.",
               "link_text": "Read More",
               "tags": "<p>Web Design</p>",
               "layout_style": "style_3",
@@ -780,9 +780,9 @@
         "elType": "widget",
         "settings": {
           "top_sub_title": "{04} FunFacts",
-          "top_title_1": "\"A streamlined",
-          "top_title_2": "solution build to power business.\"",
-          "top_description": "We’re more than pixels and code — we’re coffee lovers, cat people, meme sharers, and design geeks.",
+          "top_title_1": "\"A Technology",
+          "top_title_2": "that turns ideas into business growth.\"",
+          "top_description": "We combine technology, creativity, and expertise to build powerful digital solutions that help businesses grow, innovate, and succeed.",
           "sub_title": "{02} Our Services",
           "title": "We area offing the best solutions",
           "description": "We offer a full range of digital services to help your brand stand out, connect, and grow.",
@@ -808,13 +808,13 @@
               "count_title": "Customer satisfaction"
             },
             {
-              "count_number": 12,
+              "count_number": 11,
               "count_prefix": "+",
               "count_title": "Years of experience",
               "_id": "0ebb912"
             },
             {
-              "count_number": 22,
+              "count_number": 100,
               "count_prefix": "+",
               "count_title": "Projects completed",
               "_id": "036eda0"
@@ -2074,50 +2074,50 @@
                       "description": "The opportunity to work abroad is a popular prospect, one",
                       "faq_lists": [
                         {
-                          "title": "What services do you offer?",
-                          "content": "Simply <b>contact us</b> or send us a message. We’ll schedule a quick call to learn more about your goals and get started with a tailored plan.",
+                          "title": "What services do Bits Collision provide?",
+                          "content": "We <b>provide</b> software, mobile app, web, e-commerce, UI/UX, cloud, digital marketing, AI, and branding solutions.",
                           "_id": "9a6f99e",
                           "is_active": "yes",
                           "count": "01"
                         },
                         {
-                          "title": "How long does a website project take?",
-                          "content": "Simply <b>contact us</b> or send us a message. We’ll schedule a quick call to learn more about your goals and get started with a tailored plan.",
+                          "title": "Which industries do you work with?",
+                          "content": "We <b>work with</b> businesses across technology, finance, e-commerce, healthcare, real estate, and other industries.",
                           "is_active": "",
                           "count": "02",
                           "_id": "71f3685"
                         },
                         {
-                          "title": "Do you work with international clients?",
-                          "content": "Simply <b>contact us</b> or send us a message. We’ll schedule a quick call to learn more about your goals and get started with a tailored plan.",
+                          "title": "How do I start a project with Bits Collision?",
+                          "content": "Contact us <b>with your</b> requirements. We’ll discuss your goals and guide you through the next steps.",
                           "is_active": "",
                           "count": "03",
                           "_id": "83684e3"
                         },
                         {
-                          "title": "Can you redesign my existing website?",
-                          "content": "Simply <b>contact us</b> or send us a message. We’ll schedule a quick call to learn more about your goals and get started with a tailored plan.",
+                          "title": "How long does a project take?",
+                          "content": "Timelines <b>depend on</b> the project scope, features, complexity, and technology requirements.",
                           "is_active": "",
                           "count": "04",
                           "_id": "5434294"
                         },
                         {
-                          "title": "How do I get started?",
-                          "content": "Simply <b>contact us</b> or send us a message. We’ll schedule a quick call to learn more about your goals and get started with a tailored plan.",
+                          "title": "Do you provide support after launch?",
+                          "content": "Yes. <b>We provide</b> ongoing maintenance, technical support, updates, and optimization.",
                           "is_active": "",
                           "count": "05",
                           "_id": "e898567"
                         },
                         {
-                          "title": "Will my website be mobile-friendly?",
-                          "content": "Simply <b>contact us</b> or send us a message. We’ll schedule a quick call to learn more about your goals and get started with a tailored plan.",
+                          "title": "Can you help with digital marketing?",
+                          "content": "Yes. <b>We offer</b> SEO, SEM, social media marketing, AI-powered advertising, and digital marketing strategies.",
                           "is_active": "",
                           "count": "06",
                           "_id": "d4f610d"
                         },
                         {
-                          "title": "Do you provide ongoing support after the launch?",
-                          "content": "Simply <b>contact us</b> or send us a message. We’ll schedule a quick call to learn more about your goals and get started with a tailored plan.",
+                          "title": "Do you build e-commerce websites?",
+                          "content": "Yes. <b>We create</b> customized e-commerce solutions based on your business requirements.",
                           "is_active": "",
                           "count": "07",
                           "_id": "5c8d9ac"
@@ -2146,50 +2146,50 @@
                       "description": "The opportunity to work abroad is a popular prospect, one",
                       "faq_lists": [
                         {
-                          "title": "What services do you offer?",
-                          "content": "Simply <b>contact us</b> or send us a message. We’ll schedule a quick call to learn more about your goals and get started with a tailored plan.",
+                          "title": "Are you currently hiring?",
+                          "content": "Yes, <b>we welcome</b> talented professionals and regularly look for skilled individuals to join our growing team.",
                           "_id": "9a6f99e",
                           "is_active": "yes",
                           "count": "01"
                         },
                         {
-                          "title": "How long does a website project take?",
-                          "content": "Simply <b>contact us</b> or send us a message. We’ll schedule a quick call to learn more about your goals and get started with a tailored plan.",
+                          "title": "How can I apply for a job?",
+                          "content": "You can <b>contact us</b> with your CV and details about your skills and experience.",
                           "is_active": "",
                           "count": "02",
                           "_id": "71f3685"
                         },
                         {
-                          "title": "Do you work with international clients?",
-                          "content": "Simply <b>contact us</b> or send us a message. We’ll schedule a quick call to learn more about your goals and get started with a tailored plan.",
+                          "title": "What positions are available?",
+                          "content": "<b>Opportunities</b> may be available in development, design, digital marketing, project management, and other technical roles.",
                           "is_active": "",
                           "count": "03",
                           "_id": "83684e3"
                         },
                         {
-                          "title": "Can you redesign my existing website?",
-                          "content": "Simply <b>contact us</b> or send us a message. We’ll schedule a quick call to learn more about your goals and get started with a tailored plan.",
+                          "title": "Do you offer internships?",
+                          "content": "Yes, <b>Internship Opportunities</b> may be available for motivated individuals looking to gain practical experience.",
                           "is_active": "",
                           "count": "04",
                           "_id": "5434294"
                         },
                         {
-                          "title": "How do I get started?",
-                          "content": "Simply <b>contact us</b> or send us a message. We’ll schedule a quick call to learn more about your goals and get started with a tailored plan.",
+                          "title": "Can I apply for a remote position?",
+                          "content": "Depending <b>on the role</b> on the role, we may offer remote or flexible working opportunities.",
                           "is_active": "",
                           "count": "05",
                           "_id": "e898567"
                         },
                         {
-                          "title": "Will my website be mobile-friendly?",
-                          "content": "Simply <b>contact us</b> or send us a message. We’ll schedule a quick call to learn more about your goals and get started with a tailored plan.",
+                          "title": "What skills do you look for?",
+                          "content": "We <b>value technical</b> expertise, creativity, problem-solving, communication, and a willingness to learn.",
                           "is_active": "",
                           "count": "06",
                           "_id": "d4f610d"
                         },
                         {
-                          "title": "Do you provide ongoing support after the launch?",
-                          "content": "Simply <b>contact us</b> or send us a message. We’ll schedule a quick call to learn more about your goals and get started with a tailored plan.",
+                          "title": "How will I know if I am selected?",
+                          "content": "Our <b>HR team</b> will contact shortlisted candidates for the next steps in the hiring process.",
                           "is_active": "",
                           "count": "07",
                           "_id": "5c8d9ac"
@@ -2218,50 +2218,50 @@
                       "description": "The opportunity to work abroad is a popular prospect, one",
                       "faq_lists": [
                         {
-                          "title": "What services do you offer?",
-                          "content": "Simply <b>contact us</b> or send us a message. We’ll schedule a quick call to learn more about your goals and get started with a tailored plan.",
+                          "title": "How much do your services cost?",
+                          "content": "Pricing <b>depends on</b> your project requirements, features, complexity, and timeline.",
                           "_id": "9a6f99e",
                           "is_active": "yes",
                           "count": "01"
                         },
                         {
-                          "title": "How long does a website project take?",
-                          "content": "Simply <b>contact us</b> or send us a message. We’ll schedule a quick call to learn more about your goals and get started with a tailored plan.",
+                          "title": "Do you offer custom pricing?",
+                          "content": "Yes, <b>we create</b> customized plans based on your specific business and project needs.",
                           "is_active": "",
                           "count": "02",
                           "_id": "71f3685"
                         },
                         {
-                          "title": "Do you work with international clients?",
-                          "content": "Simply <b>contact us</b> or send us a message. We’ll schedule a quick call to learn more about your goals and get started with a tailored plan.",
+                          "title": "Can I get a free project quote?",
+                          "content": "Yes, <b>share your</b> requirements with us and our team will provide an initial project estimate.",
                           "is_active": "",
                           "count": "03",
                           "_id": "83684e3"
                         },
                         {
-                          "title": "Can you redesign my existing website?",
-                          "content": "Simply <b>contact us</b> or send us a message. We’ll schedule a quick call to learn more about your goals and get started with a tailored plan.",
+                          "title": "What is included in your pricing?",
+                          "content": "Pricing <b>may include</b> design, development, testing, deployment, and support depending on the selected service.",
                           "is_active": "",
                           "count": "04",
                           "_id": "5434294"
                         },
                         {
-                          "title": "How do I get started?",
-                          "content": "Simply <b>contact us</b> or send us a message. We’ll schedule a quick call to learn more about your goals and get started with a tailored plan.",
+                          "title": "Do you require an advance payment?",
+                          "content": "Payment <b>terms depend</b> on the project scope and are discussed and agreed upon before starting the project.",
                           "is_active": "",
                           "count": "05",
                           "_id": "e898567"
                         },
                         {
-                          "title": "Will my website be mobile-friendly?",
-                          "content": "Simply <b>contact us</b> or send us a message. We’ll schedule a quick call to learn more about your goals and get started with a tailored plan.",
+                          "title": "Can I change my project requirements?",
+                          "content": "Yes, <b>requirements</b> can be updated during the project, though additional changes may affect the cost and timeline.",
                           "is_active": "",
                           "count": "06",
                           "_id": "d4f610d"
                         },
                         {
-                          "title": "Do you provide ongoing support after the launch?",
-                          "content": "Simply <b>contact us</b> or send us a message. We’ll schedule a quick call to learn more about your goals and get started with a tailored plan.",
+                          "title": "Do you provide ongoing maintenance plans?",
+                          "content": "Yes, <b>we offer</b> ongoing support and maintenance plans based on your website or software requirements.",
                           "is_active": "",
                           "count": "07",
                           "_id": "5c8d9ac"

@@ -35,7 +35,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Nimo - Creative Digital Agency",
-  description: "We design digital solutions that elevate your brand and boost conversions.",
+  description:
+    "We build innovative software & digital solutions that help businesses simplify operations, improve customer experiences, & accelerate growth",
 };
 
 export default function RootLayout({
