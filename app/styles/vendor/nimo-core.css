@@ -1297,11 +1297,9 @@ textarea:focus::placeholder {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-<<<<<<< HEAD
-  border: 1px solid var(--nm-clr-pr-1);
-=======
+
   border: 1px solid #042c99;
->>>>>>> 2d508402e951ddb8198ba8213f80daf78e1c8506
+
   -webkit-transition:
     opacity 0.1s,
     -webkit-transform 0.3s ease-in-out;
@@ -8056,13 +8054,10 @@ textarea:focus::placeholder {
   .swiper-wrapper
   .swiper-slide:is(.swiper-slide-thumb-active)
   .nm-testimonial-1-preview-slider-item {
-<<<<<<< HEAD
-  border-color: var(--nm-clr-pr-1);
-  box-shadow: -1.526px 7.853px 59px 0px rgba(5, 2, 184, 0.6);
-=======
+
   border-color: #042c99;
   box-shadow: -1.526px 7.853px 59px 0px rgba(214, 243, 69, 0.6);
->>>>>>> 2d508402e951ddb8198ba8213f80daf78e1c8506
+
 }
 .nm-testimonial-1-main-slider {
   position: absolute;
@@ -9686,11 +9681,8 @@ textarea:focus::placeholder {
   opacity: 0;
 }
 .nm-faqs-1-contact-form .form-checkbox input[type="checkbox"]:checked {
-<<<<<<< HEAD
-  background-color: var(--nm-clr-pr-1);
-=======
+
   background-color: #042c99;
->>>>>>> 2d508402e951ddb8198ba8213f80daf78e1c8506
   opacity: 1;
 }
 .nm-faqs-1-contact-form .form-checkbox input[type="checkbox"]:checked::before {
