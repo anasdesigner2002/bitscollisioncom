@@ -7,8 +7,12 @@ import { on, type Settings } from "@/app/lib/types";
 export default function SiteFooter({ settings }: { settings: Settings }) {
   return (
     <footer className="nm-footer-1-area wa-p-relative wa-fix pt-140 tx-section">
-      {settings.image_1?.url && <FireflyAnim backgroundUrl={settings.image_1.url} />}
-      {settings.image_2?.url && <FireflyAnim backgroundUrl={settings.image_2.url} variant="right" />}
+      {settings.image_1?.url && (
+        <FireflyAnim backgroundUrl={settings.image_1.url} />
+      )}
+      {settings.image_2?.url && (
+        <FireflyAnim backgroundUrl={settings.image_2.url} variant="right" />
+      )}
       <div className="nm-footer-1-container">
         <div className="nm-footer-1-main mb-80">
           <div className="nm-footer-1-widget">
@@ -18,15 +22,23 @@ export default function SiteFooter({ settings }: { settings: Settings }) {
               </a>
             )}
             {settings.footer_description && (
-              <p className="nm-p-1 nm-footer-1-disc">{settings.footer_description}</p>
+              <p className="nm-p-1 nm-footer-1-disc">
+                {settings.footer_description}
+              </p>
             )}
 
             <div className="nm-footer-1-hire">
               {settings.contact_info_text && (
                 <a
                   href={settings.contact_info_link?.url || "#"}
-                  target={settings.contact_info_link?.is_external ? "_blank" : "_self"}
-                  rel={settings.contact_info_link?.nofollow ? "nofollow" : undefined}
+                  target={
+                    settings.contact_info_link?.is_external ? "_blank" : "_self"
+                  }
+                  rel={
+                    settings.contact_info_link?.nofollow
+                      ? "nofollow"
+                      : undefined
+                  }
                   aria-label={settings.contact_info_text}
                   className="hire-mail nm-p-1"
                 >
@@ -39,8 +51,16 @@ export default function SiteFooter({ settings }: { settings: Settings }) {
                   <span />
                   <a
                     href={settings.contact_info_bottom_link?.url || "#"}
-                    target={settings.contact_info_bottom_link?.is_external ? "_blank" : "_self"}
-                    rel={settings.contact_info_bottom_link?.nofollow ? "nofollow" : undefined}
+                    target={
+                      settings.contact_info_bottom_link?.is_external
+                        ? "_blank"
+                        : "_self"
+                    }
+                    rel={
+                      settings.contact_info_bottom_link?.nofollow
+                        ? "nofollow"
+                        : undefined
+                    }
                   >
                     {settings.contact_info_bottom_text}
                   </a>
@@ -91,15 +111,19 @@ export default function SiteFooter({ settings }: { settings: Settings }) {
 
           {on(settings.enable_social_links) && (
             <div className="nm-footer-1-widget">
-              {settings.social_links_heading && <h4 className="widget-title">{settings.social_links_heading}</h4>}
+              {settings.social_links_heading && (
+                <h4 className="widget-title">
+                  {settings.social_links_heading}
+                </h4>
+              )}
               <div className="nm-footer-1-social">
                 {(settings.social_links || []).map((list: any, i: number) => (
                   <a
                     key={list._id || i}
                     className="link-elm"
-                    href={list.social_link?.url || "#"}
-                    target={list.social_link?.is_external ? "_blank" : "_self"}
-                    rel={list.social_link?.nofollow ? "nofollow" : undefined}
+                    href={list.url || "#"}
+                    target={list.is_external ? "_blank" : "_self"}
+                    rel={list.is_external ? "noopener noreferrer" : undefined}
                     aria-label="social link"
                   >
                     <ElementorIcon icon={list.social_icon} />
@@ -122,29 +146,38 @@ export default function SiteFooter({ settings }: { settings: Settings }) {
           {on(settings.enable_copyright) && settings.copyright_text && (
             <p
               className="nm-p-1 nm-footer-1-bottom-copyright"
-              dangerouslySetInnerHTML={{ __html: settings.copyright_text.replace("copyright-year\"></span>", `copyright-year">${new Date().getFullYear()}</span>`) }}
+              dangerouslySetInnerHTML={{
+                __html: settings.copyright_text.replace(
+                  'copyright-year"></span>',
+                  `copyright-year">${new Date().getFullYear()}</span>`,
+                ),
+              }}
             />
           )}
           {settings.footer_bottom_right_text && (
             <p
               className="nm-p-1 nm-footer-1-bottom-make"
-              dangerouslySetInnerHTML={{ __html: settings.footer_bottom_right_text }}
+              dangerouslySetInnerHTML={{
+                __html: settings.footer_bottom_right_text,
+              }}
             />
           )}
           {on(settings.enable_bottom_menu) && (
             <ul className="wa-ul nm-footer-1-bottom-link">
-              {(settings.bottom_menu_links || []).map((list: any, i: number) => (
-                <li className="nm-p-1" key={list._id || i}>
-                  <a
-                    href={list.link_url?.url || "#"}
-                    target={list.link_url?.is_external ? "_blank" : "_self"}
-                    rel={list.link_url?.nofollow ? "nofollow" : undefined}
-                    aria-label={list.link_text}
-                  >
-                    {list.link_text}
-                  </a>
-                </li>
-              ))}
+              {(settings.bottom_menu_links || []).map(
+                (list: any, i: number) => (
+                  <li className="nm-p-1" key={list._id || i}>
+                    <a
+                      href={list.link_url?.url || "#"}
+                      target={list.link_url?.is_external ? "_blank" : "_self"}
+                      rel={list.link_url?.nofollow ? "nofollow" : undefined}
+                      aria-label={list.link_text}
+                    >
+                      {list.link_text}
+                    </a>
+                  </li>
+                ),
+              )}
             </ul>
           )}
         </div>

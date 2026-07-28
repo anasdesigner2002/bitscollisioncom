@@ -37,20 +37,27 @@ export default function HeroSection({ settings }: { settings: Settings }) {
       <div className="nm-hero-1-content-2">
         <div className="nm-hero-1-container">
           <div className="nm-hero-1-content-2-wrap wa-fix">
-            {on(settings.enable_video_button) && settings.video_button_link?.url && (
-              <div className="plybtn-wrap">
-                <a
-                  href={settings.video_button_link.url}
-                  aria-label="Watch video"
-                  className="nm-hero-1-plybtn popup_video"
-                >
-                  <div className="bg-elm wa-img-cover wa-fix">
-                    <video src={settings.video_button_link.url} autoPlay muted loop playsInline />
-                  </div>
-                  <ElementorIcon icon={settings.video_button_icon} />
-                </a>
-              </div>
-            )}
+            {on(settings.enable_video_button) &&
+              settings.video_button_link?.url && (
+                <div className="plybtn-wrap">
+                  <a
+                    href={settings.video_button_link.url}
+                    aria-label="Watch video"
+                    className="nm-hero-1-plybtn popup_video"
+                  >
+                    <div className="bg-elm wa-img-cover wa-fix">
+                      <video
+                        src={settings.video_button_link.url}
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
+                      />
+                    </div>
+                    <ElementorIcon icon={settings.video_button_icon} />
+                  </a>
+                </div>
+              )}
 
             {on(settings.enable_description) && (
               <p
@@ -63,7 +70,9 @@ export default function HeroSection({ settings }: { settings: Settings }) {
               <div className="nm-hero-1-btn">
                 <a
                   href={settings.button_link?.url || "#"}
-                  target={settings.button_link?.is_external ? "_blank" : "_self"}
+                  target={
+                    settings.button_link?.is_external ? "_blank" : "_self"
+                  }
                   rel={settings.button_link?.nofollow ? "nofollow" : undefined}
                   aria-label={settings.button_text}
                   className="nm-pr-btn-1 has-v2 wa_magnetic_btn_2"
@@ -75,7 +84,11 @@ export default function HeroSection({ settings }: { settings: Settings }) {
                     </span>
                   )}
                   {settings.button_text && (
-                    <span className="text" data-back={settings.button_text} data-front={settings.button_text} />
+                    <span
+                      className="text"
+                      data-back={settings.button_text}
+                      data-front={settings.button_text}
+                    />
                   )}
                 </a>
               </div>
@@ -87,7 +100,11 @@ export default function HeroSection({ settings }: { settings: Settings }) {
       <div className="nm-hero-1-main-img">
         {settings.image_2?.url && <img src={settings.image_2.url} alt="" />}
         {settings.image_3?.url && (
-          <img className="wa_magnetic_btn_3_elm" src={settings.image_3.url} alt="" />
+          <img
+            className="wa_magnetic_btn_3_elm"
+            src={settings.image_3.url}
+            alt=""
+          />
         )}
       </div>
 
@@ -97,25 +114,34 @@ export default function HeroSection({ settings }: { settings: Settings }) {
         </div>
       )}
 
-      {on(settings.enable_social_links) && settings.social_links?.length > 0 && (
-        <div className="nm-hero-1-social-position">
-          <div className="nm-hero-1-social-border" />
-          <div className="nm-hero-1-social-link wa_add_class">
-            {settings.social_links.map((list: any, i: number) => (
-              <a
-                key={list._id || i}
-                className="link-elm"
-                href={list.social_link?.url || "#"}
-                target={list.social_link?.is_external ? "_blank" : "_self"}
-                rel={list.social_link?.nofollow ? "nofollow" : undefined}
-                aria-label="social link"
-              >
-                <ElementorIcon icon={list.social_icon} />
-              </a>
-            ))}
+      {on(settings.enable_social_links) &&
+        settings.social_links?.length > 0 && (
+          <div className="nm-hero-1-social-position">
+            <div className="nm-hero-1-social-border" />
+            <div className="nm-hero-1-social-link wa_add_class">
+              {settings.social_links?.map((list: any, i: number) => (
+                <a
+                  key={list._id || i}
+                  className="link-elm"
+                  href={list.social_link?.url || "#"}
+                  target={list.social_link?.is_external ? "_blank" : "_self"}
+                  rel={
+                    list.social_link?.is_external
+                      ? `noopener noreferrer${
+                          list.social_link?.nofollow ? " nofollow" : ""
+                        }`
+                      : list.social_link?.nofollow
+                        ? "nofollow"
+                        : undefined
+                  }
+                  aria-label={list.social_icon?.value || "social media link"}
+                >
+                  <ElementorIcon icon={list.social_icon} />
+                </a>
+              ))}
+            </div>
           </div>
-        </div>
-      )}
+        )}
     </section>
   );
 }

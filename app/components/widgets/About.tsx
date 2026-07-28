@@ -17,8 +17,12 @@ export default function About({ settings }: { settings: Settings }) {
         </div>
       )}
 
-      {settings.image_1?.url && <FireflyAnim backgroundUrl={settings.image_1.url} />}
-      {settings.image_2?.url && <FireflyAnim backgroundUrl={settings.image_2.url} variant="right" />}
+      {settings.image_1?.url && (
+        <FireflyAnim backgroundUrl={settings.image_1.url} />
+      )}
+      {settings.image_2?.url && (
+        <FireflyAnim backgroundUrl={settings.image_2.url} variant="right" />
+      )}
 
       <div className="container nm-container-1">
         <div className="nm-about-1-wrap">
@@ -36,7 +40,11 @@ export default function About({ settings }: { settings: Settings }) {
                 )}
 
                 {on(settings.enable_title) && (
-                  <SplitTitle as="h2" className="tx-title nm-sec-title-1" html={settings.title} />
+                  <SplitTitle
+                    as="h2"
+                    className="tx-title nm-sec-title-1"
+                    html={settings.title}
+                  />
                 )}
 
                 {on(settings.enable_description) && (
@@ -49,7 +57,9 @@ export default function About({ settings }: { settings: Settings }) {
                 {settings.short_description && (
                   <p
                     className="nm-p-1 sec-disc-2"
-                    dangerouslySetInnerHTML={{ __html: settings.short_description }}
+                    dangerouslySetInnerHTML={{
+                      __html: settings.short_description,
+                    }}
                   />
                 )}
               </div>
@@ -67,7 +77,10 @@ export default function About({ settings }: { settings: Settings }) {
                       )}
                       {settings.author_image?.url && (
                         <div className="main-img wa-fix">
-                          <img src={settings.author_image.url} alt={settings.author_name || ""} />
+                          <img
+                            src={settings.author_image.url}
+                            alt={settings.author_name || ""}
+                          />
                         </div>
                       )}
                     </div>
@@ -76,8 +89,16 @@ export default function About({ settings }: { settings: Settings }) {
                         <h5 className="nm-h-1 author-name">
                           <a
                             href={settings.author_link?.url || "#"}
-                            target={settings.author_link?.is_external ? "_blank" : "_self"}
-                            rel={settings.author_link?.nofollow ? "nofollow" : undefined}
+                            target={
+                              settings.author_link?.is_external
+                                ? "_blank"
+                                : "_self"
+                            }
+                            rel={
+                              settings.author_link?.nofollow
+                                ? "nofollow"
+                                : undefined
+                            }
                             aria-label={settings.author_name}
                           >
                             {settings.author_name}
@@ -85,29 +106,43 @@ export default function About({ settings }: { settings: Settings }) {
                         </h5>
                       )}
                       {settings.author_designation && (
-                        <p className="nm-p-1 author-dg">{settings.author_designation}</p>
+                        <p className="nm-p-1 author-dg">
+                          {settings.author_designation}
+                        </p>
                       )}
                       {on(settings.enable_social_links) && (
                         <div className="author-social">
-                          {(settings.social_links || []).map((list: any, i: number) => (
-                            <a
-                              key={list._id || i}
-                              className="link-elm"
-                              href={list.social_link?.url || "#"}
-                              target={list.social_link?.is_external ? "_blank" : "_self"}
-                              rel={list.social_link?.nofollow ? "nofollow" : undefined}
-                              aria-label="social link"
-                            >
-                              <ElementorIcon icon={list.social_icon} />
-                            </a>
-                          ))}
+                          {(settings.social_links || []).map(
+                            (social_link: any, i: number) => (
+                              <a
+                                key={social_link._id || i}
+                                className="link-elm"
+                                href={social_link?.url || "#"}
+                                target={
+                                  social_link?.is_external
+                                    ? "_blank"
+                                    : "_self"
+                                }
+                                rel={
+                                  social_link?.nofollow
+                                    ? "nofollow"
+                                    : undefined
+                                }
+                                aria-label="social link"
+                              >
+                                <ElementorIcon icon={social_link.social_icon} />
+                              </a>
+                            ),
+                          )}
                         </div>
                       )}
                     </div>
                   </div>
                 )}
 
-                {on(settings.enable_line_shape) && <div className="inner-div-line" />}
+                {on(settings.enable_line_shape) && (
+                  <div className="inner-div-line" />
+                )}
 
                 {on(settings.enable_button) && (
                   <PrimaryButton
@@ -144,15 +179,22 @@ export default function About({ settings }: { settings: Settings }) {
                       <h4 className="nm-h-1 title">
                         <a
                           href={list.f_box_link?.url || "#"}
-                          target={list.f_box_link?.is_external ? "_blank" : "_self"}
-                          rel={list.f_box_link?.nofollow ? "nofollow" : undefined}
+                          target={
+                            list.f_box_link?.is_external ? "_blank" : "_self"
+                          }
+                          rel={
+                            list.f_box_link?.nofollow ? "nofollow" : undefined
+                          }
                           aria-label={list.f_box_title}
                           dangerouslySetInnerHTML={{ __html: list.f_box_title }}
                         />
                       </h4>
                     )}
                     {list.f_box_text && (
-                      <p className="nm-p-1 disc" dangerouslySetInnerHTML={{ __html: list.f_box_text }} />
+                      <p
+                        className="nm-p-1 disc"
+                        dangerouslySetInnerHTML={{ __html: list.f_box_text }}
+                      />
                     )}
                   </div>
                 </div>

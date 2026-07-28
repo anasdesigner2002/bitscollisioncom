@@ -44,42 +44,67 @@
           },
           "enable_social_links": "yes",
           "social_links": [
-            {
-              "_id": "e35109b",
-              "social_icon": {
-                "value": "fab fa-whatsapp",
-                "library": "fa-brands"
-              }
-            },
-            {
-              "social_icon": {
-                "value": "fab fa-x-twitter",
-                "library": "fa-brands"
-              },
-              "_id": "3551449"
-            },
-            {
-              "social_icon": {
-                "value": "fab fa-linkedin-in",
-                "library": "fa-brands"
-              },
-              "_id": "598a4b1"
-            },
-            {
-              "social_icon": {
-                "value": "fab fa-instagram",
-                "library": "fa-brands"
-              },
-              "_id": "f6f7ef3"
-            },
-            {
-              "social_icon": {
-                "value": "fab fa-facebook-f",
-                "library": "fa-brands"
-              },
-              "_id": "76309fb"
-            }
-          ],
+  {
+    "_id": "e35109b",
+    "social_icon": {
+      "value": "fab fa-whatsapp",
+      "library": "fa-brands"
+    },
+    "social_link": {
+      "url": "https://www.facebook.com/bitscollision",
+      "is_external": true,
+      "nofollow": true
+    }
+  },
+  {
+    "_id": "3551449",
+    "social_icon": {
+      "value": "fab fa-x-twitter",
+      "library": "fa-brands"
+    },
+    "social_link": {
+      "url": "https://x.com/bitscollision",
+      "is_external": true,
+      "nofollow": true
+    }
+  },
+  {
+    "_id": "598a4b1",
+    "social_icon": {
+      "value": "fab fa-linkedin-in",
+      "library": "fa-brands"
+    },
+    "social_link": {
+      "url": "https://www.linkedin.com/company/bitscollision/",
+      "is_external": true,
+      "nofollow": true
+    }
+  },
+  {
+    "_id": "f6f7ef3",
+    "social_icon": {
+      "value": "fab fa-instagram",
+      "library": "fa-brands"
+    },
+    "social_link": {
+      "url": "https://www.instagram.com/bitscollision/",
+      "is_external": true,
+      "nofollow": true
+    }
+  },
+  {
+    "_id": "76309fb",
+    "social_icon": {
+      "value": "fab fa-youtube",
+      "library": "fa-brands"
+    },
+    "social_link": {
+      "url": "https://www.youtube.com/@bitscollision",
+      "is_external": true,
+      "nofollow": true
+    }
+  }
+],
           "image_1": {
             "url": "/images/h1-bg-img-1.webp",
             "id": 48,
@@ -284,21 +309,27 @@
               "social_icon": {
                 "value": "fab fa-x-twitter",
                 "library": "fa-brands"
-              }
+              },
+              "url": "https://x.com/OmerKhanPK",
+              "is_external": true
             },
             {
+              "_id": "8a0d7f8",
               "social_icon": {
                 "value": "fab fa-instagram",
                 "library": "fa-brands"
               },
-              "_id": "8a0d7f8"
+              "url": "https://www.instagram.com/omerkhanpk/",
+              "is_external": true
             },
             {
               "_id": "131fcba",
               "social_icon": {
                 "value": "fab fa-linkedin-in",
                 "library": "fa-brands"
-              }
+              },
+              "url": "https://ae.linkedin.com/in/muhammadomerkhan",
+              "is_external": true
             }
           ],
           "image_1": {
@@ -1183,8 +1214,8 @@
         "elType": "widget",
         "settings": {
           "sub_title": "{06} Testimonial",
-          "title": "The best reviews from clients",
-          "description": "Don’t just take our word for it — see what our clients think.",
+          "title": "Trusted by Clients, Built for Results",
+          "description": "Discover what our clients say about their experience working with Bits Collision.",
           "short_description": "The opportunity to work abroad is a popular prospect, one",
           "testimonial_lists": [
             {
@@ -1720,8 +1751,8 @@
                 "source": "library"
               },
               "sub_title": "{08} Team member",
-              "title": "Driven by talent & creative souls",
-              "description": "At Nimo Digital Agency, we believe great work starts with great people. Our diverse team of creatives, strategists, and developers work together.",
+              "title": "Built by experts, driven by innovation",
+              "description": "At Bits Collision, our talented team of developers, designers, and strategists work together to create innovative digital solutions that deliver real business impact.",
               "team_members": [
                 {
                   "_id": "24f359b",
@@ -2426,8 +2457,8 @@
         "elType": "widget",
         "settings": {
           "sub_title": "{10} Latest Insights",
-          "title": "Here's what we've been up to",
-          "description": "Explore industry insights, expert tips, and creative inspiration from the Nimo team. Our blog is where we share knowledge, ideas, and what’s next in digital.",
+          "title": "Latest insights from Bits Collision",
+          "description": "Explore the latest technology trends, expert insights, and digital strategies from the Bits Collision team. Discover ideas and innovations shaping the future of digital business.",
           "button_text": "More blog",
           "post_by_label": "By",
           "read_more_text": "Read More",
@@ -2599,7 +2630,7 @@
                 "value": "flaticon flaticon-maps-and-flags",
                 "library": "element-helper-flaticon"
               },
-              "text": "<p class=\"nm-p-1 disc\">12/A, New Booston Tower, New York, US</p>"
+              "text": "<p class=\"nm-p-1 disc\">C-13 Shamsi Society, Wireless Gate, Karachi, Pakistan, 75210</p>"
             },
             {
               "title": "24/7 Support",
@@ -2607,7 +2638,7 @@
                 "value": "flaticon flaticon-costumer-service",
                 "library": "element-helper-flaticon"
               },
-              "text": "<p class=\"nm-p-1 disc\"><b>Call</b><a href=\"#\" aria-label=\"name\">+324 5678 4321</a></p><p class=\"nm-p-1 disc\"><b>Mail</b><a href=\"#\" aria-label=\"name\">info@gmail.com</a></p>",
+              "text": "<p class=\"nm-p-1 disc\"><b>Call</b><a href=\"#\" aria-label=\"name\">+324 5678 4321</a></p><p class=\"nm-p-1 disc\"><b>Mail</b><a href=\"#\" aria-label=\"name\">info@bitscollision.com</a></p>",
               "_id": "e7816ba"
             },
             {

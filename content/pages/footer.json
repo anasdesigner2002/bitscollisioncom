@@ -33,7 +33,7 @@
             "source": "library"
           },
           "footer_logo": {
-            "url": "/images/logo-1.webp",
+            "url": "/images/logoW.svg",
             "id": 1461,
             "size": "",
             "alt": "",
@@ -44,9 +44,9 @@
             "value": "fas fa-envelope",
             "library": "fa-solid"
           },
-          "contact_info_text": "info@nimo.com",
+          "contact_info_text": "info@bitscollision.com",
           "contact_info_link": {
-            "url": "mailto:info@nimo.com",
+            "url": "mailto:info@bitscollision.com",
             "is_external": "",
             "nofollow": "",
             "custom_attributes": ""
@@ -114,33 +114,39 @@
           "social_links_heading": "Social Media",
           "social_links": [
             {
-              "_id": "ed749c0",
+              "_id": "49414bd",
               "social_icon": {
-                "value": "fab fa-linkedin-in",
+                "value": "fab fa-threads",
                 "library": "fa-brands"
-              }
+              },
+              "url": "https://www.threads.com/@bitscollision",
+              "is_external": true
             },
             {
+              "_id": "8a0d7f8",
               "social_icon": {
                 "value": "fab fa-instagram",
                 "library": "fa-brands"
               },
-              "_id": "cff59df"
+              "url": "https://www.instagram.com/bitscollision/",
+              "is_external": true
             },
             {
+              "_id": "131fcba",
               "social_icon": {
-                "value": "fab fa-x-twitter",
+                "value": "fab fa-linkedin-in",
                 "library": "fa-brands"
               },
-              "_id": "e091d98"
+              "url": "https://www.linkedin.com/company/bitscollision/",
+              "is_external": true
             }
           ],
-          "copyright_text": "© All rights reserved <span class=\"copyright-year\"></span>",
-          "footer_bottom_right_text": "Make with\n                            <i class=\"fa-solid fa-heart\"></i>\n                            by\n                            <a href=\"https://themexriver.com\" aria-label=\"themexriver\">Themexriver</a>",
+          "copyright_text": "Copyright © <span class=\"copyright-year\"></span> Bits Collision All rights reserved.",
+          "footer_bottom_right_text": "",
           "bottom_menu_links": [
             {
               "_id": "114d727",
-              "link_text": "Sitemap"
+              "link_text": ""
             }
           ],
           "link_list_2_heading": "All Pages",
