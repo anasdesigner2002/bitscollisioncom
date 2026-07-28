@@ -146,7 +146,7 @@ function MobileOffcanvas({ settings, open, onClose }: { settings: Settings; open
           <div className="wa-offcanvas-top">
             {(settings.mobile_logo?.url || settings.logo?.url) && (
               <a className="wa-offcanvas-top-logo tx-logo" aria-label="Nimo" href="/">
-                <img src={settings.mobile_logo?.url || settings.logo?.url} alt="Nimo" />
+                <img src={settings.mobile_logo?.url || settings.logo?.url} alt="Bitscollision" />
               </a>
             )}
             <button className="wa-offcanvas-close offcanvas_box_close" aria-label="Close menu" onClick={onClose}>

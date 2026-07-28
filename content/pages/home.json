@@ -157,7 +157,7 @@
           "button_info_text": "Button Info Text",
           "button_text": "Button Text",
           "image_1": {
-            "url": "/images/p1-bg-img.webp",
+            "url": "/images/p1-bg-imgG.webp",
             "id": 54,
             "size": "",
             "alt": "",
@@ -276,7 +276,7 @@
           ],
           "rating_title": "Average Rating",
           "gallery_heading": "Gallery Heading",
-          "author_name": "M.Omer Khan",
+          "author_name": "Muhammad Omer Khan",
           "author_designation": "Founder & CEO",
           "social_links": [
             {
@@ -759,7 +759,7 @@
             },
             {
               "image_1": {
-                "url": "/images/c1-img-1.webp",
+                "url": "/images/c1-img.gif",
                 "id": 119,
                 "size": "",
                 "alt": "",

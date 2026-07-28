@@ -14,7 +14,7 @@ export default function SiteFooter({ settings }: { settings: Settings }) {
           <div className="nm-footer-1-widget">
             {settings.footer_logo?.url && (
               <a href="/" aria-label="Nimo" className="nm-footer-1-logo">
-                <img src={settings.footer_logo.url} alt="Nimo" />
+                <img src={settings.footer_logo.url} alt="Bitscollision" />
               </a>
             )}
             {settings.footer_description && (
