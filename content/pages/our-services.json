@@ -563,179 +563,69 @@
     },
     "elements": [
       {
-        "id": "ca2ac2b",
+        "id": "40916c0",
         "elType": "widget",
         "settings": {
-          "sub_title": "{10} Latest Insights",
-          "title": "Here's what we've been up to",
-          "description": "Explore industry insights, expert tips, and creative inspiration from the Nimo team. Our blog is where we share knowledge, ideas, and what’s next in digital.",
-          "button_text": "More blog",
-          "post_by_label": "By",
-          "read_more_text": "Read More",
-          "excerpt_length": 20,
-          "selected_list_post": [
+          "sub_title": "Sub Title",
+          "title": "Heading Title",
+          "description": "The opportunity to work abroad is a popular prospect, one",
+          "count_prefix": "+",
+          "count_title": "Happy Clients",
+          "count_description": "The opportunity to work abroad is a popular prospect, one",
+          "enable_count_box": "yes",
+          "count_boxs": [
             {
-              "_id": "58d6e8b",
-              "image": {
-                "url": "/images/b1-img-1.webp",
-                "id": 1184,
-                "size": "",
-                "alt": "",
-                "source": "library"
-              },
-              "title": "Nimo Wins \"Top creative Agency\" Award",
-              "post_id": "1181"
+              "_id": "24770f0",
+              "count_number": 100,
+              "count_prefix": "+",
+              "count_description": "Delivered projects"
             },
             {
-              "image": {
-                "url": "/images/b1-img-2.webp",
-                "id": 1185,
-                "size": "",
-                "alt": "",
-                "source": "library"
-              },
-              "title": "Nimo Launches 10+ Wordpress Themes On themeForest",
-              "post_id": "1179",
-              "_id": "e47e763"
+              "count_number": 90,
+              "count_prefix": "%",
+              "count_description": "Returning Clients",
+              "_id": "2173de8"
             },
             {
-              "image": {
-                "url": "/images/b1-img-3.webp",
-                "id": 1183,
-                "size": "",
-                "alt": "",
-                "source": "library"
-              },
-              "title": "Nimo at the Digital future Summit 2025",
-              "post_id": "1177",
-              "_id": "6421be6"
-            }
-          ],
-          "selected_list_page": [],
-          "selected_list_product": [],
-          "selected_list_tf-header": [],
-          "selected_list_tf-footer": [],
-          "selected_list_services": [],
-          "selected_list_teams": [],
-          "image_1": {
-            "url": "/images/a1-bg-shape-bg-2.webp",
-            "id": 115,
-            "size": "",
-            "alt": "",
-            "source": "library"
-          },
-          "image_2": {
-            "url": "/images/a1-bg-shape-bg-2.webp",
-            "id": 115,
-            "size": "",
-            "alt": "",
-            "source": "library"
-          },
-          "button_link": {
-            "url": "/blog/",
-            "is_external": "",
-            "nofollow": "",
-            "custom_attributes": ""
-          },
-          "enable_button_icon": "yes",
-          "button_icon": {
-            "value": " fas fa-long-arrow-right",
-            "library": "element-helper-icons"
-          },
-          "show_post_by": "selected",
-          "category_meta": "yes",
-          "_background_color_stop_tablet": {
-            "unit": "%",
-            "size": "",
-            "sizes": []
-          },
-          "_background_color_stop_mobile": {
-            "unit": "%",
-            "size": "",
-            "sizes": []
-          },
-          "_background_color_b_stop_tablet": {
-            "unit": "%",
-            "size": "",
-            "sizes": []
-          },
-          "_background_color_b_stop_mobile": {
-            "unit": "%",
-            "size": "",
-            "sizes": []
-          },
-          "_background_gradient_angle_tablet": {
-            "unit": "deg",
-            "size": "",
-            "sizes": []
-          },
-          "_background_gradient_angle_mobile": {
-            "unit": "deg",
-            "size": "",
-            "sizes": []
-          },
-          "_background_hover_color_stop_tablet": {
-            "unit": "%",
-            "size": "",
-            "sizes": []
-          },
-          "_background_hover_color_stop_mobile": {
-            "unit": "%",
-            "size": "",
-            "sizes": []
-          },
-          "_background_hover_color_b_stop_tablet": {
-            "unit": "%",
-            "size": "",
-            "sizes": []
-          },
-          "_background_hover_color_b_stop_mobile": {
-            "unit": "%",
-            "size": "",
-            "sizes": []
-          },
-          "_background_hover_gradient_angle_tablet": {
-            "unit": "deg",
-            "size": "",
-            "sizes": []
-          },
-          "_background_hover_gradient_angle_mobile": {
-            "unit": "deg",
-            "size": "",
-            "sizes": []
-          },
-          "resolved_posts": [
-            {
-              "id": "1181",
-              "title": "Nimo Wins \"Top creative Agency\" Award",
-              "image": "/images/b1-img-1.webp",
-              "excerpt": "Aliquam metus nibh consectetuer montes nascetur quisque lobortis a aliquet diam. Egestas dapibus hen drerit nascetur etiam sociosqu. Himenae...",
-              "date": "2024-01-10",
-              "category": "Clock Fly Strategy",
-              "slug": "nimo-wins-top-creative-agency-award"
+              "count_number": 80,
+              "count_prefix": "%",
+              "count_description": "Success Rate",
+              "_id": "4ae2f69"
             },
             {
-              "id": "1179",
-              "title": "Nimo Launches 10+ Wordpress Themes On themeForest",
-              "image": "/images/b1-img-2.webp",
-              "excerpt": "Aliquam metus nibh consectetuer montes nascetur quisque lobortis a aliquet diam. Egestas dapibus hen drerit nascetur etiam sociosqu. Himenae...",
-              "date": "2024-01-10",
-              "category": "Email Marketing",
-              "slug": "nimo-launches-10-wordpress-themes-on-themeforest"
+              "count_number": 11,
+              "count_prefix": "%",
+              "count_description": "Years of Experience",
+              "_id": "0b39dac"
             },
             {
-              "id": "1177",
-              "title": "Nimo at the Digital future Summit 2025",
-              "image": "/images/b1-img-3.webp",
-              "excerpt": "Aliquam metus nibh consectetuer montes nascetur quisque lobortis a aliquet diam. Egestas dapibus hen drerit nascetur etiam sociosqu. Himenae...",
-              "date": "2024-01-10",
-              "category": "Clock Fly Strategy",
-              "slug": "nimo-at-the-digital-future-summit-2025"
+              "count_number": 90,
+              "count_prefix": "%",
+              "count_description": "Returning Clients",
+              "_id": "c779b90"
+            },
+            {
+              "count_number": 80,
+              "count_prefix": "%",
+              "count_description": "Success Rate",
+              "_id": "52f4f73"
+            },
+            {
+              "count_number": 11,
+              "count_prefix": "+",
+              "count_description": "Years of Experience",
+              "_id": "7b32a5d"
+            },
+            {
+              "count_number": 100,
+              "count_prefix": "+",
+              "count_description": "Delivered projects",
+              "_id": "2a2b860"
             }
           ]
         },
         "elements": [],
-        "widgetType": "tx_post_grid"
+        "widgetType": "tx_count_box"
       }
     ],
     "isInner": false

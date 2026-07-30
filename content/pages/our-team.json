@@ -50,8 +50,8 @@
                 "source": "library"
               },
               "sub_title": "{08} Team member",
-              "title": "Driven by talent & creative souls",
-              "description": "At Nimo Digital Agency, we believe great work starts with great people. Our diverse team of creatives, strategists, and developers work together.",
+              "title": "Built by experts, driven by innovation",
+              "description": "At Bits Collision, our talented team of developers, designers, and strategists work together to create innovative digital solutions that deliver real business impact.",
               "team_members": [
                 {
                   "_id": "24f359b",
@@ -450,6 +450,944 @@
                   "activeItemIndex": 1,
                   "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
                   "_id": "4e68f9c",
+                  "button_icon": {
+                    "value": " fas fa-long-arrow-right",
+                    "library": "element-helper-icons"
+                  }
+                },
+                {
+                  "team_image": {
+                    "url": "/images/t1-img-2.webp",
+                    "id": 199,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                  },
+                  "name": "Ava Wilson",
+                  "designation": "Visual Designer",
+                  "link": {
+                    "url": "/teams/alfred-noble/",
+                    "is_external": "",
+                    "nofollow": "",
+                    "custom_attributes": ""
+                  },
+                  "button_text": "Read More",
+                  "social_links": [
+                    {
+                      "social_icon": {
+                        "value": "fab fa-facebook-f",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "080579c"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-x-twitter",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "c50f539"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-dribbble",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "59e9753"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-behance",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "5ea3dd8"
+                    }
+                  ],
+                  "activeItemIndex": 1,
+                  "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
+                  "_id": "8479e02",
+                  "button_icon": {
+                    "value": " fas fa-long-arrow-right",
+                    "library": "element-helper-icons"
+                  }
+                },
+                {
+                  "team_image": {
+                    "url": "/images/t1-img-3.webp",
+                    "id": 201,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                  },
+                  "name": "Ava Wilson",
+                  "designation": "Visual Designer",
+                  "link": {
+                    "url": "/teams/alfred-noble/",
+                    "is_external": "",
+                    "nofollow": "",
+                    "custom_attributes": ""
+                  },
+                  "button_text": "Read More",
+                  "social_links": [
+                    {
+                      "social_icon": {
+                        "value": "fab fa-facebook-f",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "080579c"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-x-twitter",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "c50f539"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-dribbble",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "59e9753"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-behance",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "5ea3dd8"
+                    }
+                  ],
+                  "activeItemIndex": 1,
+                  "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
+                  "_id": "2fdb03a",
+                  "button_icon": {
+                    "value": " fas fa-long-arrow-right",
+                    "library": "element-helper-icons"
+                  }
+                },
+                {
+                  "team_image": {
+                    "url": "/images/t1-img-4.webp",
+                    "id": 202,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                  },
+                  "name": "Ava Wilson",
+                  "designation": "Visual Designer",
+                  "link": {
+                    "url": "/teams/alfred-noble/",
+                    "is_external": "",
+                    "nofollow": "",
+                    "custom_attributes": ""
+                  },
+                  "button_text": "Read More",
+                  "social_links": [
+                    {
+                      "social_icon": {
+                        "value": "fab fa-facebook-f",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "080579c"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-x-twitter",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "c50f539"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-dribbble",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "59e9753"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-behance",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "5ea3dd8"
+                    }
+                  ],
+                  "activeItemIndex": 1,
+                  "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
+                  "_id": "d9982ac",
+                  "button_icon": {
+                    "value": " fas fa-long-arrow-right",
+                    "library": "element-helper-icons"
+                  }
+                },
+                {
+                  "team_image": {
+                    "url": "/images/t1-img-5.webp",
+                    "id": 203,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                  },
+                  "name": "Ava Wilson",
+                  "designation": "Visual Designer",
+                  "link": {
+                    "url": "/teams/alfred-noble/",
+                    "is_external": "",
+                    "nofollow": "",
+                    "custom_attributes": ""
+                  },
+                  "button_text": "Read More",
+                  "social_links": [
+                    {
+                      "social_icon": {
+                        "value": "fab fa-facebook-f",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "080579c"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-x-twitter",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "c50f539"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-dribbble",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "59e9753"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-behance",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "5ea3dd8"
+                    }
+                  ],
+                  "activeItemIndex": 1,
+                  "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
+                  "_id": "4601c2b",
+                  "button_icon": {
+                    "value": " fas fa-long-arrow-right",
+                    "library": "element-helper-icons"
+                  }
+                },
+                {
+                  "_id": "24f359b",
+                  "team_image": {
+                    "url": "/images/t1-img-1.webp",
+                    "id": 200,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                  },
+                  "name": "Ava Wilson",
+                  "designation": "Visual Designer",
+                  "link": {
+                    "url": "/teams/alfred-noble/",
+                    "is_external": "",
+                    "nofollow": "",
+                    "custom_attributes": ""
+                  },
+                  "button_text": "Read More",
+                  "social_links": [
+                    {
+                      "social_icon": {
+                        "value": "fab fa-facebook-f",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "080579c"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-x-twitter",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "c50f539"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-dribbble",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "59e9753"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-behance",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "5ea3dd8"
+                    }
+                  ],
+                  "activeItemIndex": 1,
+                  "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
+                  "button_icon": {
+                    "value": " fas fa-long-arrow-right",
+                    "library": "element-helper-icons"
+                  }
+                },
+                {
+                  "team_image": {
+                    "url": "/images/t1-img-2.webp",
+                    "id": 199,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                  },
+                  "name": "Ava Wilson",
+                  "designation": "Visual Designer",
+                  "link": {
+                    "url": "/teams/alfred-noble/",
+                    "is_external": "",
+                    "nofollow": "",
+                    "custom_attributes": ""
+                  },
+                  "button_text": "Read More",
+                  "social_links": [
+                    {
+                      "social_icon": {
+                        "value": "fab fa-facebook-f",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "080579c"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-x-twitter",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "c50f539"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-dribbble",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "59e9753"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-behance",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "5ea3dd8"
+                    }
+                  ],
+                  "activeItemIndex": 1,
+                  "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
+                  "_id": "8479e02",
+                  "button_icon": {
+                    "value": " fas fa-long-arrow-right",
+                    "library": "element-helper-icons"
+                  }
+                },
+                {
+                  "team_image": {
+                    "url": "/images/t1-img-3.webp",
+                    "id": 201,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                  },
+                  "name": "Ava Wilson",
+                  "designation": "Visual Designer",
+                  "link": {
+                    "url": "/teams/alfred-noble/",
+                    "is_external": "",
+                    "nofollow": "",
+                    "custom_attributes": ""
+                  },
+                  "button_text": "Read More",
+                  "social_links": [
+                    {
+                      "social_icon": {
+                        "value": "fab fa-facebook-f",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "080579c"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-x-twitter",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "c50f539"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-dribbble",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "59e9753"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-behance",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "5ea3dd8"
+                    }
+                  ],
+                  "activeItemIndex": 1,
+                  "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
+                  "_id": "2fdb03a",
+                  "button_icon": {
+                    "value": " fas fa-long-arrow-right",
+                    "library": "element-helper-icons"
+                  }
+                },
+                {
+                  "team_image": {
+                    "url": "/images/t1-img-4.webp",
+                    "id": 202,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                  },
+                  "name": "Ava Wilson",
+                  "designation": "Visual Designer",
+                  "link": {
+                    "url": "/teams/alfred-noble/",
+                    "is_external": "",
+                    "nofollow": "",
+                    "custom_attributes": ""
+                  },
+                  "button_text": "Read More",
+                  "social_links": [
+                    {
+                      "social_icon": {
+                        "value": "fab fa-facebook-f",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "080579c"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-x-twitter",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "c50f539"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-dribbble",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "59e9753"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-behance",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "5ea3dd8"
+                    }
+                  ],
+                  "activeItemIndex": 1,
+                  "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
+                  "_id": "d9982ac",
+                  "button_icon": {
+                    "value": " fas fa-long-arrow-right",
+                    "library": "element-helper-icons"
+                  }
+                },
+                {
+                  "team_image": {
+                    "url": "/images/t1-img-5.webp",
+                    "id": 203,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                  },
+                  "name": "Ava Wilson",
+                  "designation": "Visual Designer",
+                  "link": {
+                    "url": "/teams/alfred-noble/",
+                    "is_external": "",
+                    "nofollow": "",
+                    "custom_attributes": ""
+                  },
+                  "button_text": "Read More",
+                  "social_links": [
+                    {
+                      "social_icon": {
+                        "value": "fab fa-facebook-f",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "080579c"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-x-twitter",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "c50f539"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-dribbble",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "59e9753"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-behance",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "5ea3dd8"
+                    }
+                  ],
+                  "activeItemIndex": 1,
+                  "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
+                  "_id": "4601c2b",
+                  "button_icon": {
+                    "value": " fas fa-long-arrow-right",
+                    "library": "element-helper-icons"
+                  }
+                },
+                {
+                  "team_image": {
+                    "url": "/images/t1-img-6.webp",
+                    "id": 198,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                  },
+                  "name": "Ava Wilson",
+                  "designation": "Visual Designer",
+                  "link": {
+                    "url": "/teams/alfred-noble/",
+                    "is_external": "",
+                    "nofollow": "",
+                    "custom_attributes": ""
+                  },
+                  "button_text": "Read More",
+                  "social_links": [
+                    {
+                      "social_icon": {
+                        "value": "fab fa-facebook-f",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "080579c"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-x-twitter",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "c50f539"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-dribbble",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "59e9753"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-behance",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "5ea3dd8"
+                    }
+                  ],
+                  "activeItemIndex": 1,
+                  "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
+                  "_id": "4e68f9c",
+                  "button_icon": {
+                    "value": " fas fa-long-arrow-right",
+                    "library": "element-helper-icons"
+                  }
+                },
+                {
+                  "team_image": {
+                    "url": "/images/t1-img-2.webp",
+                    "id": 199,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                  },
+                  "name": "Ava Wilson",
+                  "designation": "Visual Designer",
+                  "link": {
+                    "url": "/teams/alfred-noble/",
+                    "is_external": "",
+                    "nofollow": "",
+                    "custom_attributes": ""
+                  },
+                  "button_text": "Read More",
+                  "social_links": [
+                    {
+                      "social_icon": {
+                        "value": "fab fa-facebook-f",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "080579c"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-x-twitter",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "c50f539"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-dribbble",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "59e9753"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-behance",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "5ea3dd8"
+                    }
+                  ],
+                  "activeItemIndex": 1,
+                  "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
+                  "_id": "8479e02",
+                  "button_icon": {
+                    "value": " fas fa-long-arrow-right",
+                    "library": "element-helper-icons"
+                  }
+                },
+                {
+                  "team_image": {
+                    "url": "/images/t1-img-3.webp",
+                    "id": 201,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                  },
+                  "name": "Ava Wilson",
+                  "designation": "Visual Designer",
+                  "link": {
+                    "url": "/teams/alfred-noble/",
+                    "is_external": "",
+                    "nofollow": "",
+                    "custom_attributes": ""
+                  },
+                  "button_text": "Read More",
+                  "social_links": [
+                    {
+                      "social_icon": {
+                        "value": "fab fa-facebook-f",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "080579c"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-x-twitter",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "c50f539"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-dribbble",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "59e9753"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-behance",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "5ea3dd8"
+                    }
+                  ],
+                  "activeItemIndex": 1,
+                  "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
+                  "_id": "2fdb03a",
+                  "button_icon": {
+                    "value": " fas fa-long-arrow-right",
+                    "library": "element-helper-icons"
+                  }
+                },
+                {
+                  "team_image": {
+                    "url": "/images/t1-img-4.webp",
+                    "id": 202,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                  },
+                  "name": "Ava Wilson",
+                  "designation": "Visual Designer",
+                  "link": {
+                    "url": "/teams/alfred-noble/",
+                    "is_external": "",
+                    "nofollow": "",
+                    "custom_attributes": ""
+                  },
+                  "button_text": "Read More",
+                  "social_links": [
+                    {
+                      "social_icon": {
+                        "value": "fab fa-facebook-f",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "080579c"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-x-twitter",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "c50f539"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-dribbble",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "59e9753"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-behance",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "5ea3dd8"
+                    }
+                  ],
+                  "activeItemIndex": 1,
+                  "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
+                  "_id": "d9982ac",
+                  "button_icon": {
+                    "value": " fas fa-long-arrow-right",
+                    "library": "element-helper-icons"
+                  }
+                },
+                {
+                  "team_image": {
+                    "url": "/images/t1-img-5.webp",
+                    "id": 202,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                  },
+                  "name": "Ava Wilson",
+                  "designation": "Visual Designer",
+                  "link": {
+                    "url": "/teams/alfred-noble/",
+                    "is_external": "",
+                    "nofollow": "",
+                    "custom_attributes": ""
+                  },
+                  "button_text": "Read More",
+                  "social_links": [
+                    {
+                      "social_icon": {
+                        "value": "fab fa-facebook-f",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "080579c"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-x-twitter",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "c50f539"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-dribbble",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "59e9753"
+                    },
+                    {
+                      "social_icon": {
+                        "value": "fab fa-behance",
+                        "library": "fa-brands"
+                      },
+                      "social_link": {
+                        "url": "#0"
+                      },
+                      "_id": "5ea3dd8"
+                    }
+                  ],
+                  "activeItemIndex": 1,
+                  "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
+                  "_id": "4601c2b",
                   "button_icon": {
                     "value": " fas fa-long-arrow-right",
                     "library": "element-helper-icons"

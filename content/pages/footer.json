@@ -39,7 +39,7 @@
             "alt": "",
             "source": "library"
           },
-          "footer_description": "Creative minds building impactful digital experience.",
+          "footer_description": "Building smart digital solutions that help businesses grow, simplify operations, and create meaningful digital experiences.",
           "contact_info_icon": {
             "value": "fas fa-envelope",
             "library": "fa-solid"
@@ -83,7 +83,7 @@
             {
               "link_text": "Pricing",
               "link_url": {
-                "url": "/price-page/",
+                "url": "",
                 "is_external": "",
                 "nofollow": "",
                 "custom_attributes": ""
@@ -138,6 +138,15 @@
                 "library": "fa-brands"
               },
               "url": "https://www.linkedin.com/company/bitscollision/",
+              "is_external": true
+            },
+            {
+              "_id": "131fcbr",
+              "social_icon": {
+                "value": "fab fa-youtube",
+                "library": "fa-brands"
+              },
+              "url": "https://www.youtube.com/@bitscollision",
               "is_external": true
             }
           ],

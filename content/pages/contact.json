@@ -15,7 +15,7 @@
     },
     "elements": [
       {
-        "id": "08987fc",
+        "id": "ceb43a4",
         "elType": "widget",
         "settings": {
           "big_title": "Contact Us",
@@ -59,7 +59,7 @@
                 "value": "flaticon flaticon-maps-and-flags",
                 "library": "element-helper-flaticon"
               },
-              "text": "<p class=\"nm-p-1 disc\">12/A, New Booston Tower, New York, US</p>"
+              "text": "<p class=\"nm-p-1 disc\">C-13 Shamsi Society, Wireless Gate, Karachi, Pakistan, 75210</p>"
             },
             {
               "title": "24/7 Support",
@@ -67,7 +67,7 @@
                 "value": "flaticon flaticon-costumer-service",
                 "library": "element-helper-flaticon"
               },
-              "text": "<p class=\"nm-p-1 disc\"><b>Call</b><a href=\"#\" aria-label=\"name\">+324 5678 4321</a></p><p class=\"nm-p-1 disc\"><b>Mail</b><a href=\"#\" aria-label=\"name\">info@gmail.com</a></p>",
+              "text": "<p class=\"nm-p-1 disc\"><b>Call</b><a href=\"#\" aria-label=\"name\">+324 5678 4321</a></p><p class=\"nm-p-1 disc\"><b>Mail</b><a href=\"#\" aria-label=\"name\">info@bitscollision.com</a></p>",
               "_id": "e7816ba"
             },
             {
@@ -76,7 +76,7 @@
                 "value": "far fa-clock",
                 "library": "fa-regular"
               },
-              "text": "<p class=\"nm-p-1 disc\">Mon - Sat 8 AM - 10 PM</p><p class=\"nm-p-1 disc\">Sun 11 AM - 5 PM</p>",
+              "text": "<p class=\"nm-p-1 disc\">Mon - Thur 10 AM - 7 PM</p><p class=\"nm-p-1 disc\">Sun 10 AM - 5 PM</p>",
               "_id": "70ab9a1"
             }
           ],
@@ -128,67 +128,7 @@
               "social_title": "Instagram",
               "_id": "dda2eee"
             }
-          ],
-          "_background_color_stop_tablet": {
-            "unit": "%",
-            "size": "",
-            "sizes": []
-          },
-          "_background_color_stop_mobile": {
-            "unit": "%",
-            "size": "",
-            "sizes": []
-          },
-          "_background_color_b_stop_tablet": {
-            "unit": "%",
-            "size": "",
-            "sizes": []
-          },
-          "_background_color_b_stop_mobile": {
-            "unit": "%",
-            "size": "",
-            "sizes": []
-          },
-          "_background_gradient_angle_tablet": {
-            "unit": "deg",
-            "size": "",
-            "sizes": []
-          },
-          "_background_gradient_angle_mobile": {
-            "unit": "deg",
-            "size": "",
-            "sizes": []
-          },
-          "_background_hover_color_stop_tablet": {
-            "unit": "%",
-            "size": "",
-            "sizes": []
-          },
-          "_background_hover_color_stop_mobile": {
-            "unit": "%",
-            "size": "",
-            "sizes": []
-          },
-          "_background_hover_color_b_stop_tablet": {
-            "unit": "%",
-            "size": "",
-            "sizes": []
-          },
-          "_background_hover_color_b_stop_mobile": {
-            "unit": "%",
-            "size": "",
-            "sizes": []
-          },
-          "_background_hover_gradient_angle_tablet": {
-            "unit": "deg",
-            "size": "",
-            "sizes": []
-          },
-          "_background_hover_gradient_angle_mobile": {
-            "unit": "deg",
-            "size": "",
-            "sizes": []
-          }
+          ]
         },
         "elements": [],
         "widgetType": "tx_contact_info"
@@ -512,6 +452,73 @@
         },
         "elements": [],
         "widgetType": "tx_tabs"
+      }
+    ],
+    "elements": [
+      {
+        "id": "40916c4",
+        "elType": "widget",
+        "settings": {
+          "sub_title": "Sub Title",
+          "title": "Heading Title",
+          "description": "The opportunity to work abroad is a popular prospect, one",
+          "count_prefix": "+",
+          "count_title": "Happy Clients",
+          "count_description": "The opportunity to work abroad is a popular prospect, one",
+          "enable_count_box": "yes",
+          "count_boxs": [
+            {
+              "_id": "24770f0",
+              "count_number": 100,
+              "count_prefix": "+",
+              "count_description": "Delivered projects"
+            },
+            {
+              "count_number": 90,
+              "count_prefix": "%",
+              "count_description": "Returning Clients",
+              "_id": "2173de8"
+            },
+            {
+              "count_number": 80,
+              "count_prefix": "%",
+              "count_description": "Success Rate",
+              "_id": "4ae2f69"
+            },
+            {
+              "count_number": 11,
+              "count_prefix": "%",
+              "count_description": "Years of Experience",
+              "_id": "0b39dac"
+            },
+            {
+              "count_number": 90,
+              "count_prefix": "%",
+              "count_description": "Returning Clients",
+              "_id": "c779b90"
+            },
+            {
+              "count_number": 80,
+              "count_prefix": "%",
+              "count_description": "Success Rate",
+              "_id": "52f4f73"
+            },
+            {
+              "count_number": 11,
+              "count_prefix": "+",
+              "count_description": "Years of Experience",
+              "_id": "7b32a5d"
+            },
+            {
+              "count_number": 100,
+              "count_prefix": "+",
+              "count_description": "Delivered projects",
+              "_id": "2a2b860"
+            }
+          ]
+        },
+        "elements": [],
+        "widgetType": "tx_count_box"
       }
     ],
     "isInner": true

@@ -361,7 +361,7 @@
           },
           "enable_social_links": "yes",
           "button_link": {
-            "url": "/contact/",
+            "url": "/about-us/",
             "is_external": "",
             "nofollow": "",
             "custom_attributes": ""
@@ -1763,8 +1763,8 @@
                     "alt": "",
                     "source": "library"
                   },
-                  "name": "Ava Wilson",
-                  "designation": "Visual Designer",
+                  "name": "Muhammad Omer Khan",
+                  "designation": "Founder & CEO",
                   "link": {
                     "url": "/teams/alfred-noble/",
                     "is_external": "",
@@ -1829,10 +1829,10 @@
                     "alt": "",
                     "source": "library"
                   },
-                  "name": "Ava Wilson",
-                  "designation": "Visual Designer",
+                  "name": "Muhammad Owais Khan",
+                  "designation": "Project Manager",
                   "link": {
-                    "url": "/teams/alfred-noble/",
+                    "url": "",
                     "is_external": "",
                     "nofollow": "",
                     "custom_attributes": ""
@@ -1896,10 +1896,10 @@
                     "alt": "",
                     "source": "library"
                   },
-                  "name": "Ava Wilson",
-                  "designation": "Visual Designer",
+                  "name": "Farwa Bangash",
+                  "designation": "HR Executive",
                   "link": {
-                    "url": "/teams/alfred-noble/",
+                    "url": "",
                     "is_external": "",
                     "nofollow": "",
                     "custom_attributes": ""
@@ -1963,10 +1963,10 @@
                     "alt": "",
                     "source": "library"
                   },
-                  "name": "Ava Wilson",
-                  "designation": "Visual Designer",
+                  "name": "Raza Ali",
+                  "designation": "Mobile Development Lead",
                   "link": {
-                    "url": "/teams/alfred-noble/",
+                    "url": "",
                     "is_external": "",
                     "nofollow": "",
                     "custom_attributes": ""
@@ -2030,10 +2030,10 @@
                     "alt": "",
                     "source": "library"
                   },
-                  "name": "Ava Wilson",
-                  "designation": "Visual Designer",
+                  "name": "Ahsan Jamil",
+                  "designation": "Full Stack Engineer",
                   "link": {
-                    "url": "/teams/alfred-noble/",
+                    "url": "",
                     "is_external": "",
                     "nofollow": "",
                     "custom_attributes": ""
@@ -2097,10 +2097,10 @@
                     "alt": "",
                     "source": "library"
                   },
-                  "name": "Ava Wilson",
-                  "designation": "Visual Designer",
+                  "name": "Anas Hussain",
+                  "designation": "SQA Engineer",
                   "link": {
-                    "url": "/teams/alfred-noble/",
+                    "url": "",
                     "is_external": "",
                     "nofollow": "",
                     "custom_attributes": ""
@@ -2647,7 +2647,7 @@
                 "value": "far fa-clock",
                 "library": "fa-regular"
               },
-              "text": "<p class=\"nm-p-1 disc\">Mon - Sat 8 AM - 10 PM</p><p class=\"nm-p-1 disc\">Sun 11 AM - 5 PM</p>",
+              "text": "<p class=\"nm-p-1 disc\">Mon - Thur 10 AM - 7 PM</p><p class=\"nm-p-1 disc\">Sun 10 AM - 5 PM</p>",
               "_id": "70ab9a1"
             }
           ],
@@ -2736,48 +2736,48 @@
           "count_boxs": [
             {
               "_id": "24770f0",
-              "count_number": 390,
+              "count_number": 100,
               "count_prefix": "+",
               "count_description": "Delivered projects"
             },
             {
-              "count_number": 70,
+              "count_number": 90,
               "count_prefix": "%",
               "count_description": "Returning Clients",
               "_id": "2173de8"
             },
             {
-              "count_number": 90,
+              "count_number": 80,
               "count_prefix": "%",
               "count_description": "Success Rate",
               "_id": "4ae2f69"
             },
             {
-              "count_number": 6,
+              "count_number": 11,
               "count_prefix": "%",
               "count_description": "Years of Experience",
               "_id": "0b39dac"
             },
             {
-              "count_number": 70,
+              "count_number": 90,
               "count_prefix": "%",
               "count_description": "Returning Clients",
               "_id": "c779b90"
             },
             {
-              "count_number": 90,
+              "count_number": 80,
               "count_prefix": "%",
               "count_description": "Success Rate",
               "_id": "52f4f73"
             },
             {
-              "count_number": 6,
+              "count_number": 11,
               "count_prefix": "+",
               "count_description": "Years of Experience",
               "_id": "7b32a5d"
             },
             {
-              "count_number": 390,
+              "count_number": 100,
               "count_prefix": "+",
               "count_description": "Delivered projects",
               "_id": "2a2b860"

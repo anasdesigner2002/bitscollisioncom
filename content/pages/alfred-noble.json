@@ -83,7 +83,7 @@
               "content_width": "full",
               "width": {
                 "unit": "%",
-                "size": 70
+                "size": 68
               },
               "width_tablet": {
                 "unit": "%",
@@ -105,7 +105,7 @@
               "padding": {
                 "unit": "px",
                 "top": "10",
-                "right": "75",
+                "right": "65",
                 "bottom": "10",
                 "left": "10",
                 "isLinked": false
@@ -124,7 +124,7 @@
                 "id": "0d4ae70",
                 "elType": "widget",
                 "settings": {
-                  "title": "William Harrison",
+                  "title": "Muhammad Omer Khan",
                   "typography_typography": "custom",
                   "typography_font_family": "Inter",
                   "typography_font_size": {
@@ -152,7 +152,7 @@
                 "id": "fba0a39",
                 "elType": "widget",
                 "settings": {
-                  "title": "Head Of Design",
+                  "title": "Founder & CEO",
                   "header_size": "span",
                   "typography_typography": "custom",
                   "typography_font_family": "Inter",
@@ -184,7 +184,7 @@
                 "id": "8adf78f",
                 "elType": "widget",
                 "settings": {
-                  "title": "William Harrison is the Head of Design at Reliable Company, where he leads a dynamic team of designers and developers in creating innovative and user-centric digital experiences. With over a decade of experience in UI/UX design, product development, and branding, William has played a crucial role in shaping the company's design strategy and delivering cutting-edge solutions that enhance user engagement and business performance.",
+                  "title": "Muhammad Omer Khan is an entrepreneur, technologist, and IT mentor with more than 12 years of experience across software analysis, architecture, development, and the implementation of web, desktop, and mobile applications. As Chief Executive Officer of Bits Collision, he brings together technology, business thinking, and team leadership to build practical digital solutions for modern organizations.",
                   "header_size": "p",
                   "typography_typography": "custom",
                   "typography_font_family": "Inter",
@@ -216,7 +216,7 @@
                 "id": "95ebc3c",
                 "elType": "widget",
                 "settings": {
-                  "title": "At Reliable, William oversees the end-to-end design process, from conceptualization to execution, ensuring that every product aligns with modern design trends, usability principles, and industry standards. His expertise spans across web and mobile application design, interactive prototypes, design systems, and digital branding, making him a key contributor to Tekz’s reputation as a leader in technology-driven innovation.",
+                  "title": "His experience spans software architecture, high-performance web and mobile applications, APIs, databases, cloud technologies, automation, AI, financial technology, e-commerce, and enterprise systems. He has also led multidisciplinary teams across web, mobile, API, QA, UI/UX, and automation, while mentoring professionals and helping teams adopt modern technologies and stronger engineering practices.",
                   "header_size": "p",
                   "typography_typography": "custom",
                   "typography_font_family": "Inter",
@@ -243,35 +243,6 @@
                 },
                 "elements": [],
                 "widgetType": "heading"
-              },
-              {
-                "id": "2611887",
-                "elType": "widget",
-                "settings": {
-                  "selected_icon": {
-                    "value": " fas fa-long-arrow-right",
-                    "library": "element-helper-icons"
-                  },
-                  "button_text": "Contact Us",
-                  "wow_duration": "1000",
-                  "wow_delay": "200",
-                  "_margin": {
-                    "unit": "px",
-                    "top": "30",
-                    "right": "0",
-                    "bottom": "0",
-                    "left": "0",
-                    "isLinked": false
-                  },
-                  "button_link": {
-                    "url": "/contact/",
-                    "is_external": "",
-                    "nofollow": "",
-                    "custom_attributes": ""
-                  }
-                },
-                "elements": [],
-                "widgetType": "tx_button"
               }
             ],
             "isInner": true
@@ -284,7 +255,7 @@
               "content_width": "full",
               "width": {
                 "unit": "%",
-                "size": 30
+                "size": 32
               },
               "width_tablet": {
                 "unit": "%",
@@ -313,16 +284,16 @@
                   "image": {
                     "id": 200,
                     "url": "/images/t1-img-1.webp",
-                    "alt": "",
+                    "alt": "Muhammad Omer Khan - Founder and CEO of Bits Collision",
                     "source": "library",
                     "size": ""
                   },
                   "image_border_radius": {
                     "unit": "px",
-                    "top": "15",
-                    "right": "15",
-                    "bottom": "15",
-                    "left": "15",
+                    "top": "18",
+                    "right": "18",
+                    "bottom": "18",
+                    "left": "18",
                     "isLinked": true
                   },
                   "_css_classes": "w-100"
