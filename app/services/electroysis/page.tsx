@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import { renderElementorTree } from "@/app/lib/render-elementor";
 import type { ElementorNode } from "@/app/lib/types";
 import PageBreadcrumb from "@/app/components/shared/PageBreadcrumb";
-import serviceData from "@/content/pages/digital-strategy-marketing.json";
+import serviceData from "@/content/pages/electroysis.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "Test Page",
+  title: "Electroysis Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
   description: "Business Consulting Agency",
 };
 
@@ -24,10 +24,10 @@ export default function DigitalStrategyMarketingPage() {
 
   return (
     <main>
-      <PageBreadcrumb title="Digital Strategy & Marketing" current="Digital Strategy & Marketing" />
-      <div className={styles.wrap}>
-        <div className={styles.column}>{renderElementorTree(widgets)}</div>
-      </div>
+       <PageBreadcrumb title="ELECTROYSIS" current="Electroysis" />
+            <div className={styles.wrap}>
+              <div className={styles.column}>{renderElementorTree(widgets)}</div>
+            </div>
     </main>
   );
 }

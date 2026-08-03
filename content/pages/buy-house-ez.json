@@ -1,0 +1,297 @@
+[
+  {
+    "id": "a3739ff",
+    "elType": "container",
+    "settings": {
+      "flex_direction": "row",
+      "flex_gap": {
+        "unit": "px",
+        "size": 0,
+        "column": "0",
+        "row": "0",
+        "isLinked": true
+      },
+      "boxed_width": {
+        "unit": "px",
+        "size": 1340,
+        "sizes": []
+      },
+      "flex_justify_content": "center",
+      "padding": {
+        "unit": "px",
+        "top": "100",
+        "right": "10",
+        "bottom": "100",
+        "left": "10",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "0fbbab8",
+        "elType": "container",
+        "settings": {
+          "content_width": "full",
+          "width": {
+            "unit": "%",
+            "size": 70
+          },
+          "flex_gap": {
+            "column": "0",
+            "row": "0",
+            "isLinked": true,
+            "unit": "px",
+            "size": 0
+          }
+        },
+        "elements": [
+          {
+            "id": "2bca3b0",
+            "elType": "widget",
+            "settings": {
+              "image": {
+                "id": 1242,
+                "url": "/images/cta-2-bg-img-1.webp",
+                "alt": "BuyHouseEZ Home Financing Platform",
+                "source": "library",
+                "size": ""
+              },
+              "image_border_radius": {
+                "unit": "px",
+                "top": "15",
+                "right": "15",
+                "bottom": "15",
+                "left": "15",
+                "isLinked": true
+              },
+              "_css_classes": "w-100"
+            },
+            "elements": [],
+            "widgetType": "image"
+          },
+          {
+            "id": "project_title",
+            "elType": "widget",
+            "settings": {
+              "title": "BuyHouseEZ: Your Path to Homeownership, No Matter the Challenges",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 30
+              },
+              "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 28
+              },
+              "typography_font_weight": "700",
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.2
+              },
+              "title_color": "#FFFFFF",
+              "_margin": {
+                "unit": "px",
+                "top": "35",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": [],
+            "widgetType": "heading"
+          },
+          {
+            "id": "project_description",
+            "elType": "widget",
+            "settings": {
+              "title": "The BuyHouseEZ Home Financing Platform Project represents a transformative step toward financial inclusivity in the real estate sector. With a focus on empowering individuals often excluded from traditional lending channels—such as those with limited credit history or ITINs—this initiative brings together private lending solutions and innovative property technology to create new paths to homeownership.<br><br>Through a blend of financial flexibility, automation, and user-centric design, we helped BuyHouseEZ build a platform that simplifies and accelerates the loan application process while maintaining regulatory compliance and personalized support. The platform ensures that more families and individuals can move from renting to owning—regardless of background or financial barriers.",
+              "header_size": "p",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 18
+              },
+              "typography_font_weight": "400",
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.6
+              },
+              "title_color": "#B5B5B5",
+              "_margin": {
+                "unit": "px",
+                "top": "20",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": [],
+            "widgetType": "heading"
+          },
+          {
+            "id": "project_info",
+            "elType": "widget",
+            "settings": {
+              "title": "<strong>Client:</strong> BuyHouseEZ<br><strong>Location:</strong> United state of America<br><strong>Completed Date:</strong> 28-02-2025<br><strong>Services:</strong> PropTech Development, Home Financing Platform, Alternative Lending Integration",
+              "header_size": "p",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 18
+              },
+              "typography_font_weight": "500",
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.8
+              },
+              "title_color": "#FFFFFF",
+              "_margin": {
+                "unit": "px",
+                "top": "30",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": [],
+            "widgetType": "heading"
+          },
+          {
+            "id": "project_requirement_heading",
+            "elType": "widget",
+            "settings": {
+              "title": "Project Requirement",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 30
+              },
+              "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 28
+              },
+              "typography_font_weight": "700",
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.2
+              },
+              "title_color": "#FFFFFF",
+              "_margin": {
+                "unit": "px",
+                "top": "35",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": [],
+            "widgetType": "heading"
+          },
+          {
+            "id": "project_requirement",
+            "elType": "widget",
+            "settings": {
+              "title": "The goal of this project was to design and implement a digital solution that bridges the gap between underserved borrowers and accessible home financing. The platform had to support alternative lending workflows, offer strong data security, and ensure a seamless experience for both applicants and internal loan processors. Key project milestones included:<br><br>• Market & Borrower Persona Research<br>• Financial Product Modeling for Non-traditional Applicants<br>• Secure Loan Application & Processing Portal<br>• ITIN and Alternative ID Integration<br>• Credit Flexibility Tools & Pre-qualification Automation<br>• Cloud-Based Infrastructure Deployment<br>• End-to-End Lending Workflow System<br>• Compliance & Risk Management Module<br>• Post-launch Training and Customer Support Tools",
+              "header_size": "p",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 18
+              },
+              "typography_font_weight": "400",
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.6
+              },
+              "title_color": "#B5B5B5",
+              "_margin": {
+                "unit": "px",
+                "top": "20",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": [],
+            "widgetType": "heading"
+          },
+          {
+            "id": "solution_heading",
+            "elType": "widget",
+            "settings": {
+              "title": "Solution & Result",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 30
+              },
+              "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 28
+              },
+              "typography_font_weight": "700",
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.2
+              },
+              "title_color": "#FFFFFF",
+              "_margin": {
+                "unit": "px",
+                "top": "35",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": [],
+            "widgetType": "heading"
+          },
+          {
+            "id": "solution_content",
+            "elType": "widget",
+            "settings": {
+              "title": "The BuyHouseEZ platform now functions as a robust, scalable, and inclusive home financing solution, purpose-built for borrowers who are financially ready but often denied by traditional institutions. By leveraging cutting-edge PropTech and tailored lending logic, the solution provides customized financing paths, empowering users to move forward with confidence.<br><br>Key outcomes include an expanded borrower base, faster loan decision times, and improved access to financing options for clients with ITINs or non-traditional credit profiles. BuyHouseEZ now stands as a beacon of financial empowerment—redefining what it means to make homeownership possible for all.",
+              "header_size": "p",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 18
+              },
+              "typography_font_weight": "400",
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.6
+              },
+              "title_color": "#B5B5B5",
+              "_margin": {
+                "unit": "px",
+                "top": "20",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": [],
+            "widgetType": "heading"
+          }
+        ],
+        "isInner": true
+      }
+    ],
+    "isInner": false
+  }
+]

@@ -4,7 +4,7 @@ import ourTeamData from "@/content/pages/our-team.json";
 import TeamGrid from "./TeamGrid";
 
 export const metadata: Metadata = {
-  title: "Our Team - Nimo",
+  title: "Our Team - Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
   description: "Meet the team behind Nimo.",
 };
 
