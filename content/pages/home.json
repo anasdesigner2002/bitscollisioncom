@@ -44,67 +44,67 @@
           },
           "enable_social_links": "yes",
           "social_links": [
-  {
-    "_id": "e35109b",
-    "social_icon": {
-      "value": "fab fa-whatsapp",
-      "library": "fa-brands"
-    },
-    "social_link": {
-      "url": "https://www.facebook.com/bitscollision",
-      "is_external": true,
-      "nofollow": true
-    }
-  },
-  {
-    "_id": "3551449",
-    "social_icon": {
-      "value": "fab fa-x-twitter",
-      "library": "fa-brands"
-    },
-    "social_link": {
-      "url": "https://x.com/bitscollision",
-      "is_external": true,
-      "nofollow": true
-    }
-  },
-  {
-    "_id": "598a4b1",
-    "social_icon": {
-      "value": "fab fa-linkedin-in",
-      "library": "fa-brands"
-    },
-    "social_link": {
-      "url": "https://www.linkedin.com/company/bitscollision/",
-      "is_external": true,
-      "nofollow": true
-    }
-  },
-  {
-    "_id": "f6f7ef3",
-    "social_icon": {
-      "value": "fab fa-instagram",
-      "library": "fa-brands"
-    },
-    "social_link": {
-      "url": "https://www.instagram.com/bitscollision/",
-      "is_external": true,
-      "nofollow": true
-    }
-  },
-  {
-    "_id": "76309fb",
-    "social_icon": {
-      "value": "fab fa-youtube",
-      "library": "fa-brands"
-    },
-    "social_link": {
-      "url": "https://www.youtube.com/@bitscollision",
-      "is_external": true,
-      "nofollow": true
-    }
-  }
-],
+            {
+              "_id": "e35109b",
+              "social_icon": {
+                "value": "fab fa-whatsapp",
+                "library": "fa-brands"
+              },
+              "social_link": {
+                "url": "https://www.facebook.com/bitscollision",
+                "is_external": true,
+                "nofollow": true
+              }
+            },
+            {
+              "_id": "3551449",
+              "social_icon": {
+                "value": "fab fa-x-twitter",
+                "library": "fa-brands"
+              },
+              "social_link": {
+                "url": "https://x.com/bitscollision",
+                "is_external": true,
+                "nofollow": true
+              }
+            },
+            {
+              "_id": "598a4b1",
+              "social_icon": {
+                "value": "fab fa-linkedin-in",
+                "library": "fa-brands"
+              },
+              "social_link": {
+                "url": "https://www.linkedin.com/company/bitscollision/",
+                "is_external": true,
+                "nofollow": true
+              }
+            },
+            {
+              "_id": "f6f7ef3",
+              "social_icon": {
+                "value": "fab fa-instagram",
+                "library": "fa-brands"
+              },
+              "social_link": {
+                "url": "https://www.instagram.com/bitscollision/",
+                "is_external": true,
+                "nofollow": true
+              }
+            },
+            {
+              "_id": "76309fb",
+              "social_icon": {
+                "value": "fab fa-youtube",
+                "library": "fa-brands"
+              },
+              "social_link": {
+                "url": "https://www.youtube.com/@bitscollision",
+                "is_external": true,
+                "nofollow": true
+              }
+            }
+          ],
           "image_1": {
             "url": "/images/h1-bg-img-1.webp",
             "id": 48,
@@ -1157,7 +1157,7 @@
           "author_images": [
             {
               "id": 74,
-              "url": "/images/t1-author-1.webp"
+              "url": "/images/t1-author-a.webp"
             },
             {
               "id": 131,
@@ -1220,9 +1220,9 @@
           "testimonial_lists": [
             {
               "_id": "edec0ac",
-              "comment": "\"From start to finish, the communication was seamless and the design blew us away. They really know how to bring a brand to life!\"",
-              "name": "— James R.",
-              "designation": "Startup Founder",
+              "comment": "\"A polished digital solution delivered on time with professionalism. A team we would readily recommend\"",
+              "name": "Ahmed-AI-Bayati",
+              "designation": "CEO & Founder",
               "author_image": {
                 "url": "/images/p1-logo-15-15.png",
                 "id": 74,
@@ -1236,9 +1236,9 @@
               }
             },
             {
-              "comment": "\"From start to finish, the communication was seamless and the design blew us away. They really know how to bring a brand to life!\"",
-              "name": "— James R.",
-              "designation": "Startup Founder",
+              "comment": "\"Highly professional services with strong creative and technical expertise.We are thankful for their consistent and expert professional support.\"",
+              "name": "Muhammad Almosilhi",
+              "designation": "CEO",
               "author_image": {
                 "url": "/images/p1-logo-15-16.png",
                 "id": 132,
@@ -1253,9 +1253,9 @@
               "_id": "0665e14"
             },
             {
-              "comment": "\"From start to finish, the communication was seamless and the design blew us away. They really know how to bring a brand to life!\"",
-              "name": "— James R.",
-              "designation": "Startup Founder",
+              "comment": "\"A polished digital solution delivered on time with professionalism. A team we would readily recommend\"",
+              "name": "Ahmed-AI-Bayati",
+              "designation": "CEO & Founder",
               "author_image": {
                 "url": "/images/p1-logo-15-17.png",
                 "id": 133,
@@ -1270,9 +1270,9 @@
               "_id": "b06c02c"
             },
             {
-              "comment": "\"From start to finish, the communication was seamless and the design blew us away. They really know how to bring a brand to life!\"",
-              "name": "— James R.",
-              "designation": "Startup Founder",
+              "comment": "\"Efficient workflow and high-quality design delivery. We are greatful for their smooth and highly professional service.\"",
+              "name": "Ahmed-AI-Bayati",
+              "designation": "CEO & Founder",
               "author_image": {
                 "url": "/images/p1-logo-15-18.png",
                 "id": 131,
@@ -1287,9 +1287,9 @@
               "_id": "a8d7bde"
             },
             {
-              "comment": "\"From start to finish, the communication was seamless and the design blew us away. They really know how to bring a brand to life!\"",
-              "name": "— James R.",
-              "designation": "Startup Founder",
+              "comment": "\"Reliable digital partner with strong technical skills\"",
+              "name": "Ahmed-AI-Bayati",
+              "designation": "CEO & Founder",
               "author_image": {
                 "url": "/images/p1-logo-15-19.png",
                 "id": 170,
@@ -1304,9 +1304,9 @@
               "_id": "37a2c09"
             },
             {
-              "comment": "\"From start to finish, the communication was seamless and the design blew us away. They really know how to bring a brand to life!\"",
-              "name": "— James R.",
-              "designation": "Startup Founder",
+              "comment": "\"The team helped us translate our mission into a clear digital experience through strong design & development alignment. A reliable recommendation for digital solutions\"",
+              "name": "DIGP Imran Yaqoob",
+              "designation": "Sindh Police",
               "author_image": {
                 "url": "/images/p1-logo-15-20.png",
                 "id": 172,
@@ -1474,12 +1474,12 @@
               "_id": "5700689"
             },
             {
-              "comment": "\"From start to finish, the communication was seamless and the design blew us away. They really know how to bring a brand to life!\"",
-              "name": "— James R.",
-              "designation": "Startup Founder",
+              "comment": "\"Highly professional services with strong creative and technical expertise.We are thankful for their consistent and expert professional support.\"",
+              "name": "Muhammad Almosilhi",
+              "designation": "CEO",
               "author_image": {
                 "url": "/images/p1-logo-15-16.png",
-                "id": 170,
+                "id": 132,
                 "size": "",
                 "alt": "",
                 "source": "library"
@@ -1488,7 +1488,7 @@
                 "value": "flaticon flaticon-double-quotes",
                 "library": "element-helper-flaticon"
               },
-              "_id": "b5649e7"
+              "_id": "0665e54"
             },
             {
               "comment": "\"From start to finish, the communication was seamless and the design blew us away. They really know how to bring a brand to life!\"",
@@ -1525,12 +1525,12 @@
               "_id": "3957fd4"
             },
             {
-              "comment": "\"From start to finish, the communication was seamless and the design blew us away. They really know how to bring a brand to life!\"",
-              "name": "— James R.",
-              "designation": "Startup Founder",
+              "comment": "\"Reliable digital partner with strong technical skills\"",
+              "name": "Ahmed-AI-Bayati",
+              "designation": "CEO & Founder",
               "author_image": {
                 "url": "/images/p1-logo-15-19.png",
-                "id": 174,
+                "id": 170,
                 "size": "",
                 "alt": "",
                 "source": "library"
@@ -1539,15 +1539,15 @@
                 "value": "flaticon flaticon-double-quotes",
                 "library": "element-helper-flaticon"
               },
-              "_id": "4200449"
+              "_id": "37a2c00"
             },
             {
-              "comment": "\"From start to finish, the communication was seamless and the design blew us away. They really know how to bring a brand to life!\"",
-              "name": "— James R.",
-              "designation": "Startup Founder",
+              "comment": "\"The team helped us translate our mission into a clear digital experience through strong design & development alignment. A reliable recommendation for digital solutions\"",
+              "name": "DIGP Imran Yaqoob",
+              "designation": "Sindh Police",
               "author_image": {
                 "url": "/images/p1-logo-15-20.png",
-                "id": 175,
+                "id": 172,
                 "size": "",
                 "alt": "",
                 "source": "library"
@@ -1556,7 +1556,7 @@
                 "value": "flaticon flaticon-double-quotes",
                 "library": "element-helper-flaticon"
               },
-              "_id": "14d3362"
+              "_id": "d434793"
             },
             {
               "comment": "\"From start to finish, the communication was seamless and the design blew us away. They really know how to bring a brand to life!\"",
@@ -1890,7 +1890,7 @@
                 },
                 {
                   "team_image": {
-                    "url": "/images/t1-img-3.webp",
+                    "url": "/images/t1-img-22.webp",
                     "id": 201,
                     "size": "",
                     "alt": "",
@@ -1957,7 +1957,7 @@
                 },
                 {
                   "team_image": {
-                    "url": "/images/t1-img-4.webp",
+                    "url": "/images/t1-img-27.webp",
                     "id": 202,
                     "size": "",
                     "alt": "",
@@ -2097,8 +2097,8 @@
                     "alt": "",
                     "source": "library"
                   },
-                  "name": "Muhammad Anas Anwar ",
-                  "designation": "SQA Lead",
+                  "name": "Anas Shahid",
+                  "designation": "Developer and Editor",
                   "link": {
                     "url": "",
                     "is_external": "",
@@ -2159,7 +2159,10 @@
               ],
               "button_left_text": "More of our",
               "button_text": "Team member",
-              "social_links": [],
+              "button_link": {
+                "url": "/our-team/"
+              },
+
               "enable_button_icon": "yes",
               "big_title_1": "Expert",
               "big_title_2": "Team",
