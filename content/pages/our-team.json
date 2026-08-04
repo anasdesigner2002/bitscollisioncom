@@ -56,7 +56,7 @@
                 {
                   "_id": "24f359b",
                   "team_image": {
-                    "url": "/images/t1-img-1.webp",
+                    "url": "/images/t1-img-7.webp",
                     "id": 200,
                     "size": "",
                     "alt": "",
@@ -122,7 +122,7 @@
                 },
                 {
                   "team_image": {
-                    "url": "/images/t1-img-2.webp",
+                    "url": "/images/t1-img-28.png",
                     "id": 199,
                     "size": "",
                     "alt": "",
@@ -189,7 +189,7 @@
                 },
                 {
                   "team_image": {
-                    "url": "/images/t1-img-3.webp",
+                    "url": "/images/t1-img-10.webp",
                     "id": 201,
                     "size": "",
                     "alt": "",
@@ -323,7 +323,7 @@
                 },
                 {
                   "team_image": {
-                    "url": "/images/t1-img-5.webp",
+                    "url": "/images/t1-img-15.webp",
                     "id": 203,
                     "size": "",
                     "alt": "",
@@ -382,7 +382,7 @@
                   ],
                   "activeItemIndex": 1,
                   "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
-                  "_id": "4601c2b",
+                  "_id": "4601c22",
                   "button_icon": {
                     "value": " fas fa-long-arrow-right",
                     "library": "element-helper-icons"
@@ -390,7 +390,7 @@
                 },
                 {
                   "team_image": {
-                    "url": "/images/t1-img-6.webp",
+                    "url": "/images/t1-img-11.webp",
                     "id": 198,
                     "size": "",
                     "alt": "",
@@ -457,7 +457,7 @@
                 },
                 {
                   "team_image": {
-                    "url": "/images/t1-img-2.webp",
+                    "url": "/images/t1-img-18.webp",
                     "id": 199,
                     "size": "",
                     "alt": "",
@@ -516,7 +516,7 @@
                   ],
                   "activeItemIndex": 1,
                   "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
-                  "_id": "8479e02",
+                  "_id": "8479e01",
                   "button_icon": {
                     "value": " fas fa-long-arrow-right",
                     "library": "element-helper-icons"
@@ -583,7 +583,7 @@
                   ],
                   "activeItemIndex": 1,
                   "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
-                  "_id": "2fdb03a",
+                  "_id": "2fdb03b",
                   "button_icon": {
                     "value": " fas fa-long-arrow-right",
                     "library": "element-helper-icons"
@@ -650,7 +650,7 @@
                   ],
                   "activeItemIndex": 1,
                   "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
-                  "_id": "d9982ac",
+                  "_id": "d9982az",
                   "button_icon": {
                     "value": " fas fa-long-arrow-right",
                     "library": "element-helper-icons"
@@ -658,7 +658,7 @@
                 },
                 {
                   "team_image": {
-                    "url": "/images/t1-img-5.webp",
+                    "url": "/images/t1-img-29.png",
                     "id": 203,
                     "size": "",
                     "alt": "",
@@ -717,14 +717,14 @@
                   ],
                   "activeItemIndex": 1,
                   "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
-                  "_id": "4601c2b",
+                  "_id": "4601c2r",
                   "button_icon": {
                     "value": " fas fa-long-arrow-right",
                     "library": "element-helper-icons"
                   }
                 },
                 {
-                  "_id": "24f359b",
+                  "_id": "24f3599",
                   "team_image": {
                     "url": "/images/t1-img-1.webp",
                     "id": 200,
@@ -851,7 +851,7 @@
                   ],
                   "activeItemIndex": 1,
                   "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
-                  "_id": "8479e02",
+                  "_id": "8479e05",
                   "button_icon": {
                     "value": " fas fa-long-arrow-right",
                     "library": "element-helper-icons"
@@ -918,7 +918,7 @@
                   ],
                   "activeItemIndex": 1,
                   "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
-                  "_id": "2fdb03a",
+                  "_id": "2fdb03c",
                   "button_icon": {
                     "value": " fas fa-long-arrow-right",
                     "library": "element-helper-icons"
@@ -985,7 +985,7 @@
                   ],
                   "activeItemIndex": 1,
                   "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
-                  "_id": "d9982ac",
+                  "_id": "d9982aj",
                   "button_icon": {
                     "value": " fas fa-long-arrow-right",
                     "library": "element-helper-icons"
@@ -1052,7 +1052,7 @@
                   ],
                   "activeItemIndex": 1,
                   "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
-                  "_id": "4601c2b",
+                  "_id": "4601c2y",
                   "button_icon": {
                     "value": " fas fa-long-arrow-right",
                     "library": "element-helper-icons"
@@ -1060,7 +1060,7 @@
                 },
                 {
                   "team_image": {
-                    "url": "/images/t1-img-6.webp",
+                    "url": "/images/t1-img-8.webp",
                     "id": 198,
                     "size": "",
                     "alt": "",
@@ -1119,7 +1119,7 @@
                   ],
                   "activeItemIndex": 1,
                   "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
-                  "_id": "4e68f9c",
+                  "_id": "4e68f96",
                   "button_icon": {
                     "value": " fas fa-long-arrow-right",
                     "library": "element-helper-icons"
@@ -1186,7 +1186,7 @@
                   ],
                   "activeItemIndex": 1,
                   "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
-                  "_id": "8479e02",
+                  "_id": "8479e00",
                   "button_icon": {
                     "value": " fas fa-long-arrow-right",
                     "library": "element-helper-icons"
@@ -1194,7 +1194,7 @@
                 },
                 {
                   "team_image": {
-                    "url": "/images/t1-img-3.webp",
+                    "url": "/images/t1-img-24.webp",
                     "id": 201,
                     "size": "",
                     "alt": "",
@@ -1253,7 +1253,7 @@
                   ],
                   "activeItemIndex": 1,
                   "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
-                  "_id": "2fdb03a",
+                  "_id": "2fdb03d",
                   "button_icon": {
                     "value": " fas fa-long-arrow-right",
                     "library": "element-helper-icons"
@@ -1320,7 +1320,7 @@
                   ],
                   "activeItemIndex": 1,
                   "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
-                  "_id": "d9982ac",
+                  "_id": "d9982a3",
                   "button_icon": {
                     "value": " fas fa-long-arrow-right",
                     "library": "element-helper-icons"
@@ -1328,7 +1328,7 @@
                 },
                 {
                   "team_image": {
-                    "url": "/images/t1-img-5.webp",
+                    "url": "/images/t1-img-16.webp",
                     "id": 202,
                     "size": "",
                     "alt": "",
@@ -1387,7 +1387,7 @@
                   ],
                   "activeItemIndex": 1,
                   "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
-                  "_id": "4601c2b",
+                  "_id": "4601c2n",
                   "button_icon": {
                     "value": " fas fa-long-arrow-right",
                     "library": "element-helper-icons"
@@ -1454,7 +1454,7 @@
                   ],
                   "activeItemIndex": 1,
                   "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
-                  "_id": "4601c2b",
+                  "_id": "4601c23",
                   "button_icon": {
                     "value": " fas fa-long-arrow-right",
                     "library": "element-helper-icons"
@@ -1521,7 +1521,7 @@
                   ],
                   "activeItemIndex": 1,
                   "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
-                  "_id": "4601c2b",
+                  "_id": "4601c27",
                   "button_icon": {
                     "value": " fas fa-long-arrow-right",
                     "library": "element-helper-icons"
@@ -1588,7 +1588,7 @@
                   ],
                   "activeItemIndex": 1,
                   "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
-                  "_id": "4601c2b",
+                  "_id": "4601c20",
                   "button_icon": {
                     "value": " fas fa-long-arrow-right",
                     "library": "element-helper-icons"

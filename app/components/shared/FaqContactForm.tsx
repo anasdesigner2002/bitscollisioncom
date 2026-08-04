@@ -20,7 +20,7 @@ export default function FaqContactForm() {
       <div className="button-x-author wow fadeInUp2" data-wow-delay=".1s">
         <div className="author">
           <div className="author-img wa-img-cover wa-fix">
-            <img src="/images/t1-author-a.webp" alt="Bits Collision" />
+            <img src="/images/t1-author-a.png" alt="Bits Collision" />
           </div>
           <div className="content">
             <h4 className="nm-h-1 author-name">Bits Collision</h4>
