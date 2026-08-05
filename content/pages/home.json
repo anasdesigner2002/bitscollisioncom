@@ -493,7 +493,7 @@
                 "library": "element-helper-flaticon"
               },
               "tab_image": {
-                "url": "/images/s1-img-2.webp",
+                "url": "/images/s1-img-3.webp",
                 "id": 108,
                 "size": "",
                 "alt": "",
@@ -530,7 +530,7 @@
                 "library": "element-helper-flaticon"
               },
               "tab_image": {
-                "url": "/images/s1-img-3.webp",
+                "url": "/images/s1-img-4.webp",
                 "id": 107,
                 "size": "",
                 "alt": "",
@@ -567,7 +567,7 @@
                 "library": "element-helper-flaticon"
               },
               "tab_image": {
-                "url": "/images/s1-img-4.webp",
+                "url": "/images/s1-img-5.webp",
                 "id": 106,
                 "size": "",
                 "alt": "",
@@ -604,7 +604,7 @@
                 "library": "element-helper-flaticon"
               },
               "tab_image": {
-                "url": "/images/s1-img-5.webp",
+                "url": "/images/s1-img-6.webp",
                 "id": 105,
                 "size": "",
                 "alt": "",
@@ -641,7 +641,7 @@
                 "library": "element-helper-flaticon"
               },
               "tab_image": {
-                "url": "/images/s1-img-5.webp",
+                "url": "/images/s1-img-7.webp",
                 "id": 105,
                 "size": "",
                 "alt": "",
@@ -679,7 +679,7 @@
                 "library": "element-helper-flaticon"
               },
               "tab_image": {
-                "url": "/images/s1-img-5.webp",
+                "url": "/images/s1-img-8.webp",
                 "id": 105,
                 "size": "",
                 "alt": "",
@@ -1406,9 +1406,9 @@
               "_id": "5f98dc5"
             },
             {
-              "comment": "\"From start to finish, the communication was seamless and the design blew us away. They really know how to bring a brand to life!\"",
-              "name": "— James R.",
-              "designation": "Startup Founder",
+              "comment": "\"Professional, detail-oriented, and consistent across software development and delivery\"",
+              "name": "Lubbi Ernjakovic",
+              "designation": "COO",
               "author_image": {
                 "url": "/images/p1-logo-15-26.png",
                 "id": 74,
@@ -1440,9 +1440,9 @@
               "_id": "668d9d3"
             },
             {
-              "comment": "\"From start to finish, the communication was seamless and the design blew us away. They really know how to bring a brand to life!\"",
-              "name": "— James R.",
-              "designation": "Startup Founder",
+              "comment": "\"Secure, user-centric, and well-architected digital solutions. The team demonstrated strong product maturity.\"",
+              "name": "Yasir Sherazi",
+              "designation": "CEO",
               "author_image": {
                 "url": "/images/p1-logo-15-28.png",
                 "id": 133,
@@ -1457,12 +1457,13 @@
               "_id": "5ae74c7"
             },
             {
-              "comment": "\"From start to finish, the communication was seamless and the design blew us away. They really know how to bring a brand to life!\"",
-              "name": "— James R.",
-              "designation": "Startup Founder",
+              "_id": "edec0tc",
+              "comment": "\"A polished digital solution delivered on time with professionalism. A team we would readily recommend\"",
+              "name": "Ahmed-AI-Bayati",
+              "designation": "CEO & Founder",
               "author_image": {
                 "url": "/images/p1-logo-15-15.png",
-                "id": 131,
+                "id": 74,
                 "size": "",
                 "alt": "",
                 "source": "library"
@@ -1470,8 +1471,7 @@
               "quote_icon": {
                 "value": "flaticon flaticon-double-quotes",
                 "library": "element-helper-flaticon"
-              },
-              "_id": "5700689"
+              }
             },
             {
               "comment": "\"Highly professional services with strong creative and technical expertise.We are thankful for their consistent and expert professional support.\"",
