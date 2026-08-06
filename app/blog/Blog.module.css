@@ -1,0 +1,57 @@
+/*
+ * Small adjustments to the theme's blog archive (nimo-extra.css) now that it
+ * renders a live feed rather than four demo posts.
+ *
+ * The theme scopes its list/sidebar styling to `a` elements, on the
+ * assumption that every meta line, category and tag links to a WordPress
+ * archive. Those archives don't exist here - there is no author, date or
+ * category page to send anyone to - so those items are plain <span>s, and
+ * these rules give them the styling the anchors used to carry.
+ */
+
+.listItem :global(.item-meta) span {
+  margin-right: 20px;
+  color: #616161;
+}
+
+.listItem :global(.item-meta) span:last-child {
+  margin-right: 0;
+}
+
+/* Covers arrive pre-cropped at 1000x420 from dev.to; reserving that ratio
+   keeps the list from reflowing as each image loads. */
+.listItem :global(.item-img) {
+  aspect-ratio: 1000 / 420;
+}
+
+.excerpt {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.categoryRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+li:last-child > .categoryRow {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.tag {
+  padding: 5px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 100px;
+}
+
+.empty {
+  padding: 40px 0 10px;
+  color: var(--nm-clr-p-1);
+}

@@ -6,7 +6,7 @@ import PricingPin from "@/app/components/shared/PricingPin";
 import pricePageData from "@/content/pages/price-page.json";
 
 export const metadata: Metadata = {
-  title: "Price Page - Nimo",
+  title: "Pricing",
   description: "Nimo Digital marketing agency pricing",
 };
 

@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/govq.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "GOVq Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "GovQ",
   description: "Business Consulting Agency",
 };
 

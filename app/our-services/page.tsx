@@ -5,7 +5,7 @@ import PageBreadcrumb from "@/app/components/shared/PageBreadcrumb";
 import ourServicesData from "@/content/pages/our-services.json";
 
 export const metadata: Metadata = {
-  title: "Our Services - Nimo",
+  title: "Our Services",
   description: "We area offing the best solutions",
 };
 

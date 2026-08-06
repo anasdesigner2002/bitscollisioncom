@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/electroysis.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "Electroysis Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "Electroysis",
   description: "Business Consulting Agency",
 };
 

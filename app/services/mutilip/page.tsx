@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/mutilip.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "Mutilip Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "Multilip",
   description: "Business Consulting Agency",
 };
 

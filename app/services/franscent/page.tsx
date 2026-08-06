@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/franscent.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "Franscent Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "Franscent",
   description: "Business Consulting Agency",
 };
 

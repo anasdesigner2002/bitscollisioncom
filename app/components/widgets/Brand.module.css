@@ -19,3 +19,26 @@
 .pauseOnHover:hover {
   animation-play-state: paused;
 }
+
+/* The client marks (bitscollision.com's "Our Featured Partner's" set) are
+   Figma-exported SVGs on a shared 608x116 canvas, drawn in each brand's own
+   dark colours - invisible against this theme's near-black strip. Flattening
+   every one to a white silhouette (the same `brightness(0) invert(1)` the
+   live site uses) keeps the row optically consistent whatever each mark's
+   own palette is, and a fixed height normalises their canvases to the ~30px
+   the theme's original logo images occupied.
+   The nth-child(2) copy's recolour filter in nimo-core.css - a yellow-green
+   tint from the demo palette - is overridden rather than layered on: here
+   the two copies that roll through on hover are just the same mark at full
+   strength, so the strip brightens under the cursor. */
+.logo img {
+  height: 34px;
+  width: auto;
+  filter: brightness(0) invert(1);
+  opacity: 0.45;
+}
+
+.logo img:nth-child(2),
+.logo img:nth-child(3) {
+  opacity: 1;
+}

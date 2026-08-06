@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/signal-app.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "Signal App Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "Signal App",
   description: "Business Consulting Agency",
 };
 

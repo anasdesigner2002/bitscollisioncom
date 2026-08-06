@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/sequence-app.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "Sequence App Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "Sequence App",
   description: "Business Consulting Agency",
 };
 

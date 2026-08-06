@@ -34,7 +34,7 @@
             "value": " fas fa-long-arrow-right",
             "library": "element-helper-icons"
           },
-          "enable_video_button": "yes",
+          "enable_video_button": "",
           "video_button_text": "Watch Video",
           "video_button_link": {
             "url": "http://themexriver.com/wp/nimo/plybtn-video-1.mp4",
@@ -188,27 +188,67 @@
             "alt": "",
             "source": "library"
           },
-          "brand_heading": "Trusted by the biggest brand worldwide",
+          "brand_heading": "Our Featured Partner's",
           "brands_image": [
             {
-              "id": 55,
-              "url": "/images/p1-logo-5.webp"
+              "url": "/images/clients/milaap.webp",
+              "alt": "Milaap"
             },
             {
-              "id": 56,
-              "url": "/images/p1-logo-1.webp"
+              "url": "/images/clients/multilip.webp",
+              "alt": "Multilip"
             },
             {
-              "id": 57,
-              "url": "/images/p1-logo-2.webp"
+              "url": "/images/clients/NOTE.webp",
+              "alt": "Note"
             },
             {
-              "id": 58,
-              "url": "/images/p1-logo-3.webp"
+              "url": "/images/clients/oyah_change.webp",
+              "alt": "Oyah Change"
             },
             {
-              "id": 59,
-              "url": "/images/p1-logo-4.webp"
+              "url": "/images/clients/pipzero.webp",
+              "alt": "Pipzero"
+            },
+            {
+              "url": "/images/clients/SEQUENCE.webp",
+              "alt": "Sequence"
+            },
+            {
+              "url": "/images/clients/SIGNAL.webp",
+              "alt": "Signal"
+            },
+            {
+              "url": "/images/clients/basketo.webp",
+              "alt": "Basketo"
+            },
+            {
+              "url": "/images/clients/dybba.webp",
+              "alt": "Dybba"
+            },
+            {
+              "url": "/images/clients/HERFA.webp",
+              "alt": "Herfa"
+            },
+            {
+              "url": "/images/clients/highclass.webp",
+              "alt": "Highclass"
+            },
+            {
+              "url": "/images/clients/MAGUSAI.webp",
+              "alt": "MagusAI"
+            },
+            {
+              "url": "/images/clients/credkin.webp",
+              "alt": "CredKin"
+            },
+            {
+              "url": "/images/clients/GOVQ.webp",
+              "alt": "GovQ"
+            },
+            {
+              "url": "/images/clients/wellmoe.webp",
+              "alt": "Wellmoe"
             }
           ],
           "brand_images": [],
@@ -425,7 +465,6 @@
                 "alt": "",
                 "source": "library"
               },
-
               "tab_title": "1.  Custom Softwear Development ",
               "tab_heading_1": "Tab Heading",
               "description_1": "<b>We build secure, scalable software solutions</b> — delivering custom applications, enterprise systems, and powerful integrations designed to streamline operations and support long-term business growth.",
@@ -647,7 +686,6 @@
                 "alt": "",
                 "source": "library"
               },
-
               "tab_title": "7. WordPress Development",
               "tab_heading_1": "Tab Heading",
               "description_1": "<b>We build fast and fully customized WordPress websites</b> — delivering secure, SEO-friendly, and easy-to-manage solutions tailored to your business goals.",
@@ -719,7 +757,6 @@
     ],
     "isInner": false
   },
-
   {
     "id": "ab81ba5",
     "elType": "container",
@@ -790,28 +827,17 @@
             },
             {
               "image_1": {
-                "url": "/images/c1-img.gif",
+                "url": "/images/choose-review-panel.svg",
                 "id": 119,
                 "size": "",
                 "alt": "",
                 "source": "library"
               },
-              "image_2": {
-                "url": "/images/c1-handshake-2.webm",
-                "id": 118,
-                "size": "",
-                "alt": "",
-                "source": "library"
-              },
-              "icon": {
-                "value": "flaticon flaticon-electricity",
-                "library": "element-helper-flaticon"
-              },
-              "title": "Seamless Collaboration",
-              "description": "Transparent communication and feedback loops at every stage of the project.",
+              "title": "On-Time<br>Delivery",
+              "description": "Scoped sprints and weekly builds, so the date we agree on is the date you get.",
               "link_text": "Read More",
               "tags": "<p>Web Design</p>",
-              "layout_style": "style_2",
+              "layout_style": "style_3",
               "_id": "21c183d",
               "sub_title": "Service Sub Title",
               "count": 1,
@@ -859,12 +885,12 @@
             "alt": "",
             "source": "library"
           },
-          "author_info": "99+ Happy client",
+          "author_info": "99+ Happy Clients",
           "info_icon": {
             "value": "flaticon flaticon-time",
-            "library": "element-helper-flaticon"
+            "library": "element-helper-icons"
           },
-          "info_title": "7 day turnaround",
+          "info_title": "Quick Turnaround",
           "info_image_1": {
             "url": "/images/c1-bg-shape-2.webp",
             "id": 121,
@@ -1127,12 +1153,12 @@
             "alt": "",
             "source": "library"
           },
-          "author_info": "99+ Happy client",
+          "author_info": "99+ Happy Clients",
           "info_icon": {
             "value": "flaticon flaticon-time",
-            "library": "element-helper-flaticon"
+            "library": "element-helper-icons"
           },
-          "info_title": "7 day turnaround",
+          "info_title": "Quick Turnaround",
           "info_image_1": {
             "url": "/images/c1-bg-shape-2.webp",
             "id": 121,
@@ -1172,13 +1198,6 @@
               "url": "/images/t1-author-3.webp"
             }
           ],
-          "top_title_image": {
-            "url": "/images/haha-emoji.webp",
-            "id": 157,
-            "size": "",
-            "alt": "",
-            "source": "library"
-          },
           "image_3": {
             "url": "/images/p1-bg-shape-1.webp",
             "id": 159,
@@ -1598,7 +1617,8 @@
             "value": " fas fa-long-arrow-right",
             "library": "element-helper-icons"
           },
-          "gallery_heading": "Gallery Heading"
+          "gallery_heading": "Gallery Heading",
+          "enable_button": ""
         },
         "elements": [],
         "widgetType": "tx_testimonial"
@@ -1677,7 +1697,7 @@
           ],
           "button_text": "Button Text",
           "author_info": "Default Text",
-          "info_title": "Info Title",
+          "info_title": "Quick Turnaround",
           "image_1": {
             "url": "/images/a1-bg-shape-bg-2.webp",
             "id": 115,
@@ -1692,7 +1712,11 @@
             "alt": "",
             "source": "library"
           },
-          "big_title": "Big Heading Title"
+          "big_title": "Big Heading Title",
+          "info_icon": {
+            "value": "flaticon flaticon-time",
+            "library": "element-helper-icons"
+          }
         },
         "elements": [],
         "widgetType": "tx_service_section"
@@ -2162,7 +2186,6 @@
               "button_link": {
                 "url": "/our-team/"
               },
-
               "enable_button_icon": "yes",
               "big_title_1": "Expert",
               "big_title_2": "Team",
@@ -2273,151 +2296,8 @@
                       ],
                       "button_text": "Button Text"
                     }
-                  }
-                },
-                {
-                  "tab_title": "Job Career",
-                  "tab_heading_1": "Tab Heading",
-                  "description_1": "Description",
-                  "feature_lists_1": "Feature",
-                  "button_text": "Button Text",
-                  "design_style": "style_2",
-                  "is_active": "",
-                  "template": "248",
-                  "_id": "cfe8bf4",
-                  "resolved_template": {
-                    "widgetType": "tx_faq",
-                    "settings": {
-                      "sub_title": "Sub Title",
-                      "title": "Heading Title",
-                      "title_2": "Know more about us by FAQ",
-                      "description": "The opportunity to work abroad is a popular prospect, one",
-                      "faq_lists": [
-                        {
-                          "title": "Are you currently hiring?",
-                          "content": "Yes, <b>we welcome</b> talented professionals and regularly look for skilled individuals to join our growing team.",
-                          "_id": "9a6f99e",
-                          "is_active": "yes",
-                          "count": "01"
-                        },
-                        {
-                          "title": "How can I apply for a job?",
-                          "content": "You can <b>contact us</b> with your CV and details about your skills and experience.",
-                          "is_active": "",
-                          "count": "02",
-                          "_id": "71f3685"
-                        },
-                        {
-                          "title": "What positions are available?",
-                          "content": "<b>Opportunities</b> may be available in development, design, digital marketing, project management, and other technical roles.",
-                          "is_active": "",
-                          "count": "03",
-                          "_id": "83684e3"
-                        },
-                        {
-                          "title": "Do you offer internships?",
-                          "content": "Yes, <b>Internship Opportunities</b> may be available for motivated individuals looking to gain practical experience.",
-                          "is_active": "",
-                          "count": "04",
-                          "_id": "5434294"
-                        },
-                        {
-                          "title": "Can I apply for a remote position?",
-                          "content": "Depending <b>on the role</b> on the role, we may offer remote or flexible working opportunities.",
-                          "is_active": "",
-                          "count": "05",
-                          "_id": "e898567"
-                        },
-                        {
-                          "title": "What skills do you look for?",
-                          "content": "We <b>value technical</b> expertise, creativity, problem-solving, communication, and a willingness to learn.",
-                          "is_active": "",
-                          "count": "06",
-                          "_id": "d4f610d"
-                        },
-                        {
-                          "title": "How will I know if I am selected?",
-                          "content": "Our <b>HR team</b> will contact shortlisted candidates for the next steps in the hiring process.",
-                          "is_active": "",
-                          "count": "07",
-                          "_id": "5c8d9ac"
-                        }
-                      ],
-                      "button_text": "Button Text"
-                    }
-                  }
-                },
-                {
-                  "tab_title": "Pricing & Plan",
-                  "tab_heading_1": "Tab Heading",
-                  "description_1": "Description",
-                  "feature_lists_1": "Feature",
-                  "button_text": "Button Text",
-                  "design_style": "style_2",
-                  "is_active": "",
-                  "template": "248",
-                  "_id": "5065b08",
-                  "resolved_template": {
-                    "widgetType": "tx_faq",
-                    "settings": {
-                      "sub_title": "Sub Title",
-                      "title": "Heading Title",
-                      "title_2": "Know more about us by FAQ",
-                      "description": "The opportunity to work abroad is a popular prospect, one",
-                      "faq_lists": [
-                        {
-                          "title": "How much do your services cost?",
-                          "content": "Pricing <b>depends on</b> your project requirements, features, complexity, and timeline.",
-                          "_id": "9a6f99e",
-                          "is_active": "yes",
-                          "count": "01"
-                        },
-                        {
-                          "title": "Do you offer custom pricing?",
-                          "content": "Yes, <b>we create</b> customized plans based on your specific business and project needs.",
-                          "is_active": "",
-                          "count": "02",
-                          "_id": "71f3685"
-                        },
-                        {
-                          "title": "Can I get a free project quote?",
-                          "content": "Yes, <b>share your</b> requirements with us and our team will provide an initial project estimate.",
-                          "is_active": "",
-                          "count": "03",
-                          "_id": "83684e3"
-                        },
-                        {
-                          "title": "What is included in your pricing?",
-                          "content": "Pricing <b>may include</b> design, development, testing, deployment, and support depending on the selected service.",
-                          "is_active": "",
-                          "count": "04",
-                          "_id": "5434294"
-                        },
-                        {
-                          "title": "Do you require an advance payment?",
-                          "content": "Payment <b>terms depend</b> on the project scope and are discussed and agreed upon before starting the project.",
-                          "is_active": "",
-                          "count": "05",
-                          "_id": "e898567"
-                        },
-                        {
-                          "title": "Can I change my project requirements?",
-                          "content": "Yes, <b>requirements</b> can be updated during the project, though additional changes may affect the cost and timeline.",
-                          "is_active": "",
-                          "count": "06",
-                          "_id": "d4f610d"
-                        },
-                        {
-                          "title": "Do you provide ongoing maintenance plans?",
-                          "content": "Yes, <b>we offer</b> ongoing support and maintenance plans based on your website or software requirements.",
-                          "is_active": "",
-                          "count": "07",
-                          "_id": "5c8d9ac"
-                        }
-                      ],
-                      "button_text": "Button Text"
-                    }
-                  }
+                  },
+                  "is_active": "yes"
                 }
               ],
               "button_info_text": "Button Info Text",
@@ -2460,8 +2340,8 @@
         "elType": "widget",
         "settings": {
           "sub_title": "{10} Latest Insights",
-          "title": "Latest insights from Bits Collision",
-          "description": "Explore the latest technology trends, expert insights, and digital strategies from the Bits Collision team. Discover ideas and innovations shaping the future of digital business.",
+          "title": "What developers are reading",
+          "description": "A daily-refreshed pick of the week's best-received programming writing - languages, frameworks, architecture and the craft of building software.",
           "button_text": "More blog",
           "post_by_label": "By",
           "read_more_text": "Read More",

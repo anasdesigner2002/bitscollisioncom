@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/basketo.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "Basketo Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "Basketo",
   description: "Business Consulting Agency",
 };
 
@@ -24,7 +24,7 @@ export default function DigitalStrategyMarketingPage() {
 
   return (
     <main>
-       <PageBreadcrumb title="CREDKIN" current="Credkin" />
+       <PageBreadcrumb title="BASKETO" current="Basketo" />
             <div className={styles.wrap}>
               <div className={styles.column}>{renderElementorTree(widgets)}</div>
             </div>

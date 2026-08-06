@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/giftee.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "Wellmoe Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "Wellmoe",
   description: "Business Consulting Agency",
 };
 

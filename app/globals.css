@@ -3,15 +3,133 @@
   --nm-font-2: var(--font-inter), sans-serif;
 }
 
-/* Bootstrap normally supplies `.dropdown { position: relative; }` so an
-   absolutely-positioned `.dropdown-menu` (left:0; top:100% - see
-   nimo-core.css) anchors under that specific nav item. That rule wasn't
-   part of the small bootstrap.css subset we copied in, so the menu fell
-   back to the nearest positioned ancestor - the fixed-position header
-   itself - landing at left:0 of the whole header bar (next to "Home")
-   regardless of which item was actually hovered. */
-.nm-main-navigation .navbar-nav li.dropdown {
+/* Inner-page breadcrumb band artwork.
+   Built as background layers rather than one image because the band's height
+   is fixed (280 + 135px padding) while its width tracks the viewport: any
+   single fixed-aspect image under `background-size: cover` has to crop on one
+   axis or the other - height-locking it cropped the sides, width-locking it
+   blew the drawing up and cut the top and bottom off.
+   So everything full-bleed is generated here and simply cannot crop: the base
+   gradient, the two skewed grids (repeating gradients, which tile to any
+   width), a glow behind the title, and a scrim keeping the left side quiet
+   enough to read the title against. Only the drawn motif is a file, and it is
+   narrower than the band at every breakpoint and pinned to the right, so it
+   always lands whole and at its intended size.
+   Layer order is top-most first, as CSS lists them. */
+.nm-breadcrumb-area.tx-breadcrumb {
+  background-color: #05060e;
+  background-image:
+    url(/images/breadcrumb-motif.svg),
+    radial-gradient(58% 130% at 16% 104%, rgba(0, 90, 255, 0.3), rgba(10, 42, 189, 0) 68%),
+    linear-gradient(90deg, #05060e 0%, rgba(5, 6, 14, 0.9) 24%, rgba(5, 6, 14, 0) 58%),
+    repeating-linear-gradient(103deg, rgba(61, 91, 208, 0.16) 0 1px, transparent 1px 54px),
+    repeating-linear-gradient(13deg, rgba(61, 91, 208, 0.1) 0 1px, transparent 1px 54px),
+    linear-gradient(135deg, #080a14 0%, #0b0f22 55%, #05060e 100%);
+  background-size: auto 100%, auto, auto, auto, auto, auto;
+  background-position: right 3% center, center, center, center, center, center;
+  background-repeat: no-repeat, no-repeat, no-repeat, repeat, repeat, no-repeat;
+}
+
+/* Below the motif's own width there's nothing to anchor it to - drop it and
+   let the grids and glow carry the band. */
+@media (max-width: 991px) {
+  .nm-breadcrumb-area.tx-breadcrumb {
+    background-image:
+      radial-gradient(70% 130% at 20% 104%, rgba(0, 90, 255, 0.3), rgba(10, 42, 189, 0) 68%),
+      repeating-linear-gradient(103deg, rgba(61, 91, 208, 0.14) 0 1px, transparent 1px 54px),
+      repeating-linear-gradient(13deg, rgba(61, 91, 208, 0.09) 0 1px, transparent 1px 54px),
+      linear-gradient(135deg, #080a14 0%, #0b0f22 55%, #05060e 100%);
+    background-size: auto, auto, auto, auto;
+    background-position: center, center, center, center;
+    background-repeat: no-repeat, repeat, repeat, no-repeat;
+  }
+}
+
+/* Blog cards - the home post grid and the /blog list share the theme's
+   `.nm-blog-1-item` markup. Two things the live feed made necessary that the
+   theme's own three demo posts never exposed: real dev.to headlines run two
+   to four times longer, so a 24px title could swell to four lines and dwarf
+   its own card, and letting every card's text run to its natural length left
+   dates, excerpts and bylines landing at different heights across a row.
+   Clamping title and excerpt to a fixed number of lines settles both - each
+   card presents the same block of text, and the type scale steps back down
+   to card size. */
+.nm-blog-1-item .item-title {
+  font-size: 20px;
+  line-height: 1.32;
+  margin-top: 8px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Whole-card links. The theme only ever linked the headline and a hover
+   badge, and the badge is `scale(0)` on any card that isn't the active one -
+   so most of a card, image included, did nothing when clicked. A stretched
+   anchor covers the card instead; it's the only link in there, so there are
+   no nested anchors and one clear target for assistive tech. */
+.nm-blog-1-item,
+.tz-blog-item {
   position: relative;
+}
+
+.nm-blog-1-item .card-link,
+.tz-blog-item .card-link {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  border-radius: 20px;
+}
+
+.nm-blog-1-item .card-link:focus-visible,
+.tz-blog-item .card-link:focus-visible {
+  outline: 2px solid var(--nm-clr-pr-2);
+  outline-offset: 4px;
+}
+
+/* The theme makes every anchor `display: inline-block` (nimo-core.css's
+   `a, span` reset). Inside the card heading that leaves the <h4> with a
+   single line box wrapping one inline block, so the line clamp above has
+   nothing to count and long headlines run to four or five lines anyway.
+   Putting the link back in the normal inline flow gives the clamp real
+   lines to work with. */
+.nm-blog-1-item .item-title a {
+  display: inline;
+}
+
+.nm-blog-1-item .item-disc {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.6;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Card cover images: `.wa-img-cover` forces `height: 100% !important` onto
+   the <img>, so the theme's fixed 305px image box cropped a hard ~48% out of
+   the sides of every cover - dev.to serves them pre-cropped at 1000x420,
+   which is the framing their author chose, and squeezing that into a nearly
+   square box cut the artwork's own titles in half. Driving the box from a
+   ratio instead of a fixed height leaves `object-fit: cover` far less to
+   trim. 16:9 rather than the source's 2.38:1 here because this row's cards
+   change width on hover (the theme's expand): at the narrow end an exact
+   ratio would leave a ~120px sliver of an image. */
+.nm-blog-1-item .item-img,
+.nm-blog-1-item:is(.active) .item-img {
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
+/* Page scroll freeze while the header's full-screen menu is open (see
+   scroll-lock.ts, which pairs this with `lenis.stop()` - Lenis keeps driving
+   its own scroll otherwise). Both elements need it: `overflow: hidden` on
+   <body> alone still leaves <html> scrollable. */
+.wa-scroll-locked,
+.wa-scroll-locked body {
+  overflow: hidden;
 }
 
 /*
@@ -104,16 +222,6 @@
   .nm-choose-1-author .author-img:nth-child(n + 4) {
     display: none;
   }
-}
-
-/* Bootstrap's base `.dropdown-menu` rule (bootstrap.min.css) sets
-   `position: absolute`, meant for the desktop hover dropdown - nimo-core.css
-   never overrides that for the mobile offcanvas nav's reused `.dropdown-menu`
-   class, so a tapped-open submenu (Team/Shop/Blog under Pages) rendered as a
-   floating overlay on top of the gallery/social sections below instead of
-   pushing them down in normal document flow. */
-.mobile-main-navigation .dropdown-menu {
-  position: static;
 }
 
 /* nimo-core.css references this icon as `url(../img/breadcrumb/icon.svg)`,

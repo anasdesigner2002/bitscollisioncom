@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/odentika.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "Odentika Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "Odentika",
   description: "Business Consulting Agency",
 };
 

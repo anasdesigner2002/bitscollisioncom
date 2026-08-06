@@ -52,6 +52,20 @@
   transform: scale(1.08);
 }
 
+/* Stretched link: covers the whole card so the card still reads as one click
+   target, while staying a sibling of the social links rather than their
+   ancestor (see the note in TeamGrid.tsx). */
+.cardLink {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.cardLink:focus-visible {
+  outline: 2px solid var(--nm-clr-pr-2);
+  outline-offset: -4px;
+}
+
 .overlay {
   position: absolute;
   inset: 0;
@@ -68,6 +82,10 @@
   left: 24px;
   right: 24px;
   bottom: 24px;
+  /* Above the stretched link so the social icons stay clickable, but only
+     where there's actually something to click. */
+  z-index: 2;
+  pointer-events: none;
   transition: transform 0.4s ease;
 }
 
@@ -95,6 +113,7 @@
   display: flex;
   gap: 10px;
   margin-top: 16px;
+  pointer-events: auto;
   opacity: 0;
   transform: translateY(10px);
   transition:

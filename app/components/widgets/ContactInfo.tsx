@@ -24,17 +24,17 @@ export default function ContactInfo({ settings }: { settings: Settings }) {
 
         <div className="nm-contact-1-wrap wa-p-relative">
           <div className="nm-contact-1-img wa-p-relative wow slideInUp2">
-            {settings.image_2?.url && <img src={settings.image_2.url} alt="" />}
+            {settings.image_2?.url && <img src={settings.image_2.url} alt="" loading="lazy" />}
             <div className="nm-contact-1-img-location">
               <div className="dot-icon" />
               {settings.image_3?.url && (
                 <div className="arrow-icon">
-                  <img src={settings.image_3.url} alt="" />
+                  <img src={settings.image_3.url} alt="" loading="lazy" />
                 </div>
               )}
               {settings.image_4?.url && (
                 <div className="icon">
-                  <img src={settings.image_4.url} alt="" />
+                  <img src={settings.image_4.url} alt="" loading="lazy" />
                 </div>
               )}
             </div>

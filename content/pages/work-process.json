@@ -634,7 +634,7 @@
                 "library": "element-helper-flaticon"
               },
               "link": {
-                "url": "/services/multilip/",
+                "url": "/services/mutilip/",
                 "is_external": "",
                 "nofollow": "",
                 "custom_attributes": ""
@@ -965,12 +965,12 @@
             "alt": "",
             "source": "library"
           },
-          "author_info": "99+ Happy client",
+          "author_info": "99+ Happy Clients",
           "info_icon": {
             "value": "flaticon flaticon-time",
-            "library": "element-helper-flaticon"
+            "library": "element-helper-icons"
           },
-          "info_title": "7 day turnaround",
+          "info_title": "Quick Turnaround",
           "info_image_1": {
             "url": "/images/c1-bg-shape-2.webp",
             "id": 121,
@@ -1010,13 +1010,6 @@
               "url": "/images/t1-author-3.webp"
             }
           ],
-          "top_title_image": {
-            "url": "/images/haha-emoji.webp",
-            "id": 157,
-            "size": "",
-            "alt": "",
-            "source": "library"
-          },
           "image_3": {
             "url": "/images/p1-bg-shape-1.webp",
             "id": 159,
@@ -1163,7 +1156,7 @@
           ],
           "button_text": "Button Text",
           "author_info": "Default Text",
-          "info_title": "Info Title",
+          "info_title": "Quick Turnaround",
           "image_1": {
             "url": "/images/a1-bg-shape-bg-2.webp",
             "id": 115,
@@ -1238,6 +1231,10 @@
             "unit": "deg",
             "size": "",
             "sizes": []
+          },
+          "info_icon": {
+            "value": "flaticon flaticon-time",
+            "library": "element-helper-icons"
           }
         },
         "elements": [],

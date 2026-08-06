@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/giftee.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "Giftee Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "Giftee",
   description: "Business Consulting Agency",
 };
 

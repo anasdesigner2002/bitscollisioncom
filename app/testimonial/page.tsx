@@ -5,7 +5,7 @@ import PageBreadcrumb from "@/app/components/shared/PageBreadcrumb";
 import testimonialData from "@/content/pages/testimonial.json";
 
 export const metadata: Metadata = {
-  title: "Testimonial - Nimo",
+  title: "Testimonials",
 };
 
 export default function TestimonialPage() {

@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/safe.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "Safe Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "Safe",
   description: "Business Consulting Agency",
 };
 

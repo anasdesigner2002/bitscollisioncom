@@ -5,7 +5,7 @@ import PageBreadcrumb from "@/app/components/shared/PageBreadcrumb";
 import chooseUsData from "@/content/pages/choose-us.json";
 
 export const metadata: Metadata = {
-  title: "Choose Us - Nimo",
+  title: "Why Choose Us",
   description: "We area offing the best solutions",
 };
 

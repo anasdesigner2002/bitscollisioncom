@@ -24,6 +24,9 @@ export default function Testimonial({ settings }: { settings: Settings }) {
   const [active, setActive] = useState(0);
   const mainSwiperRef = useRef<SwiperClass | null>(null);
   const wrapperRef = useRef<HTMLDivElement>(null);
+  // Set up inside the layout effect below; the drag handler calls it too, so
+  // manual rotation keeps the avatars upright the same way scrolling does.
+  const counterRotateRef = useRef<(() => void) | null>(null);
 
   useEffect(() => {
     const wrapper = wrapperRef.current;
@@ -42,12 +45,24 @@ export default function Testimonial({ settings }: { settings: Settings }) {
       slide.style.top = `${y}px`;
     });
 
+    // Rotating the wrapper carries its children round with it, so every
+    // avatar tumbled as the ring turned. Spinning portraits are the one part
+    // of this effect nobody asked for - each slide is counter-rotated by the
+    // wrapper's current angle, which leaves the circle itself turning on its
+    // axis exactly as before while the faces stay upright.
+    function counterRotate() {
+      const rotation = (gsap.getProperty(wrapper!, "rotation") as number) || 0;
+      gsap.set(slides, { rotation: -rotation });
+    }
+    counterRotateRef.current = counterRotate;
+
     gsap.registerPlugin(ScrollTrigger);
     const tween = gsap.fromTo(
       wrapper,
       { rotation: 40 },
       {
         rotation: -40,
+        onUpdate: counterRotate,
         scrollTrigger: {
           trigger: wrapper,
           toggleActions: "play none none reverse",
@@ -55,8 +70,10 @@ export default function Testimonial({ settings }: { settings: Settings }) {
         },
       },
     );
+    counterRotate();
 
     return () => {
+      counterRotateRef.current = null;
       tween.scrollTrigger?.kill();
       tween.kill();
     };
@@ -106,6 +123,7 @@ export default function Testimonial({ settings }: { settings: Settings }) {
     const delta = e.clientX - dragStartX.current;
     if (Math.abs(delta) > 3) draggedRef.current = true;
     gsap.set(wrapper, { rotation: dragStartRotation.current + delta / 4 });
+    counterRotateRef.current?.();
   }
 
   function onPointerUp() {
@@ -165,7 +183,7 @@ export default function Testimonial({ settings }: { settings: Settings }) {
                   >
                     {item.author_image?.url && (
                       <div className="nm-testimonial-1-preview-slider-item wa-fix wa-img-cover">
-                        <img src={item.author_image.url} alt={item.name || ""} />
+                        <img src={item.author_image.url} alt={item.name || ""} loading="lazy" />
                       </div>
                     )}
                   </div>

@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/credkin.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "Credkin Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "Credkin",
   description: "Business Consulting Agency",
 };
 
@@ -24,7 +24,7 @@ export default function DigitalStrategyMarketingPage() {
 
   return (
     <main>
-       <PageBreadcrumb title="WELLMOE" current="Wellmoe" />
+       <PageBreadcrumb title="CREDKIN" current="Credkin" />
             <div className={styles.wrap}>
               <div className={styles.column}>{renderElementorTree(widgets)}</div>
             </div>

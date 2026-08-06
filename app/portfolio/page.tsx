@@ -5,7 +5,7 @@ import PageBreadcrumb from "@/app/components/shared/PageBreadcrumb";
 import workProcessData from "@/content/pages/work-process.json";
 
 export const metadata: Metadata = {
-  title: "Work Process - Nimo",
+  title: "Portfolio",
   description: "3 easy steps to get started",
 };
 

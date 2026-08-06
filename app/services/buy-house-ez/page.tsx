@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/buy-house-ez.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "BuyHouse EZ Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "BuyHouse EZ",
   description: "Business Consulting Agency",
 };
 

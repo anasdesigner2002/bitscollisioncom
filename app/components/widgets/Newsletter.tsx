@@ -17,7 +17,7 @@ export default function Newsletter({ settings }: { settings: Settings }) {
         <div className="nm-trial-2-wrap wa-p-relative">
           {settings.image_2?.url && (
             <div className="bg-shape">
-              <img src={settings.image_2.url} alt="" />
+              <img src={settings.image_2.url} alt="" loading="lazy" />
             </div>
           )}
 

@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 1020" width="520" height="1020" preserveAspectRatio="xMidYMid slice" role="img" aria-label="A code review in progress, with its checks passed">
+  <!--
+    Middle card of the "why choose us" row - drawn for this card rather than
+    picked from the image library.
+
+    Concept: what a delivery looks like on its way out - a change under
+    review with its checks already green. Deliberately abstracted: bars, not
+    legible code, so it reads as texture at card size instead of inviting
+    anyone to squint at fake source.
+
+    The panel surface stays grey on near-black, the same range as the cards
+    either side, so the row still reads as one set - but the code inside is
+    tinted the way an editor tints it: cool blue for keywords, green for
+    strings, amber for values. Low saturation, so it reads as syntax rather
+    than decoration, and the diff and its checks use green because that is
+    what those things mean.
+
+    The composition stops by 46% of the height and fades out below that. The
+    card sets its own title and copy over the lower half, exactly like its
+    neighbours, and nothing may compete with them there.
+  -->
+  <defs>
+    <linearGradient id="rpBase" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#15161a"/>
+      <stop offset="0.5" stop-color="#0f1013"/>
+      <stop offset="1" stop-color="#08080a"/>
+    </linearGradient>
+    <radialGradient id="rpLift" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.09"/>
+      <stop offset="0.6" stop-color="#ffffff" stop-opacity="0.03"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rpPanel" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.015"/>
+    </linearGradient>
+    <linearGradient id="rpFadeBottom" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#08080a" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#08080a" stop-opacity="0.88"/>
+      <stop offset="1" stop-color="#08080a" stop-opacity="1"/>
+    </linearGradient>
+    <filter id="rpSoft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+    <filter id="rpGrain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+      .caret { animation: blink 1.6s steps(1) infinite; }
+      @keyframes blink { 0%, 55% { opacity: 1 } 56%, 100% { opacity: 0 } }
+      @media (prefers-reduced-motion: reduce) { .caret { animation: none } }
+    </style>
+  </defs>
+
+  <rect width="520" height="1020" fill="url(#rpBase)"/>
+  <ellipse cx="400" cy="110" rx="300" ry="240" fill="url(#rpLift)"/>
+  <ellipse cx="80" cy="430" rx="230" ry="190" fill="#ffffff" opacity="0.035" filter="url(#rpSoft)"/>
+
+  <g>
+    <rect x="34" y="52" width="452" height="418" rx="22" fill="url(#rpPanel)" stroke="#ffffff" stroke-opacity="0.09"/>
+
+    <!-- Header: the branch, and its checks already green. -->
+    <circle cx="66" cy="88" r="4.5" fill="#82868f" opacity="0.8"/>
+    <circle cx="82" cy="88" r="4.5" fill="#82868f" opacity="0.55"/>
+    <circle cx="98" cy="88" r="4.5" fill="#82868f" opacity="0.35"/>
+    <text class="mono" x="122" y="93" font-size="13" fill="#9ea3ac">checkout-service</text>
+    <g transform="translate(330, 76)">
+      <circle cx="11" cy="12" r="9.5" fill="none" stroke="#4fae7b" stroke-opacity="0.75" stroke-width="1.6"/>
+      <path d="M6.5 12.4 L9.8 15.6 L15.6 8.8" fill="none" stroke="#7fd6a3" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <text class="mono" x="30" y="17" font-size="12" fill="#7c8a83">checks passed</text>
+    </g>
+    <path d="M34 112 L486 112" stroke="#ffffff" stroke-opacity="0.08"/>
+
+    <!-- Diff -->
+    <g class="mono" font-size="12" fill="#4b4f57">
+      <text x="60" y="150">41</text><text x="60" y="182">42</text><text x="60" y="214">43</text>
+      <text x="60" y="246">44</text><text x="60" y="278">45</text><text x="60" y="310">46</text>
+    </g>
+
+    <rect x="86" y="262" width="384" height="24" rx="6" fill="#3fa96b" opacity="0.13"/>
+    <rect x="86" y="294" width="384" height="24" rx="6" fill="#3fa96b" opacity="0.13"/>
+    <g class="mono" font-size="13" fill="#77c79a" opacity="0.9">
+      <text x="88" y="279">+</text>
+      <text x="88" y="311">+</text>
+    </g>
+
+    <g>
+      <rect x="106" y="140" width="112" height="9" rx="4.5" fill="#d8dade" opacity="0.42"/>
+      <rect x="226" y="140" width="64" height="9" rx="4.5" fill="#7fa6ff" opacity="0.62"/>
+      <rect x="298" y="140" width="88" height="9" rx="4.5" fill="#d8dade" opacity="0.22"/>
+
+      <rect x="122" y="172" width="72" height="9" rx="4.5" fill="#d8dade" opacity="0.3"/>
+      <rect x="202" y="172" width="132" height="9" rx="4.5" fill="#77c79a" opacity="0.4"/>
+
+      <rect x="122" y="204" width="150" height="9" rx="4.5" fill="#d8dade" opacity="0.32"/>
+      <rect x="280" y="204" width="52" height="9" rx="4.5" fill="#dfaf6a" opacity="0.55"/>
+
+      <rect x="106" y="236" width="96" height="9" rx="4.5" fill="#b998e0" opacity="0.4"/>
+
+      <rect x="122" y="268" width="128" height="9" rx="4.5" fill="#7fa6ff" opacity="0.55"/>
+      <rect x="258" y="268" width="76" height="9" rx="4.5" fill="#77c79a" opacity="0.6"/>
+
+      <rect x="122" y="300" width="188" height="9" rx="4.5" fill="#eceef1" opacity="0.5"/>
+      <rect class="caret" x="318" y="298" width="2" height="13" fill="#eceef1" opacity="0.6"/>
+    </g>
+
+    <!-- The review, pinned under the added block. -->
+    <g>
+      <rect x="118" y="344" width="336" height="104" rx="16" fill="#17181c" stroke="#ffffff" stroke-opacity="0.1"/>
+      <path d="M154 344 L168 328 L182 344 Z" fill="#17181c" stroke="#ffffff" stroke-opacity="0.1"/>
+      <circle cx="150" cy="378" r="14" fill="#2f4a63"/>
+      <circle cx="150" cy="374" r="4.6" fill="#c9cdd6"/>
+      <path d="M140 388 a10 8 0 0 1 20 0 Z" fill="#c9cdd6"/>
+      <rect x="176" y="366" width="96" height="9" rx="4.5" fill="#eceef1" opacity="0.5"/>
+      <rect x="282" y="366" width="42" height="9" rx="4.5" fill="#7fa6ff" opacity="0.45"/>
+      <rect x="176" y="386" width="216" height="8" rx="4" fill="#d8dade" opacity="0.2"/>
+      <rect x="176" y="402" width="150" height="8" rx="4" fill="#d8dade" opacity="0.16"/>
+      <text class="mono" x="176" y="432" font-size="12" fill="#82868f">approved &#183; ready to ship</text>
+    </g>
+  </g>
+
+  <!-- Everything below belongs to the card's own title and copy. -->
+  <rect x="0" y="440" width="520" height="580" fill="url(#rpFadeBottom)"/>
+  <rect width="520" height="1020" filter="url(#rpGrain)" opacity="0.04"/>
+</svg>

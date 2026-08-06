@@ -5,7 +5,7 @@ import PageBreadcrumb from "@/app/components/shared/PageBreadcrumb";
 import contactData from "@/content/pages/contact.json";
 
 export const metadata: Metadata = {
-  title: "Contact - Nimo",
+  title: "Contact",
 };
 
 export default function ContactPage() {

@@ -9,7 +9,10 @@ export default function HeroSection({ settings }: { settings: Settings }) {
 
       {settings.image_1?.url && (
         <div className="nm-hero-1-bg-img wa-img-cover wa-fix">
-          <img src={settings.image_1.url} alt="" />
+          {/* This is the page's LCP element (measured), so it says so: fetched
+              at high priority and never lazily, ahead of everything else the
+              hero pulls in. */}
+          <img src={settings.image_1.url} alt="" fetchPriority="high" decoding="async" />
         </div>
       )}
 

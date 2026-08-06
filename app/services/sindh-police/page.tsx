@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/sindh-police.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "Sindh Police Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "Sindh Police",
   description: "Business Consulting Agency",
 };
 

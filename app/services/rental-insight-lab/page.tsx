@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/rental-insight-lab.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "Rental-Insight-Lab Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "Rental Insight Lab",
   description: "Business Consulting Agency",
 };
 

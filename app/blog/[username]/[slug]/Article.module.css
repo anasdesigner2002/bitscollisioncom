@@ -1,0 +1,394 @@
+/*
+ * Article page: a reading column for third-party post bodies.
+ *
+ * The body arrives as dev.to's own rendered HTML (see lib/blog.ts), so the
+ * styling here has to work off plain element selectors plus the handful of
+ * class names Forem emits - `.highlight` code blocks, `.ltag__link` embed
+ * cards - rather than markup this project controls.
+ */
+
+.hero {
+  padding: 200px 0 110px;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 22px;
+  color: #8f8f99;
+  font-size: 15px;
+}
+
+.chip {
+  padding: 5px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 100px;
+  background: #000;
+  color: #fff;
+  font-family: var(--nm-font-1);
+  font-size: 14px;
+}
+
+/* Runs the full width of the content grid below it (body + sidebar), so the
+   headline reads as the page's masthead rather than a narrow column pinned
+   to the left. Capped there rather than at the 1410px container so it still
+   breaks into a couple of lines instead of one very long one. */
+.title {
+  max-width: 1140px;
+  color: #fff;
+  font-family: var(--nm-font-1);
+  font-size: clamp(32px, 3.6vw, 52px);
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -0.03em;
+  text-wrap: balance;
+}
+
+.byline {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 28px;
+  color: #b5b5b5;
+  font-size: 15px;
+}
+
+.byline img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.byline strong {
+  display: block;
+  color: #fff;
+  font-family: var(--nm-font-1);
+  font-weight: 500;
+}
+
+/* Same reasoning as the cards: dev.to serves covers pre-cropped at 1000x420,
+   so the frame takes that ratio and nothing gets trimmed. */
+.cover {
+  margin: 45px 0 55px;
+  border-radius: 30px;
+  overflow: hidden;
+  aspect-ratio: 1000 / 420;
+}
+
+.cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ------------------------------------------------------------------ body */
+
+.body {
+  max-width: 780px;
+  color: #c8c8cf;
+  font-size: 18px;
+  line-height: 1.78;
+}
+
+.body > :first-child {
+  margin-top: 0;
+}
+
+.body p,
+.body ul,
+.body ol,
+.body blockquote,
+.body table,
+.body pre,
+.body :global(.highlight) {
+  margin: 0 0 26px;
+}
+
+.body h1,
+.body h2,
+.body h3,
+.body h4,
+.body h5 {
+  margin: 48px 0 18px;
+  color: #fff;
+  font-family: var(--nm-font-1);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+}
+
+.body h1 {
+  font-size: 34px;
+}
+.body h2 {
+  font-size: 30px;
+}
+.body h3 {
+  font-size: 25px;
+}
+.body h4,
+.body h5 {
+  font-size: 21px;
+}
+
+.body a {
+  color: var(--nm-clr-pr-2);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.body a:hover {
+  color: #fff;
+}
+
+.body strong,
+.body b {
+  color: #fff;
+  font-weight: 600;
+}
+
+.body ul,
+.body ol {
+  padding-left: 22px;
+}
+
+.body li {
+  margin-bottom: 10px;
+}
+
+.body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+  margin: 10px 0;
+}
+
+.body blockquote {
+  padding: 4px 0 4px 24px;
+  border-left: 2px solid var(--nm-clr-pr-2);
+  color: #e2e2e8;
+  font-style: italic;
+}
+
+.body hr {
+  margin: 40px 0;
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* Code: Forem wraps blocks in `.highlight` and marks tokens with one- and
+   two-letter class names (Rouge). Only the token families that carry meaning
+   at a glance get a colour - keywords, strings, comments, numbers. */
+.body code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+  font-size: 0.88em;
+}
+
+.body :not(pre) > code {
+  padding: 2px 7px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.07);
+  color: #e6e6ec;
+}
+
+.body pre {
+  padding: 22px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 18px;
+  background: #06070d;
+  color: #d5d5de;
+  overflow-x: auto;
+  line-height: 1.6;
+}
+
+/* dev.to appends its own copy/fullscreen control under each code block; the
+   JS and sprite behind it don't exist here, so it renders as a stray glyph. */
+.body :global(.highlight__panel) {
+  display: none;
+}
+
+.body :global(.highlight) :global(.k),
+.body :global(.highlight) :global(.kd),
+.body :global(.highlight) :global(.kn),
+.body :global(.highlight) :global(.kr),
+.body :global(.highlight) :global(.o) {
+  color: #7ea2ff;
+}
+
+.body :global(.highlight) :global(.s),
+.body :global(.highlight) :global(.s1),
+.body :global(.highlight) :global(.s2),
+.body :global(.highlight) :global(.sb) {
+  color: #6fe3a8;
+}
+
+.body :global(.highlight) :global(.c),
+.body :global(.highlight) :global(.c1),
+.body :global(.highlight) :global(.cm) {
+  color: #6d6d7a;
+  font-style: italic;
+}
+
+.body :global(.highlight) :global(.m),
+.body :global(.highlight) :global(.mi),
+.body :global(.highlight) :global(.mf) {
+  color: #f0a868;
+}
+
+.body :global(.highlight) :global(.nf),
+.body :global(.highlight) :global(.nc) {
+  color: #9fd0ff;
+}
+
+.body table {
+  width: 100%;
+  border-collapse: collapse;
+  display: block;
+  overflow-x: auto;
+}
+
+.body th,
+.body td {
+  padding: 12px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  text-align: left;
+}
+
+.body th {
+  color: #fff;
+  font-family: var(--nm-font-1);
+  font-weight: 500;
+}
+
+.body iframe {
+  max-width: 100%;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Forem's link-preview cards inside post bodies. */
+.body :global(.ltag__link) {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.03);
+  text-decoration: none;
+}
+
+.body :global(.ltag__link) img {
+  max-width: 90px;
+  border-radius: 10px;
+}
+
+/* --------------------------------------------------------------- sidebar */
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 60px;
+  align-items: start;
+}
+
+.aside {
+  position: sticky;
+  top: 120px;
+  padding: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.aside h4 {
+  margin-bottom: 14px;
+  color: #fff;
+  font-family: var(--nm-font-1);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.aside p {
+  color: #9a9aa4;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.tags span {
+  padding: 5px 13px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 100px;
+  color: #c9c9d2;
+  font-size: 13px;
+}
+
+.sourceLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 22px;
+  padding: 12px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 999px;
+  color: #fff;
+  font-family: var(--nm-font-1);
+  font-size: 15px;
+  transition: background 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+.sourceLink:hover {
+  color: #fff;
+  background: var(--nm-clr-pr-2);
+  border-color: var(--nm-clr-pr-2);
+  transform: translateY(-2px);
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 60px;
+  color: #9a9aa4;
+  font-size: 15px;
+}
+
+.backLink:hover {
+  color: var(--nm-clr-pr-2);
+}
+
+@media (max-width: 1199px) {
+  .layout {
+    grid-template-columns: 1fr;
+    gap: 45px;
+  }
+  .aside {
+    position: static;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero {
+    padding-top: 150px;
+  }
+  .title {
+    max-width: none;
+  }
+  .cover {
+    margin: 32px 0 40px;
+    border-radius: 20px;
+  }
+  .body {
+    font-size: 17px;
+  }
+}

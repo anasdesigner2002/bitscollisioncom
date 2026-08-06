@@ -71,7 +71,7 @@ function ChooseUsView({ settings }: { settings: Settings }) {
                   <div className="nm-choose-1-fast wa-p-relative">
                     {list.image_1?.url && (
                       <div className="bg-img wa-fix wa-img-cover">
-                        <img src={list.image_1.url} alt="" />
+                        <img src={list.image_1.url} alt="" loading="lazy" />
                       </div>
                     )}
                     <div className="content-wrap">
@@ -92,7 +92,7 @@ function ChooseUsView({ settings }: { settings: Settings }) {
                   <div className="nm-choose-1-experience">
                     {list.image_1?.url && (
                       <div className="bg-img wa-fix wa-img-cover">
-                        <img src={list.image_1.url} alt="" />
+                        <img src={list.image_1.url} alt="" loading="lazy" />
                       </div>
                     )}
                     <div className="content-wrap">
@@ -130,7 +130,7 @@ function ChooseUsView({ settings }: { settings: Settings }) {
                   <div className="nm-choose-1-author wa_add_class">
                     {(settings.author_images || []).map((brand: any, i: number) => (
                       <div className="author-img wa-fix wa-img-cover" key={i}>
-                        <img src={brand.url} alt={brand.alt || ""} />
+                        <img src={brand.url} alt={brand.alt || ""} loading="lazy" />
                       </div>
                     ))}
                   </div>
@@ -153,7 +153,7 @@ function ChooseUsView({ settings }: { settings: Settings }) {
                 )}
                 {settings.info_image_2?.url && (
                   <div className="item-video">
-                    <video src={settings.info_image_2.url} autoPlay loop muted />
+                    <video src={settings.info_image_2.url} autoPlay loop muted playsInline />
                   </div>
                 )}
               </div>
@@ -191,7 +191,7 @@ function PortfolioView({ settings }: { settings: Settings }) {
                   as="h2"
                   className="nm-sec-title-1"
                   html={`<span>${settings.top_title_1 || ""}</span>${
-                    settings.top_title_image?.url ? `<img src="${settings.top_title_image.url}" alt="" />` : ""
+                    settings.top_title_image?.url ? `<img src="${settings.top_title_image.url}" alt="" loading="lazy" />` : ""
                   }<span>${settings.top_title_2 || ""}</span>`}
                 />
               )}
@@ -235,7 +235,7 @@ function PortfolioView({ settings }: { settings: Settings }) {
                 key={list._id || i}
               >
                 <div className="nm-portfolio-1-card wa-p-relative wa-fix wa-img-cover">
-                  {list.image_1?.url && <img src={list.image_1.url} alt="" />}
+                  {list.image_1?.url && <img src={list.image_1.url} alt="" loading="lazy" />}
                   {list.icon?.value && (
                     <a href={list.link?.url || "#"} aria-label="link" className="card-btn">
                       <span className="wa_magnetic_btn_2_elm d-block">

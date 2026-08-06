@@ -83,7 +83,7 @@ export default function TeamLists({ settings }: { settings: Settings }) {
             {members.map((list, i) => (
               <SwiperSlide key={list._id || i}>
                 <div className={`nm-team-1-member wa-p-relative wa-fix wa-img-cover ${expanded === i ? "active" : ""}`}>
-                  {list.team_image?.url && <img src={list.team_image.url} alt={list.name || ""} />}
+                  {list.team_image?.url && <img src={list.team_image.url} alt={list.name || ""} loading="lazy" />}
                   <div
                     className="toggle-btn nm-h-1"
                     onClick={() => setExpanded(expanded === i ? null : i)}

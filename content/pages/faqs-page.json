@@ -14,249 +14,106 @@
       }
     },
     "elements": [
-          {
-            "id": "c984413",
-            "elType": "widget",
-            "settings": {
-              "design_style": "style_2",
-              "contact_info_sub_title": "Response time: 1 hours",
-              "contact_info_title": "Tell details about your project",
-              "contact_shortcode": "[contact-form-7 id=\"f34c924\" title=\"Contact Form H_1\"]",
-              "sub_title": "{09} FAQs",
-              "title": "Learn more from FAQs",
-              "description": "The opportunity to work abroad is a popular prospect, one",
-              "txTab_lists": [
-                {
-                  "_id": "d83e80d",
-                  "tab_title": "General Ask",
-                  "tab_heading_1": "Tab Heading",
-                  "description_1": "Description",
-                  "feature_lists_1": "Feature",
-                  "button_text": "Button Text",
-                  "design_style": "style_2",
-                  "template": "248",
-                  "resolved_template": {
-                    "widgetType": "tx_faq",
-                    "settings": {
-                      "sub_title": "Sub Title",
-                      "title": "Heading Title",
-                      "title_2": "Know more about us by FAQ",
-                      "description": "The opportunity to work abroad is a popular prospect, one",
-                      "faq_lists": [
-                        {
-                          "title": "What services do Bits Collision provide?",
-                          "content": "We <b>provide</b> software, mobile app, web, e-commerce, UI/UX, cloud, digital marketing, AI, and branding solutions.",
-                          "_id": "9a6f99e",
-                          "is_active": "yes",
-                          "count": "01"
-                        },
-                        {
-                          "title": "Which industries do you work with?",
-                          "content": "We <b>work with</b> businesses across technology, finance, e-commerce, healthcare, real estate, and other industries.",
-                          "is_active": "",
-                          "count": "02",
-                          "_id": "71f3685"
-                        },
-                        {
-                          "title": "How do I start a project with Bits Collision?",
-                          "content": "Contact us <b>with your</b> requirements. We’ll discuss your goals and guide you through the next steps.",
-                          "is_active": "",
-                          "count": "03",
-                          "_id": "83684e3"
-                        },
-                        {
-                          "title": "How long does a project take?",
-                          "content": "Timelines <b>depend on</b> the project scope, features, complexity, and technology requirements.",
-                          "is_active": "",
-                          "count": "04",
-                          "_id": "5434294"
-                        },
-                        {
-                          "title": "Do you provide support after launch?",
-                          "content": "Yes. <b>We provide</b> ongoing maintenance, technical support, updates, and optimization.",
-                          "is_active": "",
-                          "count": "05",
-                          "_id": "e898567"
-                        },
-                        {
-                          "title": "Can you help with digital marketing?",
-                          "content": "Yes. <b>We offer</b> SEO, SEM, social media marketing, AI-powered advertising, and digital marketing strategies.",
-                          "is_active": "",
-                          "count": "06",
-                          "_id": "d4f610d"
-                        },
-                        {
-                          "title": "Do you build e-commerce websites?",
-                          "content": "Yes. <b>We create</b> customized e-commerce solutions based on your business requirements.",
-                          "is_active": "",
-                          "count": "07",
-                          "_id": "5c8d9ac"
-                        }
-                      ],
-                      "button_text": "Button Text"
-                    }
-                  }
-                },
-                {
-                  "tab_title": "Job Career",
-                  "tab_heading_1": "Tab Heading",
-                  "description_1": "Description",
-                  "feature_lists_1": "Feature",
-                  "button_text": "Button Text",
-                  "design_style": "style_2",
-                  "is_active": "",
-                  "template": "248",
-                  "_id": "cfe8bf4",
-                  "resolved_template": {
-                    "widgetType": "tx_faq",
-                    "settings": {
-                      "sub_title": "Sub Title",
-                      "title": "Heading Title",
-                      "title_2": "Know more about us by FAQ",
-                      "description": "The opportunity to work abroad is a popular prospect, one",
-                      "faq_lists": [
-                        {
-                          "title": "Are you currently hiring?",
-                          "content": "Yes, <b>we welcome</b> talented professionals and regularly look for skilled individuals to join our growing team.",
-                          "_id": "9a6f99e",
-                          "is_active": "yes",
-                          "count": "01"
-                        },
-                        {
-                          "title": "How can I apply for a job?",
-                          "content": "You can <b>contact us</b> with your CV and details about your skills and experience.",
-                          "is_active": "",
-                          "count": "02",
-                          "_id": "71f3685"
-                        },
-                        {
-                          "title": "What positions are available?",
-                          "content": "<b>Opportunities</b> may be available in development, design, digital marketing, project management, and other technical roles.",
-                          "is_active": "",
-                          "count": "03",
-                          "_id": "83684e3"
-                        },
-                        {
-                          "title": "Do you offer internships?",
-                          "content": "Yes, <b>Internship Opportunities</b> may be available for motivated individuals looking to gain practical experience.",
-                          "is_active": "",
-                          "count": "04",
-                          "_id": "5434294"
-                        },
-                        {
-                          "title": "Can I apply for a remote position?",
-                          "content": "Depending <b>on the role</b> on the role, we may offer remote or flexible working opportunities.",
-                          "is_active": "",
-                          "count": "05",
-                          "_id": "e898567"
-                        },
-                        {
-                          "title": "What skills do you look for?",
-                          "content": "We <b>value technical</b> expertise, creativity, problem-solving, communication, and a willingness to learn.",
-                          "is_active": "",
-                          "count": "06",
-                          "_id": "d4f610d"
-                        },
-                        {
-                          "title": "How will I know if I am selected?",
-                          "content": "Our <b>HR team</b> will contact shortlisted candidates for the next steps in the hiring process.",
-                          "is_active": "",
-                          "count": "07",
-                          "_id": "5c8d9ac"
-                        }
-                      ],
-                      "button_text": "Button Text"
-                    }
-                  }
-                },
-                {
-                  "tab_title": "Pricing & Plan",
-                  "tab_heading_1": "Tab Heading",
-                  "description_1": "Description",
-                  "feature_lists_1": "Feature",
-                  "button_text": "Button Text",
-                  "design_style": "style_2",
-                  "is_active": "",
-                  "template": "248",
-                  "_id": "5065b08",
-                  "resolved_template": {
-                    "widgetType": "tx_faq",
-                    "settings": {
-                      "sub_title": "Sub Title",
-                      "title": "Heading Title",
-                      "title_2": "Know more about us by FAQ",
-                      "description": "The opportunity to work abroad is a popular prospect, one",
-                      "faq_lists": [
-                        {
-                          "title": "How much do your services cost?",
-                          "content": "Pricing <b>depends on</b> your project requirements, features, complexity, and timeline.",
-                          "_id": "9a6f99e",
-                          "is_active": "yes",
-                          "count": "01"
-                        },
-                        {
-                          "title": "Do you offer custom pricing?",
-                          "content": "Yes, <b>we create</b> customized plans based on your specific business and project needs.",
-                          "is_active": "",
-                          "count": "02",
-                          "_id": "71f3685"
-                        },
-                        {
-                          "title": "Can I get a free project quote?",
-                          "content": "Yes, <b>share your</b> requirements with us and our team will provide an initial project estimate.",
-                          "is_active": "",
-                          "count": "03",
-                          "_id": "83684e3"
-                        },
-                        {
-                          "title": "What is included in your pricing?",
-                          "content": "Pricing <b>may include</b> design, development, testing, deployment, and support depending on the selected service.",
-                          "is_active": "",
-                          "count": "04",
-                          "_id": "5434294"
-                        },
-                        {
-                          "title": "Do you require an advance payment?",
-                          "content": "Payment <b>terms depend</b> on the project scope and are discussed and agreed upon before starting the project.",
-                          "is_active": "",
-                          "count": "05",
-                          "_id": "e898567"
-                        },
-                        {
-                          "title": "Can I change my project requirements?",
-                          "content": "Yes, <b>requirements</b> can be updated during the project, though additional changes may affect the cost and timeline.",
-                          "is_active": "",
-                          "count": "06",
-                          "_id": "d4f610d"
-                        },
-                        {
-                          "title": "Do you provide ongoing maintenance plans?",
-                          "content": "Yes, <b>we offer</b> ongoing support and maintenance plans based on your website or software requirements.",
-                          "is_active": "",
-                          "count": "07",
-                          "_id": "5c8d9ac"
-                        }
-                      ],
-                      "button_text": "Button Text"
-                    }
-                  }
-                }
-              ],
-              "button_info_text": "Button Info Text",
+      {
+        "id": "c984413",
+        "elType": "widget",
+        "settings": {
+          "design_style": "style_2",
+          "contact_info_sub_title": "Response time: 1 hours",
+          "contact_info_title": "Tell details about your project",
+          "contact_shortcode": "[contact-form-7 id=\"f34c924\" title=\"Contact Form H_1\"]",
+          "sub_title": "{09} FAQs",
+          "title": "Learn more from FAQs",
+          "description": "The opportunity to work abroad is a popular prospect, one",
+          "txTab_lists": [
+            {
+              "_id": "d83e80d",
+              "tab_title": "General Ask",
+              "tab_heading_1": "Tab Heading",
+              "description_1": "Description",
+              "feature_lists_1": "Feature",
               "button_text": "Button Text",
-              "enable_description": "",
-              "image_1": {
-                "url": "/images/a1-bg-shape-1.webp",
-                "id": 126,
-                "size": "",
-                "alt": "",
-                "source": "library"
-              }
-            },
-            "elements": [],
-            "widgetType": "tx_tabs"
+              "design_style": "style_2",
+              "template": "248",
+              "resolved_template": {
+                "widgetType": "tx_faq",
+                "settings": {
+                  "sub_title": "Sub Title",
+                  "title": "Heading Title",
+                  "title_2": "Know more about us by FAQ",
+                  "description": "The opportunity to work abroad is a popular prospect, one",
+                  "faq_lists": [
+                    {
+                      "title": "What services do Bits Collision provide?",
+                      "content": "We <b>provide</b> software, mobile app, web, e-commerce, UI/UX, cloud, digital marketing, AI, and branding solutions.",
+                      "_id": "9a6f99e",
+                      "is_active": "yes",
+                      "count": "01"
+                    },
+                    {
+                      "title": "Which industries do you work with?",
+                      "content": "We <b>work with</b> businesses across technology, finance, e-commerce, healthcare, real estate, and other industries.",
+                      "is_active": "",
+                      "count": "02",
+                      "_id": "71f3685"
+                    },
+                    {
+                      "title": "How do I start a project with Bits Collision?",
+                      "content": "Contact us <b>with your</b> requirements. We’ll discuss your goals and guide you through the next steps.",
+                      "is_active": "",
+                      "count": "03",
+                      "_id": "83684e3"
+                    },
+                    {
+                      "title": "How long does a project take?",
+                      "content": "Timelines <b>depend on</b> the project scope, features, complexity, and technology requirements.",
+                      "is_active": "",
+                      "count": "04",
+                      "_id": "5434294"
+                    },
+                    {
+                      "title": "Do you provide support after launch?",
+                      "content": "Yes. <b>We provide</b> ongoing maintenance, technical support, updates, and optimization.",
+                      "is_active": "",
+                      "count": "05",
+                      "_id": "e898567"
+                    },
+                    {
+                      "title": "Can you help with digital marketing?",
+                      "content": "Yes. <b>We offer</b> SEO, SEM, social media marketing, AI-powered advertising, and digital marketing strategies.",
+                      "is_active": "",
+                      "count": "06",
+                      "_id": "d4f610d"
+                    },
+                    {
+                      "title": "Do you build e-commerce websites?",
+                      "content": "Yes. <b>We create</b> customized e-commerce solutions based on your business requirements.",
+                      "is_active": "",
+                      "count": "07",
+                      "_id": "5c8d9ac"
+                    }
+                  ],
+                  "button_text": "Button Text"
+                }
+              },
+              "is_active": "yes"
+            }
+          ],
+          "button_info_text": "Button Info Text",
+          "button_text": "Button Text",
+          "enable_description": "",
+          "image_1": {
+            "url": "/images/a1-bg-shape-1.webp",
+            "id": 126,
+            "size": "",
+            "alt": "",
+            "source": "library"
           }
-        ],
+        },
+        "elements": [],
+        "widgetType": "tx_tabs"
+      }
+    ],
     "isInner": true
   }
 ]

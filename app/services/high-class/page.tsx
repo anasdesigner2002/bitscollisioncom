@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/high-class.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "High Class Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "High Class",
   description: "Business Consulting Agency",
 };
 

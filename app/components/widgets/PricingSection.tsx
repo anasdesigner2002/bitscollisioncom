@@ -65,12 +65,12 @@ export default function PricingSection({ settings }: { settings: Settings }) {
       )}
       {settings.image_2?.url && (
         <div className="nm-price-2-bg-shape-1">
-          <img className="wa_parallax_shape_2" src={settings.image_2.url} alt="" />
+          <img className="wa_parallax_shape_2" src={settings.image_2.url} alt="" loading="lazy" />
         </div>
       )}
       {settings.image_3?.url && (
         <div className="nm-price-2-bg-shape-2">
-          <img className="wa_parallax_shape_2" src={settings.image_3.url} alt="" />
+          <img className="wa_parallax_shape_2" src={settings.image_3.url} alt="" loading="lazy" />
         </div>
       )}
 

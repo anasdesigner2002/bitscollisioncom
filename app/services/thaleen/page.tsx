@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/thaleen.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "Thaleen Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "Thaleen",
   description: "Business Consulting Agency",
 };
 

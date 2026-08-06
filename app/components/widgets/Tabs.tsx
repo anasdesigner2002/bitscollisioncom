@@ -117,7 +117,7 @@ function ServicesTabs({ settings }: { settings: Settings }) {
                           .filter(Boolean)
                           .map((line: string, li: number) => (
                             <li className="nm-h-1" key={li}>
-                              {tab.feature_lists_image?.url && <img src={tab.feature_lists_image.url} alt="" />}
+                              {tab.feature_lists_image?.url && <img src={tab.feature_lists_image.url} alt="" loading="lazy" />}
                               <span dangerouslySetInnerHTML={{ __html: line }} />
                             </li>
                           ))}
@@ -145,7 +145,7 @@ function ServicesTabs({ settings }: { settings: Settings }) {
                   </div>
                   {tab.tab_image?.url && (
                     <div className="item-img wa-fix wa-img-cover">
-                      <img src={tab.tab_image.url} alt="" />
+                      <img src={tab.tab_image.url} alt="" loading="lazy" />
                     </div>
                   )}
                 </div>
@@ -190,7 +190,7 @@ function FaqTabs({ settings }: { settings: Settings }) {
             </div>
             {settings.image_1?.url && (
               <div className="nm-faqs-1-left-bg-shape">
-                <img src={settings.image_1.url} alt="" />
+                <img src={settings.image_1.url} alt="" loading="lazy" />
               </div>
             )}
           </div>
@@ -203,20 +203,24 @@ function FaqTabs({ settings }: { settings: Settings }) {
               )}
             </div>
 
-            <div className="nm-faqs-1-tabs-btn" role="tablist">
-              {tabs.map((tab, i) => (
-                <button
-                  key={tab._id || i}
-                  className={`nav-link nm-h-1 ${active === i ? "active" : ""}`}
-                  type="button"
-                  role="tab"
-                  aria-selected={active === i}
-                  onClick={() => setActive(i)}
-                  dangerouslySetInnerHTML={{ __html: tab.tab_title }}
-                />
-              ))}
-              <div className="nm-faqs-1-tabs-btn-line" />
-            </div>
+            {/* One group left means nothing to switch between, so the tab row
+                is dropped and its questions stand on their own. */}
+            {tabs.length > 1 && (
+              <div className="nm-faqs-1-tabs-btn" role="tablist">
+                {tabs.map((tab, i) => (
+                  <button
+                    key={tab._id || i}
+                    className={`nav-link nm-h-1 ${active === i ? "active" : ""}`}
+                    type="button"
+                    role="tab"
+                    aria-selected={active === i}
+                    onClick={() => setActive(i)}
+                    dangerouslySetInnerHTML={{ __html: tab.tab_title }}
+                  />
+                ))}
+                <div className="nm-faqs-1-tabs-btn-line" />
+              </div>
+            )}
 
             <div className="tab-content nm-faqs-1-tabs-pane mt-50">
               <div className="tab-pane fade show active">

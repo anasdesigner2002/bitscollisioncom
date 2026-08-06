@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/joya.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "Joya Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "Joya",
   description: "Business Consulting Agency",
 };
 
@@ -24,7 +24,7 @@ export default function DigitalStrategyMarketingPage() {
 
   return (
     <main>
-       <PageBreadcrumb title="BuyHouse EZ" current="BuyHouse EZ" />
+       <PageBreadcrumb title="JOYA" current="Joya" />
             <div className={styles.wrap}>
               <div className={styles.column}>{renderElementorTree(widgets)}</div>
             </div>

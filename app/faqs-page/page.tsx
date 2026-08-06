@@ -5,7 +5,7 @@ import PageBreadcrumb from "@/app/components/shared/PageBreadcrumb";
 import faqsPageData from "@/content/pages/faqs-page.json";
 
 export const metadata: Metadata = {
-  title: "FAQs - Nimo",
+  title: "FAQs",
   description: "Learn more from FAQs",
 };
 

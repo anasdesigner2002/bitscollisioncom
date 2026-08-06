@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/herfa-app.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "Herfa App Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "Herfa App",
   description: "Business Consulting Agency",
 };
 

@@ -1,23 +1,43 @@
-"use client";
-
-import { useState } from "react";
 import SplitTitle from "@/app/components/shared/SplitTitle";
 import FireflyAnim from "@/app/components/shared/FireflyAnim";
+import PostGridCards from "@/app/components/widgets/PostGridCards";
+import { getLatestArticles, type Article } from "@/app/lib/blog";
 import { on, type Settings } from "@/app/lib/types";
 
-// Ports tx-post-grid/views/view-1.php. WP_Query is not available here, so
-// the extraction script pre-resolves `settings.resolved_posts` from the
-// demo `post` items in the WXR export (respecting the widget's own
-// show_post_by:"selected" curated list + per-post image overrides where
-// configured, matching the original's WP_Query customization logic).
-//
-// "hover zoom" here is nimo-core.js's "blog-1-hover-active-class": the
-// hovered card grows wider than its siblings, darkens with an overlay, and
-// reveals the eye icon - see `.nm-blog-1-item:is(.active)` in
-// nimo-core.css. The first card is active by default (matches the theme).
-export default function PostGrid({ settings }: { settings: Settings }) {
-  const posts: any[] = settings.resolved_posts || [];
-  const [active, setActive] = useState(0);
+// Shape the extraction script pre-resolved into `settings.resolved_posts`.
+type ResolvedPost = {
+  id: string;
+  title: string;
+  image: string;
+  excerpt: string;
+  date: string;
+  category: string;
+  slug: string;
+};
+
+// Ports tx-post-grid/views/view-1.php. The original ran a WP_Query over the
+// demo export's own `post` items; the extraction script pre-resolved those
+// into `settings.resolved_posts`. Those are three fixed 2024 posts, so this
+// now pulls live software/tech articles instead (see lib/blog.ts, cached and
+// revalidated daily) and keeps the extracted set purely as a fallback for
+// when the feed can't be reached at build/revalidate time.
+export default async function PostGrid({ settings }: { settings: Settings }) {
+  const fallback: Article[] = (settings.resolved_posts || []).map((post: ResolvedPost) => ({
+    id: String(post.id),
+    title: post.title,
+    image: post.image,
+    excerpt: post.excerpt,
+    date: post.date,
+    category: post.category,
+    href: "/blog",
+    sourceUrl: "/blog",
+    author: "",
+    readingTime: 0,
+    tags: [],
+  }));
+
+  const live = await getLatestArticles(3);
+  const posts = live.length ? live : fallback;
 
   return (
     <section className="nm-blog-1-area wa-p-relative pt-110 pb-95 tx-section">
@@ -51,36 +71,7 @@ export default function PostGrid({ settings }: { settings: Settings }) {
           )}
         </div>
 
-        <div className="nm-blog-1-wrap">
-          {posts.map((post, i) => (
-            <div
-              className={`nm-blog-1-item wa_magnetic_btn_2 ${i === active ? "active" : ""}`}
-              key={post.id || i}
-              onMouseEnter={() => setActive(i)}
-            >
-              <div className="item-img wa-p-relative wa-fix wa-img-cover">
-                {post.image && <img src={post.image} alt={post.title} />}
-                <a href={`/blog/${post.slug}`} aria-label={post.title} className="card-btn">
-                  <span className="wa_magnetic_btn_2_elm d-block">
-                    <i className="flaticon-eye flaticon" />
-                  </span>
-                </a>
-                {post.category && (
-                  <div className="card-categories">
-                    <span className="link-elm nm-h-1">{post.category}</span>
-                  </div>
-                )}
-              </div>
-              <div className="content">
-                {post.date && <p className="nm-p-1 item-date">{post.date}</p>}
-                <h4 className="nm-h-1 item-title">
-                  <a href={`/blog/${post.slug}`}>{post.title}</a>
-                </h4>
-                {post.excerpt && <p className="nm-p-1 item-disc">{post.excerpt}</p>}
-              </div>
-            </div>
-          ))}
-        </div>
+        <PostGridCards posts={posts} />
       </div>
 
       {on(settings.enable_bottom_shape) && (

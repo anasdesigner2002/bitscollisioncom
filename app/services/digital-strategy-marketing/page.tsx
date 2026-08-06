@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/digital-strategy-marketing.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "Test Page",
+  title: "Digital Strategy & Marketing",
   description: "Business Consulting Agency",
 };
 

@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/pipzero.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "Pipzero Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "Pipzero",
   description: "Business Consulting Agency",
 };
 

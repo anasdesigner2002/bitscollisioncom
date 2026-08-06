@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" width="900" height="540" role="img" aria-label="">
+  <!--
+    The drawn half of the inner-page breadcrumb band: the lit seam where the
+    two grids meet, the node network hanging off it, an editor gutter and a
+    few syntax marks.
+
+    Only the motif lives here. Everything that has to span the full width of
+    the band - base gradient, skewed grids, the glow behind the title - is
+    CSS in globals.css, because any fixed-aspect image in a band whose width
+    tracks the viewport gets cropped on one axis or the other. This file is
+    narrower than the band at every breakpoint and is anchored to the right,
+    so it is never cropped and never scaled up.
+  -->
+  <defs>
+    <radialGradient id="seamGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4f7dff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#4f7dff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="seamLine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5b86ff" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#7ea2ff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#5b86ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soften" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="430" cy="255" rx="300" ry="300" fill="url(#seamGlow)" opacity="0.5"/>
+
+  <!-- The seam where the two grids collide. -->
+  <g opacity="0.9">
+    <rect x="429" y="40" width="2" height="460" fill="url(#seamLine)"/>
+    <rect x="423" y="40" width="14" height="460" fill="url(#seamLine)" opacity="0.35" filter="url(#soften)"/>
+  </g>
+
+  <!-- Node-and-edge network. -->
+  <g stroke="#5f86ff" stroke-opacity="0.55" fill="none" stroke-width="1.25">
+    <path d="M433 148 L563 206 L683 174"/>
+    <path d="M433 148 L345 234 L433 328"/>
+    <path d="M563 206 L541 340 L433 328"/>
+    <path d="M541 340 L671 390"/>
+    <path d="M345 234 L233 298"/>
+  </g>
+  <g fill="#0b1024" stroke="#7ea2ff" stroke-opacity="0.85" stroke-width="1.5">
+    <circle cx="433" cy="148" r="5"/>
+    <circle cx="563" cy="206" r="4"/>
+    <circle cx="683" cy="174" r="3.5"/>
+    <circle cx="345" cy="234" r="4"/>
+    <circle cx="433" cy="328" r="5"/>
+    <circle cx="541" cy="340" r="4"/>
+    <circle cx="671" cy="390" r="3.5"/>
+    <circle cx="233" cy="298" r="3"/>
+  </g>
+  <g fill="#4f7dff">
+    <circle cx="433" cy="148" r="2"/>
+    <circle cx="433" cy="328" r="2"/>
+    <circle cx="541" cy="340" r="1.8"/>
+  </g>
+
+  <!-- Editor gutter counting down the right edge. -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#31427d" letter-spacing="1">
+    <text x="820" y="118">01</text>
+    <text x="820" y="174">02</text>
+    <text x="820" y="230">03</text>
+    <text x="820" y="286">04</text>
+    <text x="820" y="342">05</text>
+    <text x="820" y="398">06</text>
+    <text x="820" y="454">07</text>
+  </g>
+  <rect x="804" y="94" width="1" height="376" fill="#2a3765"/>
+
+  <!-- Syntax marks, in doses. -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#4a6cf0" fill-opacity="0.42">
+    <text x="213" y="468" font-size="34">&lt;/&gt;</text>
+    <text x="605" y="110" font-size="26">{ }</text>
+    <text x="133" y="174" font-size="16">// build</text>
+  </g>
+
+  <!-- Ruler ticks, like the baseline of a working drawing. -->
+  <g stroke="#3a4f9e" stroke-opacity="0.5" stroke-width="1">
+    <path d="M60 506 L60 518 M100 510 L100 518 M140 510 L140 518 M180 510 L180 518 M220 506 L220 518 M260 510 L260 518 M300 510 L300 518 M340 510 L340 518 M380 506 L380 518 M420 510 L420 518"/>
+    <path d="M50 518 L430 518" stroke-opacity="0.32"/>
+  </g>
+</svg>

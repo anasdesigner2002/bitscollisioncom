@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/tcn-forum.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "TCN Executive Forum Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "TCN Executive Forum",
   description: "Business Consulting Agency",
 };
 

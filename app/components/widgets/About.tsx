@@ -79,8 +79,7 @@ export default function About({ settings }: { settings: Settings }) {
                         <div className="main-img wa-fix">
                           <img
                             src={settings.author_image.url}
-                            alt={settings.author_name || ""}
-                          />
+                            alt={settings.author_name || ""} loading="lazy" />
                         </div>
                       )}
                     </div>
@@ -156,7 +155,7 @@ export default function About({ settings }: { settings: Settings }) {
 
             {settings.image_3?.url && (
               <div className="nm-about-1-left-bg-shape">
-                <img src={settings.image_3.url} alt="" />
+                <img src={settings.image_3.url} alt="" loading="lazy" />
               </div>
             )}
           </div>
@@ -171,7 +170,7 @@ export default function About({ settings }: { settings: Settings }) {
                         {(list.type || "icon") === "icon" ? (
                           <ElementorIcon icon={list.list_icon} />
                         ) : (
-                          <img src={list.list_image?.url} alt="" />
+                          <img src={list.list_image?.url} alt="" loading="lazy" />
                         )}
                       </span>
                     )}

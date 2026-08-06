@@ -6,7 +6,7 @@ import teamData from "@/content/pages/alfred-noble.json";
 import styles from "@/app/teams/alfred-noble/TeamDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "About Us - Nimo",
+  title: "About Us",
 };
 
 // The nav's "About" item has no dedicated "About Us" page/content of its own

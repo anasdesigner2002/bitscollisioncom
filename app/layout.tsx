@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Space_Grotesk, Inter } from "next/font/google";
+import { Space_Grotesk, Inter, Poppins } from "next/font/google";
 import "./styles/vendor/bootstrap.min.css";
 import "./styles/vendor/fontawesome-min.css";
 import "./styles/vendor/flaticon-nimo.css";
@@ -33,8 +33,27 @@ const inter = Inter({
   weight: ["300", "400", "500", "600", "700"],
 });
 
+// The PASHA header component ships its own typeface (see the drop-in port in
+// SiteHeader.module.css); loading it here keeps that component reading the
+// way it was designed instead of silently re-setting it in the site's own
+// two families.
+// Only the three weights the header actually sets (body 400, pills/labels
+// 700, eyebrow and menu labels 800) - each extra weight is another font file
+// on the critical path.
+const poppins = Poppins({
+  variable: "--font-poppins",
+  subsets: ["latin"],
+  weight: ["400", "700", "800"],
+});
+
 export const metadata: Metadata = {
-  title: "Nimo - Creative Digital Agency",
+  // One place decides how every tab reads: pages set just their own name
+  // ("Our Services") and the template appends the brand. `default` covers the
+  // home page and anything that doesn't set a title of its own.
+  title: {
+    default: "Bits Collision - Software Development & Digital Solutions",
+    template: "%s | Bits Collision",
+  },
   description:
     "We build innovative software & digital solutions that help businesses simplify operations, improve customer experiences, & accelerate growth",
 };
@@ -48,10 +67,10 @@ export default function RootLayout({
   const footerSettings = findFirstWidgetSettings(footerData as ElementorNode[]);
 
   return (
-    <html lang="en" className={`${spaceGrotesk.variable} ${inter.variable}`}>
+    <html lang="en" className={`${spaceGrotesk.variable} ${inter.variable} ${poppins.variable}`}>
       <body>
         <div className="page-wrapper main-wrapper">
-          <SiteHeader settings={headerSettings} />
+          <SiteHeader settings={headerSettings} socialLinks={footerSettings?.social_links} />
           {children}
           <SiteFooter settings={footerSettings} />
         </div>

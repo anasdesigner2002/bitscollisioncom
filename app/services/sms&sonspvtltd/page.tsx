@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/sms&sonspvtltd.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "SMS & Sons Pvt Ltd Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "SMS & Sons Pvt Ltd",
   description: "Business Consulting Agency",
 };
 

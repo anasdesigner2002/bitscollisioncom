@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/citizen-sports.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "Citizen - Sports Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "Citizen Sports",
   description: "Business Consulting Agency",
 };
 

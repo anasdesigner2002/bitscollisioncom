@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/roaa.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "Roaa Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "Roaa",
   description: "Business Consulting Agency",
 };
 

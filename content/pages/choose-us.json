@@ -69,28 +69,17 @@
             },
             {
               "image_1": {
-                "url": "/images/c1-img-1.webp",
+                "url": "/images/choose-review-panel.svg",
                 "id": 119,
                 "size": "",
                 "alt": "",
                 "source": "library"
               },
-              "image_2": {
-                "url": "/images/c1-handshake-2.webm",
-                "id": 118,
-                "size": "",
-                "alt": "",
-                "source": "library"
-              },
-              "icon": {
-                "value": "flaticon flaticon-electricity",
-                "library": "element-helper-flaticon"
-              },
-              "title": "Seamless Collaboration",
-              "description": "Transparent communication and feedback loops at every stage of the project.",
+              "title": "On-Time<br>Delivery",
+              "description": "Scoped sprints and weekly builds, so the date we agree on is the date you get.",
               "link_text": "Read More",
               "tags": "<p>Web Design</p>",
-              "layout_style": "style_2",
+              "layout_style": "style_3",
               "_id": "21c183d",
               "sub_title": "Service Sub Title",
               "count": 1,
@@ -138,12 +127,12 @@
             "alt": "",
             "source": "library"
           },
-          "author_info": "99+ Happy client",
+          "author_info": "99+ Happy Clients",
           "info_icon": {
             "value": "flaticon flaticon-time",
-            "library": "element-helper-flaticon"
+            "library": "element-helper-icons"
           },
-          "info_title": "7 day turnaround",
+          "info_title": "Quick Turnaround",
           "info_image_1": {
             "url": "/images/c1-bg-shape-2.webp",
             "id": 121,

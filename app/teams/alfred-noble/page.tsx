@@ -6,7 +6,7 @@ import teamData from "@/content/pages/alfred-noble.json";
 import styles from "./TeamDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "Team Details - Nimo",
+  title: "Alfred Noble",
 };
 
 // Ports post 75 ("Alfred Noble" in the nav, the demo content's one concrete

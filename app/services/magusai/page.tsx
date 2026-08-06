@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/magusai.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "Magusai Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "MagusAI",
   description: "Business Consulting Agency",
 };
 

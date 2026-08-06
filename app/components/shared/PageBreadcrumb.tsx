@@ -5,10 +5,14 @@
 // route renders it directly with its own title/breadcrumb trail.
 export default function PageBreadcrumb({ title, current }: { title: string; current: string }) {
   return (
-    <div
-      className="nm-breadcrumb-area wa-p-relative wa-bg-default tx-breadcrumb"
-      style={{ backgroundImage: "url(/images/bg-img.webp)" }}
-    >
+    // The band's artwork is drawn, not photographed - the stock portrait it
+    // used to carry said nothing about the work, and at 1000px wide it was
+    // being stretched across a 1920px band. It's assembled from background
+    // layers in globals.css (`.nm-breadcrumb-area.tx-breadcrumb`) rather than
+    // set here, so nothing about it can crop as the viewport changes.
+    // `wa-bg-default` is dropped with it: that's the theme's `cover` rule,
+    // which is exactly what those layers replace.
+    <div className="nm-breadcrumb-area wa-p-relative tx-breadcrumb">
       <div className="container nm-header-1-container">
         <div className="nm-breadcrumb-wrap">
           <h1 className="nm-breadcrumb-title">{title}</h1>

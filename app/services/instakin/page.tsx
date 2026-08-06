@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/instakin.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "Instakin Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "Instakin",
   description: "Business Consulting Agency",
 };
 

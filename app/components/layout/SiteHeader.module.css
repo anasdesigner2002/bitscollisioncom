@@ -1,0 +1,592 @@
+/*
+ * PASHA header component, ported from the supplied drop-in file
+ * (Downloads/pasha-header (1).html) rather than re-derived from the live
+ * site. Every measurement, easing and breakpoint below comes from that file
+ * unchanged, and the notes it carries about *why* a value is what it is are
+ * kept with the rules they explain.
+ *
+ * Two bar variants drive one shared full-screen overlay:
+ *   .topbar     solid sticky bar   - every page except the home hero
+ *   .overlaybar transparent bar    - sits on top of the home hero photo
+ *
+ * Three deliberate substitutions for this site, all funnelled through the
+ * variables at the top so they're one edit away from the original:
+ *   --accent   PASHA red #E92127 -> this site's blue
+ *   bar fill   the source's white bar -> near-black, since every page behind
+ *              it here is dark and this site's logo is a white mark
+ *   container  the source's own 1280px box -> the theme's
+ *              `.nm-header-1-container`, so the bar lines up with the page
+ *              content beneath it
+ */
+
+/* Declared on both roots, not just the header: the overlay renders as a
+   sibling of <header> (it has to - it's `position: fixed` and must not sit
+   inside a transformed/sticky ancestor), so anything scoped to .header alone
+   never reaches it. When only .header carried these, `var(--accent)` resolved
+   to nothing inside the menu and the link hover wipe painted transparent. */
+.header,
+.overlay {
+  --accent: var(--nm-clr-pr-2);
+  --accent-dark: var(--nm-clr-pr-1);
+  --line: rgba(255, 255, 255, 0.15);
+  /* Tailwind's default transition curve, which the original is built on. */
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: var(--font-poppins), Poppins, ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.header button {
+  font-family: inherit;
+  margin: 0;
+}
+
+/* ---------------------------------------------------------------------- */
+/* VARIANT A - solid sticky bar                                           */
+/* ---------------------------------------------------------------------- */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  width: 100%;
+  background: rgba(9, 11, 22, 0.94);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  padding-block: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.35);
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* 130 x 52 in the source, sized off its logo's own aspect ratio; this one
+   keeps its width and lets the height follow. */
+.topbar .brandLogo {
+  width: 130px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.topbar .cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 9999px;
+  padding: 12px 20px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  /* The source's pills are one word each; "Get in Touch" is three, and it was
+     wrapping to two lines and stretching the bar at narrow widths. */
+  white-space: nowrap;
+  text-decoration: none;
+  border: 1px solid transparent;
+  background: var(--accent);
+  color: #fff;
+  transition: color 150ms var(--ease), background-color 150ms var(--ease),
+    border-color 150ms var(--ease), transform 150ms var(--ease);
+}
+
+.topbar .cta:hover {
+  transform: translateY(-2px);
+  background: var(--accent-dark);
+  color: #fff;
+}
+
+/* Solid burger: grid-centred bars offset by 3px. Colour change on hover,
+   no lift - deliberately different from the overlay burger below. */
+.topbar .burger {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border: 1px solid var(--line);
+  border-radius: 9999px;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  padding: 0;
+  transition: all 150ms var(--ease);
+}
+
+.topbar .burger:hover {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #fff;
+}
+
+.topbar .burger span {
+  position: absolute;
+  height: 2px;
+  border-radius: 9999px;
+  background: currentColor;
+  transition: all 300ms var(--ease);
+}
+
+.topbar .burger span:nth-child(1) {
+  width: 20px;
+  transform: translateY(-3px);
+}
+
+.topbar .burger span:nth-child(2) {
+  width: 14px;
+  transform: translateY(3px);
+}
+
+/* ---------------------------------------------------------------------- */
+/* VARIANT B - transparent overlay bar (sits on the hero photo)           */
+/* ---------------------------------------------------------------------- */
+.overlaybar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 20;
+  padding-top: 28px;
+}
+
+.overlaybar .brand {
+  gap: 13px;
+  font-size: 15px;
+  letter-spacing: -0.02em;
+}
+
+.overlaybar .brandLogo {
+  width: 160px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.overlaybar .cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  white-space: nowrap;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  border-radius: 999px;
+  padding: 11px 17px;
+  background: rgba(0, 0, 0, 0.16);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  font-size: 14px;
+  font-weight: 700;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.overlaybar .cta:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.72);
+  color: #fff;
+}
+
+/* Overlay burger: absolutely-positioned bars, glass fill, hover lift. */
+.overlaybar .burger {
+  position: relative;
+  z-index: 102;
+  width: 48px;
+  height: 48px;
+  flex: 0 0 48px;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.48);
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
+}
+
+.overlaybar .burger:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.overlaybar .burger span {
+  position: absolute;
+  left: 14px;
+  width: 20px;
+  height: 2px;
+  border-radius: 2px;
+  background: currentColor;
+  transition: transform 0.3s ease, top 0.3s ease, width 0.3s ease;
+}
+
+.overlaybar .burger span:nth-child(1) {
+  top: 17px;
+}
+
+.overlaybar .burger span:nth-child(2) {
+  top: 23px;
+  width: 14px;
+}
+
+/* ---------------------------------------------------------------------- */
+/* SHARED - full-screen menu overlay                                      */
+/* ---------------------------------------------------------------------- */
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  grid-template-columns: minmax(270px, 0.72fr) minmax(520px, 1.28fr);
+  /* Opaque rather than the source's 0.98 alpha: the hero behind it here is a
+     bright photo under a blue glow, and 2% of that ghosted through the
+     link grid. */
+  background: #121212;
+  color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.32s ease, visibility 0.32s ease;
+}
+
+.overlayOpen {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.intro {
+  padding: clamp(44px, 6vw, 90px);
+  border-right: 1px solid rgba(255, 255, 255, 0.14);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  background: radial-gradient(circle at 10% 15%, rgba(0, 90, 255, 0.34), transparent 34%),
+    linear-gradient(150deg, #171717 0%, #1f2130 100%);
+}
+
+.eyebrow {
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #bdbdbd;
+}
+
+/* Weight 400 is intentional - the source resets headings to inherit, so this
+   renders at body weight, not the browser's bold default. */
+.intro h2 {
+  margin: 24px 0;
+  max-width: 500px;
+  font-size: clamp(3rem, 5.2vw, 6.3rem);
+  font-weight: 400;
+  line-height: 0.9;
+  letter-spacing: -0.065em;
+  color: #fff;
+}
+
+.intro p {
+  max-width: 430px;
+  margin: 0;
+  color: #b9b9b9;
+  font-size: 0.88rem;
+  line-height: 1.75;
+}
+
+/* Gallery carried over from the offcanvas panel this overlay replaced - the
+   header widget's `gallerys` images would have been orphaned otherwise, and
+   they fill what is dead space in the middle of this column. */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  max-width: 430px;
+  margin-top: 36px;
+}
+
+.gallery span {
+  display: block;
+  aspect-ratio: 1;
+  border-radius: 12px;
+  overflow: hidden;
+  opacity: 0.7;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.gallery span:hover {
+  opacity: 1;
+  transform: translateY(-3px);
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.introFoot {
+  padding-top: 30px;
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.socials a {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 50%;
+  color: #d5d5dd;
+  font-size: 15px;
+  transition: background 0.25s ease, border-color 0.25s ease, color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.socials a:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+.small {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  font-size: 0.65rem;
+  color: #8c8c8c;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.nav {
+  min-height: 100vh;
+  overflow-y: auto;
+  padding: clamp(50px, 6vw, 125px) clamp(28px, 5vw, 80px) 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.link {
+  position: relative;
+  min-height: 85px;
+  padding: 24px 28px;
+  border-left: 1px solid rgba(255, 255, 255, 0.16);
+  border-right: 1px solid rgba(255, 255, 255, 0.16);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  overflow: hidden;
+  isolation: isolate;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+/* Accent wipe rises from the bottom on hover. */
+.link::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--accent);
+  transform: translateY(101%);
+  transition: transform 0.32s cubic-bezier(0.2, 0.75, 0.2, 1);
+}
+
+.link:hover::before,
+.link:focus-visible::before {
+  transform: none;
+}
+
+.link:hover,
+.link:focus-visible {
+  color: #fff;
+  outline: none;
+}
+
+.link strong {
+  font-size: clamp(1.45rem, 2.2vw, 2.35rem);
+  line-height: 1;
+  font-weight: 800;
+}
+
+.link::after {
+  content: "\2192";
+  margin-left: auto;
+  color: #777;
+  font-size: 1.25rem;
+  transition: color 0.25s ease, transform 0.25s ease;
+}
+
+.link:hover::after,
+.link:focus-visible::after {
+  color: #fff;
+  transform: translate(4px, -4px);
+}
+
+.note {
+  margin-top: 22px;
+  margin-bottom: 0;
+  color: #777;
+  font-size: 0.67rem;
+}
+
+.close {
+  position: fixed;
+  top: 24px;
+  right: 28px;
+  z-index: 106;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 50px;
+  padding: 5px 6px 5px 17px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.09);
+  color: #fff;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.22s ease, border-color 0.22s ease, transform 0.22s ease;
+}
+
+.close:hover,
+.close:focus-visible {
+  background: var(--accent);
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  outline: none;
+}
+
+.closeX {
+  width: 38px;
+  height: 38px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #fff;
+  color: #171717;
+  font-size: 1.55rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+/* The source hides each variant's CTA at a different width - the overlay bar
+   at 900px, the solid bar at 640px - and every rule below has to carry the
+   same two-class specificity as its base rule (`.topbar .cta`), or the base
+   rule simply wins inside the media query and nothing moves. */
+@media (max-width: 900px) {
+  .overlaybar .cta {
+    display: none;
+  }
+  .overlay {
+    grid-template-columns: 1fr;
+  }
+  .intro {
+    display: none;
+  }
+  .nav {
+    padding: 90px 20px 35px;
+    justify-content: flex-start;
+  }
+  .link {
+    min-height: 80px;
+    padding: 20px 22px;
+  }
+  .link strong {
+    font-size: clamp(1.3rem, 6vw, 1.85rem);
+  }
+  .topbar .brandLogo,
+  .overlaybar .brandLogo {
+    width: 132px;
+  }
+}
+
+@media (max-width: 639px) {
+  .topbar .cta {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .topbar .burger,
+  .overlaybar .burger {
+    width: 44px;
+    height: 44px;
+    flex: 0 0 44px;
+  }
+  .overlaybar .burger span {
+    left: 12px;
+  }
+  .topbar .brandLogo,
+  .overlaybar .brandLogo {
+    width: 118px;
+  }
+}
+
+@media (max-width: 520px) {
+  .nav {
+    padding: 84px 16px 28px;
+  }
+  .link {
+    min-height: 72px;
+    padding: 17px 18px;
+  }
+  .link::after {
+    font-size: 1rem;
+  }
+  .close {
+    top: 16px;
+    right: 16px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .overlay,
+  .link::before,
+  .topbar .burger,
+  .overlaybar .burger,
+  .topbar .burger span,
+  .overlaybar .burger span {
+    transition: none;
+  }
+}

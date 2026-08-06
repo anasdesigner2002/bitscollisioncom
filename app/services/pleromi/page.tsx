@@ -6,7 +6,7 @@ import serviceData from "@/content/pages/pleromi.json";
 import styles from "./ServiceDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "Pleromi Details – Bits Collision – IT Solutions & Technology, Business Consulting, Software Company",
+  title: "Pleromi",
   description: "Business Consulting Agency",
 };
 
