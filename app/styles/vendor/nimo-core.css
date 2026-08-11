@@ -10948,36 +10948,14 @@ textarea:focus::placeholder {
 .nm-contact-1-img-location .icon {
   width: 70px;
   height: 70px;
-  background: #042c99;
+  /* background: #042c99; */
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
 }
-.nm-contact-1-img-location .dot-icon {
-  width: 51px;
-  height: 51px;
-  background: rgba(0, 0, 0, 0.5);
-  border-radius: 50%;
-  align-self: end;
-  margin-right: -20px;
-  margin-bottom: -10px;
-  position: relative;
-  z-index: 1;
-}
-.nm-contact-1-img-location .dot-icon::after {
-  content: "";
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background: #042c99;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  box-shadow: inset 2.598px -1.5px 6px 0px rgba(0, 0, 0, 0.7);
-  animation: nm-c1-l-icon-after 2s linear infinite;
-}
+
+
 
 @keyframes nm-c1-l-icon-after {
   0% {
