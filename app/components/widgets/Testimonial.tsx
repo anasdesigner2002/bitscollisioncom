@@ -11,26 +11,21 @@ import ElementorIcon from "@/app/components/shared/ElementorIcon";
 import PrimaryButton from "@/app/components/shared/PrimaryButton";
 import { on, type Settings } from "@/app/lib/types";
 
-// Ports tx-testimonial/views/view-1.php. The avatar "preview slider" isn't
-// a real horizontally-scrolling Swiper despite the markup/classes - per
-// nimo-custom.js's tx_testimonial(), each avatar is placed on a circle
-// around the wrapper's center via plain trigonometry (radius 450), and the
-// whole circle is scrubbed between rotation 40deg and -40deg as the section
-// scrolls. Reproduced here as absolutely-positioned divs instead of Swiper
-// slides, since nothing about it actually slides - only the main quote
-// panel (a real fade-effect Swiper) changes with each avatar click.
+// The avatar "preview slider" is not a Swiper despite the markup/classes: the
+// avatars are absolutely positioned on a circle and the ring is rotated as the
+// section scrolls. Only the quote panel below is a real Swiper.
 export default function Testimonial({ settings }: { settings: Settings }) {
   const list: any[] = settings.testimonial_lists || [];
   const [active, setActive] = useState(0);
   const mainSwiperRef = useRef<SwiperClass | null>(null);
   const wrapperRef = useRef<HTMLDivElement>(null);
-  // Set up inside the layout effect below; the drag handler calls it too, so
-  // manual rotation keeps the avatars upright the same way scrolling does.
+  const sectionRef = useRef<HTMLElement>(null);
   const counterRotateRef = useRef<(() => void) | null>(null);
 
   useEffect(() => {
     const wrapper = wrapperRef.current;
-    if (!wrapper) return;
+    const section = sectionRef.current;
+    if (!wrapper || !section) return;
     const slides = Array.from(wrapper.children) as HTMLElement[];
     const radius = 450;
     const centerX = wrapper.clientWidth / 2;
@@ -45,11 +40,8 @@ export default function Testimonial({ settings }: { settings: Settings }) {
       slide.style.top = `${y}px`;
     });
 
-    // Rotating the wrapper carries its children round with it, so every
-    // avatar tumbled as the ring turned. Spinning portraits are the one part
-    // of this effect nobody asked for - each slide is counter-rotated by the
-    // wrapper's current angle, which leaves the circle itself turning on its
-    // axis exactly as before while the faces stay upright.
+    // Rotating the wrapper spins its children too, so each avatar is
+    // counter-rotated to stay upright while the ring itself turns.
     function counterRotate() {
       const rotation = (gsap.getProperty(wrapper!, "rotation") as number) || 0;
       gsap.set(slides, { rotation: -rotation });
@@ -57,25 +49,74 @@ export default function Testimonial({ settings }: { settings: Settings }) {
     counterRotateRef.current = counterRotate;
 
     gsap.registerPlugin(ScrollTrigger);
-    const tween = gsap.fromTo(
-      wrapper,
-      { rotation: 40 },
-      {
-        rotation: -40,
-        onUpdate: counterRotate,
-        scrollTrigger: {
-          trigger: wrapper,
-          toggleActions: "play none none reverse",
-          scrub: true,
-        },
-      },
-    );
-    counterRotate();
+
+    // Feel of the turn: scroll the pin absorbs (in viewport heights), seconds
+    // the rotation takes to catch up to the scroll, and how much scrolling
+    // before the lock the ring starts turning on.
+    const PIN_VH = 1.6;
+    const SCRUB_LAG = 0.5;
+    const LEAD_PX = 320;
+
+    // Pinning is desktop-only: below 992px the section is taller than the
+    // viewport, so pinning would park part of it permanently off-screen.
+    const mm = gsap.matchMedia();
+
+    function turn(vars: ScrollTrigger.Vars) {
+      const tween = gsap.fromTo(
+        wrapper!,
+        { rotation: 40 },
+        { rotation: -40, ease: "none", onUpdate: counterRotate, scrollTrigger: vars },
+      );
+      counterRotate();
+      return tween;
+    }
+
+    function spinUnpinned() {
+      const tween = turn({ trigger: wrapper!, toggleActions: "play none none reverse", scrub: true });
+      return () => {
+        tween.scrollTrigger?.kill();
+        tween.kill();
+      };
+    }
+
+    function spinPinned() {
+      // Two triggers, not one: the pin animates nothing, and the rotation spans
+      // LEAD_PX *before* the lock through to the pin's end. That keeps the ring
+      // already turning at its pinned speed when the page stops - pinning a
+      // motionless ring made the lock feel like a wall. The rotation reads
+      // start/end off the pin so the ranges stay welded across a refresh, and
+      // refreshPriority makes the pin recalculate first so those reads are
+      // never stale.
+      const pin = ScrollTrigger.create({
+        trigger: section!,
+        start: () => (section!.offsetHeight < window.innerHeight ? "center center" : "top top"),
+        end: () => `+=${window.innerHeight * PIN_VH}`,
+        pin: true,
+        invalidateOnRefresh: true,
+        refreshPriority: 1,
+      });
+
+      const tween = turn({
+        trigger: section!,
+        start: () => pin.start - LEAD_PX,
+        end: () => pin.end,
+        scrub: SCRUB_LAG,
+        invalidateOnRefresh: true,
+      });
+
+      return () => {
+        tween.scrollTrigger?.kill();
+        tween.kill();
+        pin.kill();
+      };
+    }
+
+    mm.add("(min-width: 992px)", spinPinned);
+    mm.add("(max-width: 991px)", spinUnpinned);
 
     return () => {
       counterRotateRef.current = null;
-      tween.scrollTrigger?.kill();
-      tween.kill();
+      mm.revert();
     };
   }, [list.length]);
 
@@ -85,17 +126,9 @@ export default function Testimonial({ settings }: { settings: Settings }) {
     mainSwiperRef.current?.slideTo(i);
   }
 
-  // Drag-to-rotate: not part of the original theme (nimo-custom.js's
-  // tx_testimonial() only rotates this avatar circle via scroll) - added on
-  // request, reusing the same rotation the scroll scrub already drives so a
-  // press-and-drag feels like manually scrubbing that same effect.
-  //
-  // A plain click still needs to select that avatar (selectAvatar above), so
-  // rotation only engages after a genuine long-press: movement is ignored
-  // until the pointer's been held LONG_PRESS_MS, not just past a distance
-  // threshold - a bare distance check misfired on ordinary clicks near an
-  // avatar's edge, where the natural pointerdown->pointerup hand jitter alone
-  // exceeded it.
+  // Drag-to-rotate engages only after a long press, since a plain click has to
+  // still select the avatar. A distance threshold alone misfired on ordinary
+  // clicks, where hand jitter between pointerdown and pointerup exceeded it.
   const LONG_PRESS_MS = 350;
   const dragStartX = useRef(0);
   const dragStartRotation = useRef(0);
@@ -137,7 +170,7 @@ export default function Testimonial({ settings }: { settings: Settings }) {
   }
 
   return (
-    <section className="nm-testimonial-1-area pt-65 wa-fix wa-p-relative tx-section">
+    <section ref={sectionRef} className="nm-testimonial-1-area pt-65 wa-fix wa-p-relative tx-section">
       <div className="container nm-container-1">
         <div className="nm-testimonial-1-sec-title">
           <div className="left">
