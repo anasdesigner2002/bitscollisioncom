@@ -455,8 +455,8 @@
             {
               "_id": "18968ad",
               "tab_icon": {
-                "value": "flaticon flaticon-irregular",
-                "library": "element-helper-flaticon"
+                "value": "custom-software-icon",
+                "library": ""
               },
               "tab_image": {
                 "url": "/images/s1-img-1.webp",
@@ -491,8 +491,8 @@
             {
               "is_active": "",
               "tab_icon": {
-                "value": "flaticon flaticon-path",
-                "library": "element-helper-flaticon"
+                "value": "custom-web-app-icon",
+                "library": ""
               },
               "tab_image": {
                 "url": "/images/s1-img-2.webp",
@@ -528,8 +528,8 @@
             {
               "is_active": "",
               "tab_icon": {
-                "value": "flaticon flaticon-path",
-                "library": "element-helper-flaticon"
+                "value": "cloud-solution-icon",
+                "library": ""
               },
               "tab_image": {
                 "url": "/images/s1-img-3.webp",
@@ -564,9 +564,9 @@
             },
             {
               "is_active": "",
-              "tab_icon": {
-                "value": "flaticon flaticon-path",
-                "library": "element-helper-flaticon"
+               "tab_icon": {
+                "value": "ui-ux-design-icon",
+                "library": ""
               },
               "tab_image": {
                 "url": "/images/s1-img-4.webp",
@@ -602,8 +602,8 @@
             {
               "is_active": "",
               "tab_icon": {
-                "value": "flaticon flaticon-path",
-                "library": "element-helper-flaticon"
+                "value": "digital-marketing-icon",
+                "library": ""
               },
               "tab_image": {
                 "url": "/images/s1-img-5.webp",
@@ -639,8 +639,8 @@
             {
               "is_active": "",
               "tab_icon": {
-                "value": "flaticon flaticon-path",
-                "library": "element-helper-flaticon"
+                "value": "ai-powered-advertising-icon",
+                "library": ""
               },
               "tab_image": {
                 "url": "/images/s1-img-6.webp",
@@ -676,8 +676,8 @@
             {
               "is_active": "",
               "tab_icon": {
-                "value": "flaticon flaticon-path",
-                "library": "element-helper-flaticon"
+                "value": "wordpress-development-icon",
+                "library": ""
               },
               "tab_image": {
                 "url": "/images/s1-img-7.webp",
@@ -713,8 +713,8 @@
             {
               "is_active": "",
               "tab_icon": {
-                "value": "flaticon flaticon-path",
-                "library": "element-helper-flaticon"
+                "value": "graphic-design-icon",
+                "library": ""
               },
               "tab_image": {
                 "url": "/images/s1-img-8.webp",

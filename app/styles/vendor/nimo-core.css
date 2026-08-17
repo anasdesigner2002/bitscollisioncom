@@ -4652,7 +4652,7 @@ textarea:focus::placeholder {
   transition: 1.5s var(--nm-cube-1);
 }
 .nm-hero-1-social-link .link-elm {
-  color: #000;
+  color: #f7a714;
   font-size: 35px;
 }
 .nm-hero-1-social-link .link-elm i {
