@@ -132,6 +132,58 @@
                 },
                 {
                   "team_image": {
+                    "url": "/images/13.webp",
+                    "id": 2022,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                  },
+                  "name": "Hassan Abbasi",
+                  "designation": "AI Team",
+                  "link": {
+                    "url": "#",
+                    "is_external": "",
+                    "nofollow": "",
+                    "custom_attributes": ""
+                  },
+                  "button_text": "Read More",
+                  
+                  "activeItemIndex": 1,
+                  "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
+                  "_id": "d9982ac",
+                  "button_icon": {
+                    "value": " fas fa-long-arrow-right",
+                    "library": "element-helper-icons"
+                  }
+                },
+                {
+                  "team_image": {
+                    "url": "/images/Mubsahir.webp",
+                    "id": 202,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                  },
+                  "name": "Mubsahir Ali Kalhoro",
+                  "designation": "Full Stack Developer",
+                  "link": {
+                    "url": "#",
+                    "is_external": "",
+                    "nofollow": "",
+                    "custom_attributes": ""
+                  },
+                  "button_text": "Read More",
+                  
+                  "activeItemIndex": 1,
+                  "description": "Alfred helps brands find their voice and visual identity, crafting systems that are memorable, meaningful, and consistent.",
+                  "_id": "d9982ac",
+                  "button_icon": {
+                    "value": " fas fa-long-arrow-right",
+                    "library": "element-helper-icons"
+                  }
+                },
+                {
+                  "team_image": {
                     "url": "/images/Mubsahir.webp",
                     "id": 202,
                     "size": "",
