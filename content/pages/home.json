@@ -2548,41 +2548,7 @@
           "button_icon": {
             "value": "flaticon flaticon-return",
             "library": "element-helper-flaticon"
-          },
-          "social_links": [
-            {
-              "_id": "7b24829",
-              "social_icon": {
-                "value": "fab fa-x-twitter",
-                "library": "fa-brands"
-              },
-              "social_title": "Twitter"
-            },
-            {
-              "social_icon": {
-                "value": "fab fa-behance",
-                "library": "fa-brands"
-              },
-              "social_title": "Behance",
-              "_id": "08a28ad"
-            },
-            {
-              "social_icon": {
-                "value": "fab fa-dribbble",
-                "library": "fa-brands"
-              },
-              "social_title": "Dribble",
-              "_id": "7b890be"
-            },
-            {
-              "social_icon": {
-                "value": "fab fa-instagram",
-                "library": "fa-brands"
-              },
-              "social_title": "Instagram",
-              "_id": "dda2eee"
-            }
-          ]
+          }
         },
         "elements": [],
         "widgetType": "tx_contact_info"

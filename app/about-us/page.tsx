@@ -6,7 +6,7 @@ import teamData from "@/content/pages/alfred-noble.json";
 import styles from "@/app/teams/alfred-noble/TeamDetail.module.css";
 
 export const metadata: Metadata = {
-  title: "About Us",
+  title: "CEO Message",
 };
 
 // The nav's "About" item has no dedicated "About Us" page/content of its own
@@ -19,7 +19,7 @@ export default function AboutUsPage() {
 
   return (
     <main>
-      <PageBreadcrumb title="About Us" current="About Us" />
+      <PageBreadcrumb title="CEO Message" current="Ceo Message" />
       <div className={styles.wrap}>
         <div className={styles.card}>
           <div className={styles.left}>{renderElementorTree(left?.elements || [])}</div>
